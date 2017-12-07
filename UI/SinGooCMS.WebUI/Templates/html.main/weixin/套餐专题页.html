@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2017新春促销</title>
+    <link rel="stylesheet" type="text/css" href="${mbpath}dist/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="${mbpath}dist/css/special-topic.css">
+    <link rel="stylesheet" type="text/css" href="${mbpath}dist/css/header-footer.css">
+</head>
+<body>
+    <div class="topbar-body">
+        <div class="l-row">
+            <div class="logo fl">
+                <a href="/">
+                    <img src="${mbpath}dist/images/home-logo.png">
+                </a>
+            </div>
+            <div class="fr">
+                <ul>
+                    #if($userid==0)
+                    <li><a href="${register_url}">登录</a> </li>
+                    <li><a href="${login_url}">注册</a> </li>
+                    #else
+                    <li><span style="color:white">欢迎您 ${username}</span> <a href="${infocenter_url}">个人中心</a> </li>
+                    #end
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="page-main-content">
+        <div class="l-row">
+            <img src="${mbpath}dist/images/lianhua1200+340.png" alt="全民建站最高488元,还送1G空间+1级域名，爽!">
+            <img src="${mbpath}dist/images/lianhua1200+340+2.png" alt="顶级域名&网站模板&1G空间-第1波">
+        </div>
+        <div class="l-row Promotion-product">
+            <div class="l-row mb-30">
+                <img src="${mbpath}dist/images/589ac3c1Ncfc2ce45.png" alt="模板建站">
+            </div>
+            #set($pros=${shop.GetProducts("$!{condition}","Sort ASC",${pager.PageIndex},${pager.PageSize})})
+            #if($pros.Count>0)
+            #foreach($item in $pros)
+            <div class="product #if($key%3==0)lastpro #end">
+                <div class="top">
+                    <div class="logo">
+                        #if(${item.ProductName}=="建站套餐A")
+                        <img src="${mbpath}dist/images/2017special/qyjz-A.jpg">
+                        #elseif(${item.ProductName}=="建站套餐B")
+                        <img src="${mbpath}dist/images/2017special/qyjz-B.jpg">
+                        #elseif(${item.ProductName}=="商城套餐")
+                        <img src="${mbpath}dist/images/2017special/scjz.jpg">
+                        #elseif(${item.ProductName}=="企业邮箱")
+                        <img src="${mbpath}dist/images/2017special/qyyx.jpg">
+                        #end
+                    </div>
+                    <p class="tit">
+                        ${item.ProductName}</p>
+                    <p class="text">
+                        ${item.ShortDesc}</p>
+                </div>
+                <div class="bottom">
+                    <span class="icon">巨优惠</span>
+                    <p class="price">
+                        <span class="acp" data-acp="${item.Price.ToString("f2")}">￥<strong>${item.Price.ToString("f2")}</strong></span>/年 <del>￥${item.MarketPrice.ToString("f2")}/年</del>
+                    </p>
+                    <a href="${item.ProductUrl}" class="btns buy">立即抢购</a>
+                </div>
+            </div>
+            #end
+            #end
+        </div>
+    </div>
+    #parse("inc/_specialfooter.html")
+    <!--底部引用 header-footer.css end-->
+    <div class="scroll-top-wrapper show">
+        <span class="scroll-top-inner"><i class="iconfont">&#xe659;</i> </span>
+    </div>    
+</body>
+</html>
+<script src="${mbpath}dist/js/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(function () {
+            $(document).on('scroll', function () {
+                if ($(window).scrollTop() > 100) {
+                    $('.scroll-top-wrapper').addClass('show');
+                } else {
+                    $('.scroll-top-wrapper').removeClass('show');
+                }
+            });
+
+            $('.scroll-top-wrapper').on('click', scrollToTop);
+        });
+        function scrollToTop() {
+            verticalOffset = typeof (verticalOffset) != 'undefined' ? verticalOffset : 0;
+            element = $('body');
+            offset = element.offset();
+            offsetTop = offset.top;
+            $('html, body').animate({ scrollTop: offsetTop }, 500, 'linear');
+        }
+    });
+</script>

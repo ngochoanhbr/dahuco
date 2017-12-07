@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{29A4BABA-7755-438F-8725-8A6152271871}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>SinGooCMS.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>SinGooCMS.BLL</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>..\SinGooCMS.BLL.Custom\lib\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SinGooCMS.Core">
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\SinGooCMS.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SinGooCMS.DAL">
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\SinGooCMS.DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="SinGooCMS.Entity">
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\SinGooCMS.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="SinGooCMS.Utility">
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\SinGooCMS.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="SinGooCMS.Config">
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\SinGooCMS.Config.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\Account.cs" />
+    <Compile Include="BLL\AccountDetail.cs" />
+    <Compile Include="BLL\AdPlace.cs" />
+    <Compile Include="BLL\Ads.cs" />
+    <Compile Include="BLL\AreaModel.cs" />
+    <Compile Include="BLL\Attachment.cs" />
+    <Compile Include="BLL\Auction.cs" />
+    <Compile Include="BLL\AuctionLog.cs" />
+    <Compile Include="BLL\AutoRly.cs" />
+    <Compile Include="BLL\BizBase.cs" />
+    <Compile Include="BLL\Brand.cs" />
+    <Compile Include="BLL\Cart.cs" />
+    <Compile Include="BLL\Catalog.cs" />
+    <Compile Include="BLL\Category.cs" />
+    <Compile Include="BLL\Comment.cs" />
+    <Compile Include="BLL\CommentActiveLog.cs" />
+    <Compile Include="BLL\Company.cs" />
+    <Compile Include="BLL\Content.cs" />
+    <Compile Include="BLL\ContField.cs" />
+    <Compile Include="BLL\ContHelper.cs" />
+    <Compile Include="BLL\ContModel.cs" />
+    <Compile Include="BLL\Customer.cs" />
+    <Compile Include="BLL\Manufacture.cs" />
+    <Compile Include="BLL\Country.cs" />
+    <Compile Include="BLL\Supplier.cs" />
+    <Compile Include="BLL\Coupons.cs" />
+    <Compile Include="BLL\CreateFile.cs" />
+    <Compile Include="BLL\DeliveryRec.cs" />
+    <Compile Include="BLL\Dicts.cs" />
+    <Compile Include="BLL\DingYue.cs" />
+    <Compile Include="BLL\DingYueLog.cs" />
+    <Compile Include="BLL\Evaluation.cs" />
+    <Compile Include="BLL\EvaStatInfo.cs" />
+    <Compile Include="BLL\EventLog.cs" />
+    <Compile Include="BLL\ExchangeApply.cs" />
+    <Compile Include="BLL\Favorites.cs" />
+    <Compile Include="BLL\Feedback.cs" />
+    <Compile Include="BLL\FileSystemManager.cs" />
+    <Compile Include="BLL\FileUpload.cs" />
+    <Compile Include="BLL\Folder.cs" />
+    <Compile Include="BLL\GatheringRec.cs" />
+    <Compile Include="BLL\GoodsClass.cs" />
+    <Compile Include="BLL\GoodsQA.cs" />
+    <Compile Include="BLL\GoodsSpecify.cs" />
+    <Compile Include="BLL\Groupon.cs" />
+    <Compile Include="BLL\GuiGePic.cs" />
+    <Compile Include="BLL\Industry.cs" />
+    <Compile Include="BLL\IPStrategy.cs" />
+    <Compile Include="BLL\Language.cs" />
+    <Compile Include="BLL\Links.cs" />
+    <Compile Include="BLL\LogConnectionSource.cs" />
+    <Compile Include="BLL\LoginLog.cs" />
+    <Compile Include="BLL\LogManager.cs" />
+    <Compile Include="BLL\MemberPriceSet.cs" />
+    <Compile Include="BLL\Message.cs" />
+    <Compile Include="BLL\Module.cs" />
+    <Compile Include="BLL\Node.cs" />
+    <Compile Include="BLL\Operate.cs" />
+    <Compile Include="BLL\OrderAction.cs" />
+    <Compile Include="BLL\OrderItem.cs" />
+    <Compile Include="BLL\Orders.cs" />
+    <Compile Include="BLL\OrderStatusSTAT.cs" />
+    <Compile Include="BLL\PhotoAlbum.cs" />
+    <Compile Include="BLL\PostageModel.cs" />
+    <Compile Include="BLL\Product.cs" />
+    <Compile Include="BLL\ProductField.cs" />
+    <Compile Include="BLL\ProductModel.cs" />
+    <Compile Include="BLL\ProHelper.cs" />
+    <Compile Include="BLL\Promotion.cs" />
+    <Compile Include="BLL\Purview.cs" />
+    <Compile Include="BLL\RefundApply.cs" />
+    <Compile Include="BLL\Role.cs" />
+    <Compile Include="BLL\SalesRet.cs" />
+    <Compile Include="BLL\SearchRank.cs" />
+    <Compile Include="BLL\SeoSource.cs" />
+    <Compile Include="BLL\SettingCategory.cs" />
+    <Compile Include="BLL\ShippingAddress.cs" />
+    <Compile Include="BLL\SiteTemplate.cs" />
+    <Compile Include="BLL\SMS.cs" />
+    <Compile Include="BLL\Stat.cs" />
+    <Compile Include="BLL\STATClient.cs" />
+    <Compile Include="BLL\Stockout.cs" />
+    <Compile Include="BLL\Tags.cs" />
+    <Compile Include="BLL\User.cs" />
+    <Compile Include="BLL\UserField.cs" />
+    <Compile Include="BLL\UserGroup.cs" />
+    <Compile Include="BLL\UserLevel.cs" />
+    <Compile Include="BLL\Ver.cs" />
+    <Compile Include="BLL\ViewPurview.cs" />
+    <Compile Include="BLL\Visitor.cs" />
+    <Compile Include="BLL\Vote.cs" />
+    <Compile Include="BLL\VoteItem.cs" />
+    <Compile Include="BLL\VoteLog.cs" />
+    <Compile Include="BLL\WxMenu.cs" />
+    <Compile Include="BLL\WxStatus.cs" />
+    <Compile Include="BLL\Zone.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,116 @@
+﻿<div class="footer">
+    <div class="footer-top clear-fix">
+        <div class="container">
+            <div class="col-md-6 col-sm-4">
+                <a href="/">
+                    <img src="${mbpath}dist/images/header-logo.png" title="联华网络" alt="联华logo" />
+                </a>
+            </div>
+            <div class="col-md-6 col-sm-8">
+                <div class="col-md-3 col-sm-2 col-xs-12 tel-name">
+                    Hotline:
+                </div>
+                <div class="col-md-9 col-sm-10 col-xs-12 tel-box">
+                    01656.307.580
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-center">
+        <div class="container">
+            <div class="col-md-4">
+                <div class="footer-center-header">
+                    <div class="footer-center-header-subtitle">
+                        Contact us
+                        <ul class="page-footer_social">
+                            <li><a title="Facebook" href="http://facebook.com/ngochoanh.pr" target="_blank"><i class="iconfont font-24">&#xe600;</i></a> </li>
+                            <li><a title="Twitter" href="#" target="_blank"><i class="iconfont font-24">&#xe604;</i></a> </li>
+                            <li><a title="Google" href="#"><i class="iconfont font-15">&#xe61c;</i></a> </li>
+                            <!--<li><a href="javascript:void(0)"><i class="iconfont font-22">&#xe607;</i></a> </li>-->
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-center-info">
+                    <ul>
+                        <li>HOLYBOT FAMILY</li>
+                        <li>Điện thoại: 01656.307.580</li>
+                        <li>Email: ngochoanh.br@gmail.com</li>
+                        <li>Địa chỉ: 123 đường 456 - P. Phước Trung - TP. Bà Rịa - BR-VT</li>
+                        <li>Website：<a title="Website HOLYBOT" href="https://holybot.wordpress.com/" target="_blank">www.holybot.wordpress.com</a></li>
+                   </ul>
+                </div>
+            </div>
+            <div class="col-md-4 hidden-xs hidden-sm">
+                <div class="footer-center-header">
+                </div>
+                <div class="footer-center-info clear-fix">
+                    <div class="col-md-6">
+                        <ul>
+                            <li><a href='$cms.GetNode("notice").NodeUrl'>Thông báo</a> </li>
+                            <li><a href='$cms.GetNode("uenews").NodeUrl'>Tin tức công ty</a> </li>
+                            <li><a href='$cms.GetNode("industry").NodeUrl'>Tin tức công nghệ</a> </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>                                                     
+                            <li><a href='$cms.GetNode("join").NodeUrl'>Hợp tác</a> </li>
+                            <li><a href='$cms.GetNode("contact").NodeUrl'>Liên hệ</a> </li>
+                            <li><a href='$cms.GetNode("helper").NodeUrl'>Trợ giúp</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 hidden-xs hidden-sm">
+                <div class="footer-center-header">
+                    <div class="footer-center-header-subtitle">
+                        Follow us</div>
+                </div>
+                <div class="footer-center-info clear-fix">
+                    <div class="col-md-6">
+                        <img src="/Upload/2017/01/201701030430563.jpg" alt="微信二维码" style="max-width:115px;" />
+                    </div>
+                    <div class="col-md-6">
+                        <img src="/Include/Images/alipay.jpg" alt="支付宝二维码" style="max-width:115px;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container hidden-xs hidden-sm">
+            <div class="link-wrap clear-fix">
+                <div class="link-wrap-box">
+                    <h3 class="link-wrap-title">
+                        Link web</h3>
+                    <div class="link-wrap-subtitle">
+                        Parther</div>
+                </div>
+                <div class="link-list">
+                    #foreach($item in $cms.GetFriendLinks())
+                    #if(${item.LinkUrl}=="")
+                    <a href="javascript:void(0)" class="link-item">${item.LinkName}</a>
+                    #else
+                    <a href="${item.LinkUrl}" class="link-item" target="_blank">${item.LinkName}</a>
+                    #end
+                    #end
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fonter-bottom">
+        <div class="container text-center">
+            Copyright@2017 Gia đình HOLYBOT Family
+       </div>
+    </div>
+</div>
+<script>
+    $("img.lazy").lazyload({
+        effect: "fadeIn"
+    });
+</script>
+
+
+
+
+
+
+
+

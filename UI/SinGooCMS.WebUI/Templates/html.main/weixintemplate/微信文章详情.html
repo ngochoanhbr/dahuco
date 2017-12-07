@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>${currcont.Title}</title>
+    <link rel="stylesheet" href="${mbpath}weixintemplate/style/weui.min.css" />
+    <script src="${mbpath}weixintemplate/js/weui.min.js" type="text/javascript"></script>
+</head>
+<body ontouchstart>
+    <div class="page">
+        <div class="page__hd" style="border-bottom:1px solid #ccc;padding-bottom:20px;">
+            <h2 class="page__title">
+                ${currcont.Title}</h2>
+            <p class="page__desc">
+                $!{currcont.Summary}</p>
+            <p class="page__desc">
+                阅读：${currcont.Hit}</p>
+        </div>
+        <div class="page__bd">
+            <article class="weui-article">
+            <section>
+                <section>
+                    ${currcont.Content}
+                </section>
+            </section>
+            </article>
+        </div>
+        <!--<div class="page__ft">
+            <a href="javascript:home()">
+                <img src="${mbpath}weixintemplate/images/icon_footer_link.png" /></a>
+        </div>-->
+    </div>
+</body>
+</html>

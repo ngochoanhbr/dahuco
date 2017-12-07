@@ -1,0 +1,17 @@
+F:\产品研发\微信接口\WeiXinMPSDK-NET3.5\WeiXinMPSDK-NET3.5\Senparc.Weixin\Senparc.Weixin\bin\Debug\Senparc.Weixin.dll
+F:\产品研发\微信接口\WeiXinMPSDK-NET3.5\WeiXinMPSDK-NET3.5\Senparc.Weixin\Senparc.Weixin\bin\Debug\Senparc.Weixin.pdb
+F:\产品研发\微信接口\WeiXinMPSDK-NET3.5\WeiXinMPSDK-NET3.5\Senparc.Weixin\Senparc.Weixin\obj\Debug\ResolveAssemblyReference.cache
+F:\产品研发\微信接口\WeiXinMPSDK-NET3.5\WeiXinMPSDK-NET3.5\Senparc.Weixin\Senparc.Weixin\obj\Debug\Senparc.Weixin.dll
+F:\产品研发\微信接口\WeiXinMPSDK-NET3.5\WeiXinMPSDK-NET3.5\Senparc.Weixin\Senparc.Weixin\obj\Debug\Senparc.Weixin.pdb
+F:\产品研发\v1.1.1\默认版本\Code\BLL\Senparc.Weixin\bin\Debug\Senparc.Weixin.dll
+F:\产品研发\v1.1.1\默认版本\Code\BLL\Senparc.Weixin\bin\Debug\Senparc.Weixin.pdb
+F:\产品研发\v1.1.1\默认版本\Code\BLL\Senparc.Weixin\obj\Debug\ResolveAssemblyReference.cache
+F:\产品研发\v1.1.1\默认版本\Code\BLL\Senparc.Weixin\obj\Debug\Senparc.Weixin.dll
+F:\产品研发\v1.1.1\默认版本\Code\BLL\Senparc.Weixin\obj\Debug\Senparc.Weixin.pdb
+F:\产品研发\v1.1.1\默认版本\Code\BLL\JsonLeeCMS.BLL.Custom\lib\Senparc.Weixin.dll
+F:\产品研发\v1.1.1\默认版本\Code\BLL\JsonLeeCMS.BLL.Custom\lib\Senparc.Weixin.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\Senparc.Weixin\obj\Debug\ResolveAssemblyReference.cache
+F:\产品研发\v1.2\SinGooShop\BLL\Senparc.Weixin\obj\Debug\Senparc.Weixin.dll
+F:\产品研发\v1.2\SinGooShop\BLL\Senparc.Weixin\obj\Debug\Senparc.Weixin.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\JsonLeeCMS.BLL.Custom\lib\Senparc.Weixin.dll
+F:\产品研发\v1.2\SinGooShop\BLL\JsonLeeCMS.BLL.Custom\lib\Senparc.Weixin.pdb

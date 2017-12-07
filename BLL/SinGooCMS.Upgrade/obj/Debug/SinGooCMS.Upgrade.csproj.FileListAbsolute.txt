@@ -1,0 +1,12 @@
+F:\产品研发\v1.2\SinGooCMS\BLL\JsonLeeCMS.BLL.Custom\lib\SinGooCMS.Upgrade.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\JsonLeeCMS.BLL.Custom\lib\SinGooCMS.Upgrade.pdb
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.Upgrade\obj\Debug\ResolveAssemblyReference.cache
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.Upgrade\obj\Debug\SinGooCMS.Upgrade.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.Upgrade\obj\Debug\SinGooCMS.Upgrade.pdb
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Upgrade.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Upgrade.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Upgrade.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Upgrade.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.Upgrade\obj\Debug\ResolveAssemblyReference.cache
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.Upgrade\obj\Debug\SinGooCMS.Upgrade.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.Upgrade\obj\Debug\SinGooCMS.Upgrade.pdb

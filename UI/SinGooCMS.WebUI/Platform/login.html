@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Trang quản trị - HoLyBot</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/Include/Script/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/Include/Script/publicfun.js"></script>
+    <script type="text/javascript" src="/Include/Script/sha512.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Include/Style/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Platform/h5/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/Platform/h5/css/style.css" />
+    <style type="text/css">
+        html
+        {
+            height: 100%;
+        }
+        body
+        {
+            height: 100%;
+            margin: 0;
+            background: url('/platform/h5/images/loginbg.jpg') center no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body onload="if(self!=top) top.location=self.location">
+    <!--[if lt IE 9]>
+    <div class="alert alert-danger alert-dismissable" style="width: 800px; margin: 0px auto">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">
+            &times;
+        </button>
+        注意，浏览器不支持。本系统支持IE9及以上、Firefox（火狐浏览器），Chrome（谷歌浏览器），请升级或者更换浏览器！
+    </div>
+    <![endif]-->
+    <div class="user-login">
+        <div class="wrapper">
+            <div class="logo" title="HOLYBOT">
+            </div>
+            <div class="reset-pwd">
+                <form role="login" id="loginform">
+                <ul>
+                    <li>
+                        <input class="inp" type="text" value="Vui lòng nhập tên tài khoản" required="required" id="accountname"
+                            maxlength="50" />
+                    </li>
+                    <li>
+                        <input class="inp" type="password" value="Vui lòng nhập mật khẩu" required="required" id="accountpwd"
+                            maxlength="50" />
+                    </li>
+                    <li>
+                        <input type="submit" class="up-pwd actSubmit" value="Đăng nhập" onclick="h5.ajaxLogin(this,$('#accountname').val(),$('#accountpwd').val());return false;" />
+                    </li>
+                </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-20" style="color: White; position: fixed; bottom: 0px;
+        width: 100%; height50px; line-height: 50px;">
+        Copyright © 2014-2016 <a style="color: White" target="_blank" href="http://singoo.top">
+            SinGooCMS</a> All rights reserved <a style="color: White" target="_blank" href="http://www.ue.net.cn">
+                联华网络</a> 提供技术支持</div>
+</body>
+</html>
+<script type="text/javascript">
+    $(function () {
+        if (!window.applicationCache) {
+            $("input[type='submit']").val("请升级浏览器");
+            $("input[type='submit']").removeAttr("onclick");
+        }
+
+        $(".inp").focus(function () {
+            $(this).addClass("focus");
+            if ($(this).val() == this.defaultValue) {
+                $(this).val("");
+            }
+        }).blur(function () {
+            $(this).removeClass("focus");
+            if ($(this).val() == '') {
+                $(this).val(this.defaultValue);
+            }
+        });
+    })
+</script>

@@ -1,0 +1,10 @@
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.Install\obj\Debug\ResolveAssemblyReference.cache
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Install.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Install.pdb
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.Install\obj\Debug\SinGooCMS.Install.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.Install\obj\Debug\SinGooCMS.Install.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Install.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Install.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.Install\obj\Debug\ResolveAssemblyReference.cache
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.Install\obj\Debug\SinGooCMS.Install.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.Install\obj\Debug\SinGooCMS.Install.pdb

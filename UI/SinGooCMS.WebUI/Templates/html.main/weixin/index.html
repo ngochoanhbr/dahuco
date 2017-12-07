@@ -1,0 +1,255 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>${config.SiteName}</title>
+    <meta name="keywords" content="${seokey}" />
+    <meta name="description" content="${seodesc}" />
+    <link rel="icon" href="/favicon.png">
+    <link rel="stylesheet" href="${mbpath}dist/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="${mbpath}dist/css/lianhua.css" />
+    <link rel="stylesheet" type="text/css" href="${mbpath}dist/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="${mbpath}dist/css/swiper.css" />
+    <script type="text/javascript" src="${mbpath}dist/js/jquery.min.js"></script>    
+    <script type="text/javascript" src="${mbpath}dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="${mbpath}dist/js/swiper.min.js"></script>
+    <script type="text/javascript" src="${mbpath}dist/js/jquery.lazyload.js"></script>
+    <!--深圳联华网络科技提供技术支持 联系电话:88824568-->
+</head>
+<body data-behavior="header_scroll">
+    <!-- top -->
+    #parse("inc/_header.html")
+    <!-- top end -->
+    <!-- banner-->
+    <script type='text/javascript' src='/include/generatead?placeid=1'></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            slidesPerView: 1,
+            paginationClickable: true,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: 0, //可选选项，自动滑动
+            autoplayDisableOnInteraction: false
+        });
+    </script>
+    <!-- banner end-->
+    <!-- banner col-->
+    <div class="mian">
+    <div class="banner-bottom-container hidden-xs hidden-sm">
+        <div class="container">
+            <ul>
+                <li class="lianhua-main-special-list  box-bg-odd "><a href='$cms.GetNode("pjsite").NodeUrl'>
+                    <div class="special-left">
+                        <h2 class="title">
+                            Web</h2>
+                        <p class="desc">
+                            高端网页设计</p>
+                    </div>
+                    <div class="special-right" style="background-image: url(${mbpath}dist/images/index1.jpg);
+                        background-position: 0px 0px;">
+                    </div>
+                </a></li>
+                <li class="lianhua-main-special-list  box-bg-even"><a href='$cms.GetNode("wxsite").NodeUrl'>
+                    <div class="special-left">
+                        <h2 class="title">
+                            手机网站</h2>
+                        <p class="desc">
+                            移动端、APP开发</p>
+                    </div>
+                    <div class="special-right" style="background-image: url(${mbpath}dist/images/index2.jpg);
+                        background-position: 0px 0px;">
+                    </div>
+                </a></li>
+                <li class="lianhua-main-special-list  box-bg-odd "><a href='$cms.GetNode("shopsite").NodeUrl'>
+                    <div class="special-left">
+                        <h2 class="title">
+                            高端电商定制</h2>
+                        <p class="desc">
+                            定制模块开发</p>
+                    </div>
+                    <div class="special-right" style="background-image: url(${mbpath}dist/images/index3.jpg);
+                        background-position: 0px 0px;">
+                    </div>
+                </a></li>
+                <li class="lianhua-main-special-list  box-bg-even"><a href='$cms.GetNode("wxsite").NodeUrl'>
+                    <div class="special-left">
+                        <h2 class="title">
+                            微信开发</h2>
+                        <p class="desc">
+                            微商营销</p>
+                    </div>
+                    <div class="special-right" style="background-image: url(${mbpath}dist/images/index5.jpg);
+                        background-position: 0px 0px;">
+                    </div>
+                </a></li>
+                <li class="lianhua-main-special-list  box-bg-odd "><a href='$cms.GetNode("brand").NodeUrl'>
+                    <div class="special-left">
+                        <h2 class="title">
+                            品牌形象设计</h2>
+                        <p class="desc">
+                            VI识别系统</p>
+                    </div>
+                    <div class="special-right" style="background-image: url(${mbpath}dist/images/index4.jpg);
+                        background-position: 0px 0px;">
+                    </div>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- banner col end-->
+    <!--case-->
+    <div class="index-case text-center">
+        <div class="index-case-title">
+            联华出品必属精品</div>
+        <div class="index-case-subtitle">
+            联华以策划/设计/技术/服务为核心,为客户持续创造价值</div>
+        <div class="index-case-list">
+            <ul>
+                #foreach($item in $cms.GetChildNodes("case"))
+                <li><a href="${item.NodeUrl}">${item.NodeName}</a></li>
+                #end
+            </ul>
+        </div>
+        <div class="container-fluid">
+            #set($times=$cmsext.GetDecimal("1.2"))
+            #foreach($item in $cms.GetContents("case","IsRecommend=1","Sort asc,AutoID desc",1,18))
+            #if($key % 6==1)<div class="clear">#end
+            <div class="col-md-2 col-xs-12 col-sm-4" data-scroll-reveal="enter bottom over ${times}s">
+                <a href="$!{item.ContentUrl}" target="_blank">
+                    <div class="work-imgbox dtl12">
+                        <img class="lazy" data-original="$!{item.ContentImage}" alt="$!{item.Title}" title="$!{item.Title}" />
+                    </div>
+                    <div class="workinfo">
+                        <h1>
+                            $cms.Cut(${item.Title},8,"...")</h1>
+                    </div>
+                </a>
+            </div>
+            #if($key % 6==0)
+            </div>
+            #set($times=$times + $cmsext.GetDecimal("0.2"))
+            #end            
+            #end
+        </div>
+        <a href='${cms.GetNode("case").NodeUrl}' class="more">查看更多</a>
+    </div>
+    <!--case end-->
+    <!--news-->
+    <div class="index-news">
+        <div class="container">
+            <a href='$cms.GetNode("singooshop").NodeUrl' target="_blank">
+                <div class="col-md-4 col-xs-12 col-sm-4">
+                    <div class="index-news-title">
+                        单用户网店系统</div>
+                    <div class="index-news-subtitle">
+                        让电商更快捷，更简单</div>
+                    <div class="index-news-img">
+                        <img class="lazy" data-original="${mbpath}dist/images/product.jpg" alt="单用户网店系统" /></div>
+                    <div class="index-news-info">
+                        联华网络自主开发的电商平台SinGooShop，适用于单用户网店搭建。简单，高效、安全是我们的追求，SinGooShop让您的成本降到最低。满足大多数电商用户的需求。
+                    </div>
+                    <div class="index-news-more">
+                        <i class="iconfont">&#xe605;</i></div>
+                </div>
+            </a><a href='$cms.GetNode("brand").NodeUrl'>
+                <div class="col-md-4 col-xs-12 col-sm-4">
+                    <div class="index-news-title">
+                        品牌策划与设计</div>
+                    <div class="index-news-subtitle">
+                        争作行业的媒介传播者</div>
+                    <div class="index-news-img">
+                        <img class="lazy" data-original="${mbpath}dist/images/brand.jpg" alt="品牌策划与设计" /></div>
+                    <div class="index-news-info">
+                        品牌设计的未来在于仔细倾听人们的需要，通过为消费者世界带来令人愉悦的、提升生活质量的解决方案以及人们进行强有力的交流。</div>
+                    <div class="index-news-more">
+                        <i class="iconfont">&#xe605;</i></div>
+                </div>
+            </a><a href='$cms.GetNode("domain").NodeUrl'>
+                <div class="col-md-4 col-xs-12 col-sm-4">
+                    <div class="index-news-title">
+                        域名与邮箱</div>
+                    <div class="index-news-subtitle">
+                        企业品牌形象塑造者</div>
+                    <div class="index-news-img">
+                        <img class="lazy" data-original="${mbpath}dist/images/onestep.jpg" title="一站式服务"
+                            alt="域名与邮箱"></div>
+                    <div class="index-news-info">
+                        是不是觉得建站很麻烦，很复杂，如何购买优质的网站空间？域名如何备案？网站后台如何操作？不会做图怎么办？这些都不是问题，购买联华网络一站式服务，我们全包！
+                    </div>
+                    <div class="index-news-more">
+                        <i class="iconfont">&#xe605;</i></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!--news end-->
+    <!--宣传栏-->
+    <div class="index-billboards hidden-xs hidden-sm">
+        <div id="particles-js">
+        </div>
+        <div class="container">
+            <div class="index-billboards-text text-center">
+                <div class="index-billboards-text-title">
+                    策划 创意 执行 技术 服务 是联华核心能力</div>
+                <span class="line"></span>
+                <p>
+                    深圳联华网络技术有限公司是一家以策划、创意、设计、技术、服务为核心的互联网公司。</p>
+                <p>
+                    拥有国内顶级的网站建设; 网页设计团队；H5网站设计；APP设计与开发。</p>
+                <p>
+                    我们只针对有品牌意识的客户，</p>
+                <p>
+                    为您提供系统的基于互联网的品牌行销策略品牌网站建设、营销型网站设计； 营销型H5网站设计和创意执行 、 深度追踪运营服务。</p>
+                <a href='${cms.GetNode("about").NodeUrl}' class="more-link">马上了解我们</a>
+            </div>
+        </div>
+    </div>
+    <!--宣传栏 end-->
+    <div class="index-partner text-center">
+        <div class="index-partner-title">
+            PARTNER</div>
+        <div class="index-partner-subtitle-english">
+            We have been providing excellent network solutions for our customers, has been full
+            of passion to meet the understanding of design you!</div>
+        <div class="index-partner-subtitle-zh">
+            我们一直在为我们的客户提供优秀的网站解决方案，以饱满的热情迎接懂设计的您！</div>
+        <span class="line"></span>
+        <div class="index-partner-logo container">
+            <ul id="links">
+                #foreach($item in $cms.GetDict("CustomerLogos").Items)
+                #if($key % 6==1)<div class="clear">#end                        
+                <li class="col-md-2 col-sm-3 col-xs-6">
+                    <img class="lazy" data-original="${mbpath}dist/logo/${item.KeyValue}">
+                </li>          
+                #if($key % 6==0)</div>#end
+                #end
+            </ul>
+        </div>
+        <div class="index-partner-title">
+            CONTACT</div>
+        <div class="index-partner-subtitle-english">
+            Keep contact with Lianhua, is the only way to solve the problem, to help you quickly!</div>
+        <div class="index-partner-subtitle-zh">
+            与我们保持联系，是快速帮您解决问题的唯一途径！</div>
+        <span class="line"></span>
+    </div>
+    <!--底部-->
+    #parse("inc/_indexfooter.html")
+    <!--底部 end-->      
+</body>
+</html>
+<script type='text/javascript' src="${mbpath}dist/js/plugins.min.js"></script>
+<script type='text/javascript' src="${mbpath}dist/js/application.min.js"></script>
+<script type="text/javascript" src="${mbpath}dist/js/jquery.jparallax.js"></script>
+<script type="text/javascript" src="${mbpath}dist/js/scrollReveal.js"></script>
+<script src="${mbpath}dist/js/particles.min.js"></script>
+<script src="${mbpath}dist/js/app.js"></script>  
+<script>
+    var landor = window.landor || {}; landor.svgSupport = document.implementation.hasFeature("", "1.1"), landor.browserSpec = "addEventListener" in window && landor.svgSupport ? "html5" : "html4", landor.touch = "ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch, landor.smoothscroll = !0; try { var mod = "landorStorage"; localStorage.setItem(mod, mod), localStorage.removeItem(mod), landor.localstorage = !0 } catch (e) { landor.localstorage = !1 } if ("iP" !== navigator.platform.substr(0, 2) || window.indexedDB || (landor.smoothscroll = !1), function () { var a = document.documentElement, b = " js " + landor.browserSpec + (landor.touch ? " touch" : " no-touch") + (landor.svgSupport ? " svg" : " no-svg") + (landor.smoothscroll ? " smoothscroll" : "no-smoothscroll") + (landor.localstorage ? " localstorage" : "no-localstorage"); a.className = a.className.replace(/\bno-js\b/, b) } (), window.location.hash && window.location.href.indexOf("#!") > -1) { url = ""; var urlArray = window.location.hash.split("/"); "about" == urlArray[1] ? "news" == urlArray[2] ? urlArray[3] && urlArray[4] ? url = "/news/" + urlArray[4] : url = "/news" : "people" == urlArray[2] ? urlArray[3] ? url = "/about/meet-our-people#" + urlArray[3] : url = "/about/meet-our-people" : url = "/about" : "careers" == urlArray[1] ? url = "/join-our-team" : "locations" == urlArray[1] ? urlArray[2] ? url = "/offices/" + urlArray[2] : url = "/offices" : "talk" == urlArray[1] ? urlArray[2] && urlArray[3] && urlArray[4] ? url = "/thinking/" + urlArray[4] : urlArray[2] && urlArray[3] ? url = "/thinking/" + urlArray[3] : url = "/thinking" : "work" == urlArray[1] && (urlArray[2] && urlArray[3] ? url = "/work/" + urlArray[3] : url = "/work"), window.location = url }
+    (function () {
+        window.scrollReveal = new scrollReveal({ reset: false, move: '100px' });
+    })();
+</script>
+

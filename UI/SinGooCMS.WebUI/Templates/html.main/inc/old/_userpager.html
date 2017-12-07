@@ -1,0 +1,28 @@
+﻿#if($pager.RecordCount>0) 
+<div class="pagination-info">
+共有${pager.RecordCount}条，每页显示：${pager.PageSize}条
+</div>
+<ul class="pagination">  
+#if($pager.PageIndex<=1)
+   <li class="disabled"><a>«</a></li>
+   <li class="disabled"><a>‹</a></li>
+#else
+<li><a href="$pager.GetUrl('first')">«</a></li>
+<li><a href="$pager.GetUrl('prev')">‹</a></li>
+#end
+#foreach($n in $pager.GetPages(10))
+#if($n==$pager.PageIndex)
+<li class="active"><a>$n</a></li>
+#else
+<li><a href="$pager.GetUrl($n)">$n</a></li>
+#end
+#end
+#if($pager.PageIndex>=$pager.PageCount)
+<li class="disabled"><a>›</a></li>
+<li class="disabled"><a>»</a></li>
+#else
+<li><a href="$pager.GetUrl('next')">›</a></li>
+<li><a href="$pager.GetUrl('last')">»</a></li>
+#end
+</ul>
+#end

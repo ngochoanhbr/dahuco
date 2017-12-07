@@ -1,0 +1,25 @@
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.Plugin\obj\Debug\ResolveAssemblyReference.cache
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Plugin.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Plugin.pdb
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.Plugin\obj\Debug\SinGooCMS.Plugin.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.Plugin\obj\Debug\SinGooCMS.Plugin.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Plugin.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Plugin.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.Plugin\obj\Debug\ResolveAssemblyReference.cache
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.Plugin\obj\Debug\SinGooCMS.Plugin.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.Plugin\obj\Debug\SinGooCMS.Plugin.pdb
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.Plugin\obj\Debug\SinGooCMS.Plugin.csprojResolveAssemblyReference.cache
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.Plugin\obj\Debug\SinGooCMS.Plugin.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.Plugin\obj\Debug\SinGooCMS.Plugin.pdb
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Plugin.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Plugin.pdb
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Plugin.dll
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Plugin.pdb
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.Plugin\obj\Debug\SinGooCMS.Plugin.csprojResolveAssemblyReference.cache
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.Plugin\obj\Debug\SinGooCMS.Plugin.dll
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.Plugin\obj\Debug\SinGooCMS.Plugin.pdb
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Plugin.dll
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Plugin.pdb
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.Plugin\obj\Debug\SinGooCMS.Plugin.csprojResolveAssemblyReference.cache
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.Plugin\obj\Debug\SinGooCMS.Plugin.dll
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.Plugin\obj\Debug\SinGooCMS.Plugin.pdb

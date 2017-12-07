@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>SinGooCMS提示信息</title>
+    <base target='_self' />
+    <style type="text/css">
+        body
+        {
+            margin: 0;
+            padding: 0;
+            background: #fff;
+        }
+        div
+        {
+            line-height: 160%;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        var s = location.search; //查询参数字符串
+        var Request = {};
+        //初始化Request对象
+        function InitRequest() {
+            var m, reg = /([a-z\d]+)=([^&]+)/gi;
+            s = s == '' ? '' : s.substring(1);
+            while (m = reg.exec(s)) Request[m[1].toLowerCase()] = m[2]; //添加项进入hash对象
+        }
+        InitRequest();
+
+        var pgo = 0;
+        function JumpUrl() {
+            if (pgo == 0) {
+                location = '/User/InfoCenter.aspx';
+                pgo = 1;
+            }
+        }
+        var msg = decodeURI(Request["info"]);
+        if (msg == "")
+            msg = "恭喜您！注册成功，即将跳转到会员中心！";
+
+        if (msg.indexOf('会员激活') == -1) {
+            //不需要激活，直接跳转到登录页
+            document.write("<br /><div style='width:450px;padding:0px;border:1px solid #DADADA;margin:0 auto;text-align:center'><div style='padding:6px;font-size:12px;background:#5CABDD;color:white;'><b>SinGooCMS提示信息！</b></div>");
+            document.write("<div style='height:130px;font-size:10pt;background:#ffffff;position:relative;'><br />");
+            document.write("<img src='/Include/Images/ok.gif' alt='' style='float:left;position:absolute;left:80px;top:40px'/>");
+            document.write("<div style='float:left;position:absolute;left:130px;top:35px;'>" + msg + "<br /><a href='/User/InfoCenter.aspx'>如果你的浏览器没反应，请点击这里...</a></div></div>");
+
+            setTimeout('JumpUrl()', 3000);
+        }
+        else {
+            //需要激活，仅有提示
+            document.write("<br /><div style='width:450px;padding:0px;border:1px solid #DADADA;margin:0 auto;text-align:center'><div style='padding:6px;font-size:12px;background:#5CABDD;color:white;'><b>SinGooCMS提示信息！</b></div>");
+            document.write("<div style='height:130px;font-size:10pt;background:#ffffff;position:relative;'><br />");
+            document.write("<img src='/Include/Images/ok.gif' alt='' style='float:left;position:absolute;left:80px;top:40px'/>");
+            document.write("<div style='float:left;position:absolute;left:130px;top:35px;'>" + msg + "<br /><a href='/default.aspx'>未激活会员无法正常登录！您可以点击这里返回首页</a></div></div>");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NodeTemplate>
+  <Node name="企业建站" id="pjsite" ismenu="1" tpindex="企业建站.html" tplist="企业建站.html" tpdetail="企业建站.html">
+    <Node name="域名注册" id="dns" ismenu="0" tpindex="域名注册.html" tplist="域名注册.html" tpdetail="域名注册.html"></Node>
+    <Node name="空间租用" id="host" ismenu="0" tpindex="空间租用.html" tplist="空间租用.html" tpdetail="空间租用.html"></Node>
+    <Node name="企业邮箱" id="mail" ismenu="0" tpindex="企业邮箱.html" tplist="企业邮箱.html" tpdetail="企业邮箱.html"></Node>
+    <Node name="SEO优化" id="seo" ismenu="0" tpindex="SEO优化.html" tplist="SEO优化.html" tpdetail="SEO优化.html"></Node>
+    <Node name="品牌设计" id="brand" ismenu="0" tpindex="品牌设计.html" tplist="品牌设计.html" tpdetail="品牌设计.html"></Node>
+    <Node name="一站式服务" id="onestep" ismenu="0" tpindex="一站式服务.html" tplist="一站式服务.html" tpdetail="一站式服务.html"></Node>
+  </Node>
+  <Node name="商城建站" id="shopsite" ismenu="1" tpindex="商城建站.html" tplist="商城建站.html" tpdetail="商城建站.html"></Node>
+  <Node name="微站建设" id="wxsite" ismenu="1" tpindex="微站建设.html" tplist="微站建设.html" tpdetail="微站建设.html"></Node>
+  <Node name="名站案例" id="case" ismenu="1" tpindex="名站案例.html" tplist="名站案例.html" tpdetail="案例详情.html">
+    <Node name="企业集团" id="ent" ismenu="0" tpindex="名站案例.html" tplist="名站案例.html" tpdetail="案例详情.html"></Node>
+    <Node name="电子商务" id="ec" ismenu="0" tpindex="名站案例.html" tplist="名站案例.html" tpdetail="案例详情.html"></Node>
+    <Node name="科技教育" id="tech" ismenu="0" tpindex="名站案例.html" tplist="名站案例.html" tpdetail="案例详情.html"></Node>
+    <Node name="金融保险" id="fina" ismenu="0" tpindex="名站案例.html" tplist="名站案例.html" tpdetail="案例详情.html"></Node>
+    <Node name="家居房产" id="house" ismenu="0" tpindex="名站案例.html" tplist="名站案例.html" tpdetail="案例详情.html"></Node>
+    <Node name="酒店旅游" id="hotel" ismenu="0" tpindex="名站案例.html" tplist="名站案例.html" tpdetail="案例详情.html"></Node>
+    <Node name="医疗保健" id="medical" ismenu="0" tpindex="名站案例.html" tplist="名站案例.html" tpdetail="案例详情.html"></Node>
+    <Node name="工业制造" id="indu" ismenu="0" tpindex="名站案例.html" tplist="名站案例.html" tpdetail="案例详情.html"></Node>    
+    <Node name="HTML5" id="html5" ismenu="0" tpindex="名站案例.html" tplist="名站案例.html" tpdetail="案例详情.html"></Node>
+    <Node name="其它" id="other" ismenu="0" tpindex="名站案例.html" tplist="名站案例.html" tpdetail="案例详情.html"></Node>
+  </Node>
+  <Node name="我们优势" id="about" ismenu="1" tpindex="我们优势.html" tplist="我们优势.html" tpdetail="我们优势.html"></Node>
+  <Node name="建立合作" id="join" ismenu="1" tpindex="建立合作.html" tplist="建立合作.html" tpdetail="建立合作.html"></Node>
+  <Node name="新闻中心" id="news" ismenu="0" tpindex="新闻动态.html" tplist="新闻动态.html" tpdetail="新闻详情.html">
+    <Node name="联华公告" id="notice" ismenu="0" tpindex="新闻动态.html" tplist="新闻动态.html" tpdetail="新闻详情.html"></Node>
+    <Node name="公司动态" id="uenews" ismenu="0" tpindex="新闻动态.html" tplist="新闻动态.html" tpdetail="新闻详情.html"></Node>
+    <Node name="行业新闻" id="industry" ismenu="0" tpindex="新闻动态.html" tplist="新闻动态.html" tpdetail="新闻详情.html"></Node>
+  </Node>
+  <Node name="技术支持" id="support" ismenu="0" tpindex="帮助中心.html" tplist="帮助中心.html" tpdetail="帮助中心.html"></Node>
+  <Node name="资源下载" id="res" ismenu="0" tpindex="帮助中心.html" tplist="帮助中心.html" tpdetail="帮助中心.html"></Node>
+  <Node name="售后服务" id="service" ismenu="0" tpindex="帮助中心.html" tplist="帮助中心.html" tpdetail="帮助中心.html"></Node>
+  <Node name="帮助中心" id="helper" ismenu="0" tpindex="帮助中心.html" tplist="帮助中心.html" tpdetail="帮助中心.html"></Node>
+  <Node name="联系我们" id="contact" ismenu="0" tpindex="帮助中心.html" tplist="帮助中心.html" tpdetail="帮助中心.html"></Node>
+  <Node name="工作机会" id="hr" ismenu="0" tpindex="帮助中心.html" tplist="帮助中心.html" tpdetail="帮助中心.html"></Node>
+</NodeTemplate>

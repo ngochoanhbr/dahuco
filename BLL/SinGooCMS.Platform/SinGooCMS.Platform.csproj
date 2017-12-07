@@ -1,0 +1,843 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{F3A3901B-C65D-4B8D-A454-CE1C476BA954}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>SinGooCMS.Platform</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CKEditor.NET">
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\CKEditor.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Senparc.Weixin">
+      <HintPath>..\..\CodeNew\bin\Senparc.Weixin.dll</HintPath>
+    </Reference>
+    <Reference Include="Senparc.Weixin.MP">
+      <HintPath>..\..\CodeNew\bin\Senparc.Weixin.MP.dll</HintPath>
+    </Reference>
+    <Reference Include="SinGooCMS.BLL">
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.dll</HintPath>
+    </Reference>
+    <Reference Include="SinGooCMS.BLL.Custom, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SinGooCMS.BLL.Custom.dll</HintPath>
+    </Reference>
+    <Reference Include="SinGooCMS.Common">
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\SinGooCMS.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SinGooCMS.Payments">
+      <HintPath>..\..\CodeNew\bin\SinGooCMS.Payments.dll</HintPath>
+    </Reference>
+    <Reference Include="SinGooCMS.Weixin">
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\SinGooCMS.Weixin.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="SinGooCMS.Control">
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.dll</HintPath>
+    </Reference>
+    <Reference Include="SinGooCMS.Entity">
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\SinGooCMS.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="SinGooCMS.Config">
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\SinGooCMS.Config.dll</HintPath>
+    </Reference>
+    <Reference Include="SinGooCMS.Core">
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\SinGooCMS.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SinGooCMS.DAL">
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\SinGooCMS.DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="SinGooCMS.Plugin">
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\SinGooCMS.Plugin.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="SinGooCMS.Utility">
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\SinGooCMS.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="SinGooCMS.Extensions">
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="SinGooCMS.WebIM">
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\SinGooCMS.WebIM.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SinGooCMS.WebUI.Add\Add_Customer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Ajax\AjaxComment.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Ajax\AjaxEvalution.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Ajax\AjaxMethod.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Ajax\enumQueryType.cs" />
+    <Compile Include="SinGooCMS.WebUI.h5.Controls.FieldControls\AreaType.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.h5.Controls.FieldControls\CheckBoxType.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.h5.Controls.FieldControls\DateTimeType.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.h5.Controls.FieldControls\DropDownListType.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.h5.Controls.FieldControls\FileType.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.h5.Controls.FieldControls\MultiFileType.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.h5.Controls.FieldControls\MultiPictureType.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.h5.Controls.FieldControls\MultipleHtmlType.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.h5.Controls.FieldControls\MultipleTextType.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.h5.Controls.FieldControls\PictureType.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.h5.Controls.FieldControls\RadioButtonType.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.h5.Controls.FieldControls\SingleTextType.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.h5.Controls.FieldControls\TemplateFileType.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Include.AjaxUploader\Uploader.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Include.AjaxUploader\Uploadify.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Include.Weixin\api.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.List\List_Customer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.List\List_Manufacture.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.List\List_Supplier.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Log\ShowLog.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Log\ShowLogDetail.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ADMger\AdsList.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ADMger\AdsPlaceList.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ADMger\DingYue.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ADMger\Feedback.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ADMger\FeedbackDetail.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ADMger\FriendLink.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ADMger\MailList.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ADMger\ModifyAd.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ADMger\ModifyAdPlace.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ADMger\ModifyFriendLink.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ADMger\ModifyMail.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ADMger\ModifyVote.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ADMger\ModifyVoteItem.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ADMger\SendDingYueMail.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ADMger\Vote.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ADMger\VoteItem.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.Ajax\AjaxMethod.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.Ajax\getFolders.cs" />
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ConfMger\BaseConfig.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ConfMger\CustomSetting.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ConfMger\DataDict.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ConfMger\DictItem.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ConfMger\ExtConfig.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ConfMger\KuaidiCompany.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ConfMger\MailConfig.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ConfMger\MessageSet.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ConfMger\ModifyCustomSetting.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ConfMger\ModifyDict.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ConfMger\ModifyDictItem.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ConfMger\ModifySettingCate.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ConfMger\MsgTemplate.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ConfMger\Setting.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ConfMger\SettingDetail.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ConfMger\SiteSeo.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ConfMger\UrlRewrite.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ConfMger\UrlRewritEntity.cs" />
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ContMger\ContField.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ContMger\ContModelList.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ContMger\FileConfig.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ContMger\FolderMger.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ContMger\Index.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ContMger\ModifyCont.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ContMger\ModifyField.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ContMger\ModifyFolder.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ContMger\ModifyModel.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ContMger\SelectNode.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.ContMger\Upfiles.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\AreaModelList.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\BrandList.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\Cart.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\Category.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\GoodsClass.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\GoodsPulish.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\GoodsQA.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\GoodsQADetail.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\GoodsTags.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\MemberPrice.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\ModifyAreaModel.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\ModifyBrand.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\ModifyCategory.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\ModifyField.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\ModifyGoodsClass.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\ModifyGuiGePic.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\ModifyPaymentSet.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\ModifyPostageModel.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\ModifyProduct.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\ModifyProModel.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\ModifySearchRank.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\ModifyTag.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\PaymentSet.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\PostageModelList.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\Products.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\ProField.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\ProModel.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\SearchRank.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\SelectClass.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\Stockout.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.GoodsMger\TagCloudTemplate.cs" />
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.MarketMger\Auction.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.MarketMger\AuctionLog.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.MarketMger\CopyCoupons.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.MarketMger\Coupons.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.MarketMger\Groupon.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.MarketMger\ModifyAuction.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.MarketMger\ModifyCoupons.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.MarketMger\ModifyGroupon.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.MarketMger\ModifyPromotion.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.MarketMger\Promotion.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.MarketMger\SeoSet.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.MobMger\MobilePaySet.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.MobMger\MobileSet.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.MobMger\ModifyPaymentSet.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.MobMger\SMSConfig.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.NodeMger\Index.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.NodeMger\NodeModify.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.NodeMger\NodeMove.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.OrderMger\ChangeGoods.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.OrderMger\DeliveryRec.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.OrderMger\GatheringRec.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.OrderMger\ModifyChangeGoods.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.OrderMger\ModifyRefundApply.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.OrderMger\OrderAction.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.OrderMger\OrderDetail.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.OrderMger\OrderList.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.OrderMger\OrderSet.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.OrderMger\RefundApply.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.OrderMger\SendGoodsBat.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.Selector\DictForSelect.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.Selector\GoodsForActSelect.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.Selector\ProvinceForSelect.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.Selector\UserForSelect.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.Selector\UserForSelectEmail.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.Selector\UserForSelectMobile.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.StatMger.XmlProvider\GetOrderStatData.cs" />
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.StatMger.XmlProvider\GetSellStat.cs" />
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.StatMger.XmlProvider\GetTrafficStatData.cs" />
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.StatMger.XmlProvider\GetUserAreaStat.cs" />
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.StatMger.XmlProvider\UserAreaStatInfo.cs" />
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.StatMger.XmlProvider\UserGrowthStat.cs" />
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.StatMger\OrderStat.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.StatMger\PurchaseRate.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.StatMger\SellStat.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.StatMger\StatSwitch.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.StatMger\TraAnaly.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.StatMger\UserAreaStat.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.StatMger\UserBuyRate.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.StatMger\UserGrowth.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.SysMger\Account.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.SysMger\BackAndRestore.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.SysMger\IPStrategy.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.SysMger\Menu.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.SysMger\ModifyAccount.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.SysMger\ModifyCatalog.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.SysMger\ModifyIPStrategy.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.SysMger\ModifyModule.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.SysMger\ModifyRole.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.SysMger\Module.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.SysMger\Role.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.SysMger\SetOperation.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.SysMger\SetPurview.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.SysMger\SetRoles.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.SysMger\SQLExecute.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.SysMger\SysLog.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.SysMger\VisitDetail.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.SysMger\VisitorLog.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.TemplateMger\ModifyTemplate.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.TemplateMger\TemplateEditor.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.TemplateMger\TemplateFileList.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.TemplateMger\TemplateFileListForSelect.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.TemplateMger\TemplateList.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.Tools\CacheSet.cs" />
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.Tools\ChangePwd.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.Tools\MyMessageBox.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.Tools\MyMsgBoxDetail.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.Tools\ShowCache.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.Tools\UploadBat.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.Tools\UploadTools.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.UserMger\AccountDetail.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.UserMger\AddUser.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.UserMger\EvaluationDetail.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.UserMger\GoodsEvalution.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.UserMger\Message.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.UserMger\ModifyField.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.UserMger\ModifyShippingAddr.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.UserMger\ModifyUser.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.UserMger\ModifyUserAmount.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.UserMger\ModifyUserGroup.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.UserMger\ModifyUserLevel.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.UserMger\SendMail.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.UserMger\SendMeaageBat.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.UserMger\SendSMS.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.UserMger\ShippingAddr.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.UserMger\ThirdLogin.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.UserMger\ThirdLoginConfig.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.UserMger\UserConfig.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.UserMger\UserField.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.UserMger\UserGroup.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.UserMger\UserLevel.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.UserMger\UserList.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.WeixinMger\CustomMenu.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.WeixinMger\MessageDefRly.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.WeixinMger\MessageKeyRly.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.WeixinMger\MessageRly.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.WeixinMger\ModifyCustomMenu.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.WeixinMger\ModifyMessageKeyRly.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.WeixinMger\ModifyPaymentSet.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.WeixinMger\WeixinPaySet.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5.WeixinMger\WXConfig.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.h5\Main.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.MasterPage\IFrame.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform.MasterPage\MasterDefault.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.Platform\H5ManagerPageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.List\List_Company.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.List\ShoppingCart.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.User\AccDetail.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.User\Agreement.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.User\ChangePwd.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.User\Coupons.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.User\FindPwd.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.User\InfoCenter.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.User\Integral.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.User\Login.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.User\Logout.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.User\Message.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.User\MyAddress.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.User\MyFavorite.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.User\MyOrders.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.User\OrderDetail.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.User\Profile.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.User\Register.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.User\RegType.cs" />
+    <Compile Include="SinGooCMS.WebUI.User\ResetPwd.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.User\ResetSuccess.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI.User\UserAct.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI\CheckCodeImg.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI\ContentList.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI\Detail.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI\Download.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI\GenerateAD.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI\Node.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI\Search.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI\SetSiteLang.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI\Tags.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI\TuiDing.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS.WebUI\ViewPurviewType.cs" />
+    <Compile Include="SinGooCMS.WebUI\WeixinUI.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinGooCMS\ChangeGoodsStatus.cs" />
+    <Compile Include="SinGooCMS\DeskSource.cs" />
+    <Compile Include="SinGooCMS\eumOrderAction.cs" />
+    <Compile Include="SinGooCMS\ProAndNum.cs" />
+    <Compile Include="SinGooCMS\RefundGoodsStatus.cs" />
+    <Compile Include="SinGooCMS\ShippingParam.cs" />
+    <Compile Include="UIDefault.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WapUI.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

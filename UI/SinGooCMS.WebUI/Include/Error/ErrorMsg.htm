@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>页面出错了</title>
+    <script src="/Include/Script/jquery.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="/Include/Error/error.css" type="text/css" />
+    <link href="/Include/Error/reset.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="error">
+        <h2>
+            页面出错了！</h2>
+        <div class="error-info">
+            <h3 id="errinfo">
+                您访问的网页发生异常！
+            </h3>
+            <div style="background: #eee; line-height: 22px; min-height: 100px; padding: 10px 5px;">
+                <table>
+                    <tr>
+                        <td style="width:400px;">
+                            1.您输入的网页地址不存在，或者提交的参数不正确；<br />
+                            2.数据库连接不存在或者连接参数错误；<br />
+                            3.您没有操作权，请检查文件夹（文件）是否有读写权限；<br />
+                            4.服务器不支持您的操，请联系网站空间商；<br />
+                            5.操作延迟，服务器或者数据库响应不及时；<br />
+                            6.程序出现了错误。<br />                            
+                        </td>
+                        <td style="width: 160px;text-align:right;">
+                            <img style="max-height: 120px;" src="http://www.ue.net.cn/Upload/2017/01/201701030430563.jpg"
+                                alt="" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <h4>
+                您可以返回<a href="/">首页</a>或者<a href="mailto:admin@singoocms.com">发送邮件给管理员</a>
+            </h4>
+        </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    var querystring = unescape(decodeURI(location.search));
+    querystring = querystring.split('=')[1]
+    if (querystring != "" && querystring != "undefined") {
+        $("#errinfo").html("<h1 style='color:red;'>" + querystring + "</h1>");
+    }
+</script>

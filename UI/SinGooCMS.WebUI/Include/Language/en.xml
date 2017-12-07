@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <!-- 通用 -->
+  <data name="SystemAlertTitle">system alert</data>
+  <data name="DialogTitle">kindly reminder</data>
+  <data name="ValidateCodeIncorrect">Incorrect verification code</data>
+  <data name="SendEmailFail">Send Mail Failed, please check the mailbox and SMTP function</data>
+  <data name="OperationSuccess">操作成功</data>
+  <data name="OperationFail">操作失败</data>
+  <!-- 会员状态 -->
+  <data name="UserStatus_Error">Unknown error</data>
+  <data name="UserStatus_UserNameNoValidate">User name error</data>
+  <data name="UserStatus_EmailNoValidate">Mail address error</data>
+  <data name="UserStatus_MobileNoValidate">Mobile No. error</data>
+  <data name="UserStatus_ExistsUserName">User name existed</data>
+  <data name="UserStatus_ExistsEmail">Mail address existed</data>
+  <data name="UserStatus_ExistsMobile">Mobile No. existed</data>
+  <!-- 注册 -->
+  <data name="Reg_MemberInfoNotComplete">The user information is incomplete</data>
+  <data name="Reg_InvalidUserName">Invalid user name</data>
+  <data name="Reg_InvalidUserNameForMobile">Invalid phone number. Please input your 11-digit mobile number</data>
+  <data name="Reg_InvalidUserNameForEmail">Invalid email. Please input correct email address</data>  
+  <data name="Reg_SystemRetainsUserName">The name(${username}) already exists, please choose a new user name</data>
+  <data name="Reg_UserNameLenNeed">User name not less than 6 characters</data>
+  <data name="Reg_UserNameAlreadyExists">The name already exists, please choose a new user name</data>
+  <data name="Reg_UserPwdLenNeed">User password not less than 6 characters</data>
+  <data name="Reg_2PwdInputNoMatch">Two password inputed No Match</data>
+  <data name="Reg_EmailTypeError">Format of email address is incorrect</data>
+  <data name="Reg_EmailAddressAlreadyExists">Email address already exists</data>
+  <data name="Reg_UserAccountActive">The user account active</data>
+  <data name="Reg_SendEmailFail">Send mail failed,please check the mail service</data>
+  <data name="Reg_Fail">Registration failed</data>
+  <data name="Reg_FailWithMsg">Registration failed:${msg}</data>
+  <data name="Reg_RegOkAndActiveByEmail">Registered successfully!please log on to your email to activate</data>
+  <data name="Reg_SuccessWillJumpMemberCenter">Congratulation! registered successfully</data>
+  <data name="Reg_Success">Congratulation! registered successfully</data>
+  <!-- 登录状态 -->
+  <data name="LoginStatus_UserNameIncorrect">User name wrong</data>
+  <data name="LoginStatus_EmailIncorrect">Mail address wrong</data>
+  <data name="LoginStatus_MobileIncorrect">Mobile No. wrong</data>
+  <data name="LoginStatus_PasswordIncorrect">Password wrong</data>
+  <data name="LoginStatus_MutilLoginFail">Continuous login failed</data>
+  <data name="LoginStatus_StatusNotAllow">Member status wrong</data>
+  <data name="LoginStatus_Success">Success</data>
+  <!-- 登录 -->
+  <data name="Login_LoginFailTooMany">Continuous login failed more than ${num} times, no log in 5 minutes</data>
+  <data name="Login_FailWithMsg">Login failed:${msg}</data>
+  <!-- 找回密码 -->
+  <data name="GetPwd_FindBackThePwd">会员找回密码</data>
+  <data name="GetPwd_UserNotExist">用户不存在</data>
+  <data name="GetPwd_NoSendMobileValidateCodeYet">尚未发送手机验证码</data>
+  <data name="GetPwd_MobileValidateCodeIncorrect">手机验证码不正确</data>
+  <data name="GetPwd_NewPwdNotEmpty">新密码不能为空</data>
+  <data name="GetPwd_NewPwdLenCannotLess6">新密码长度不能小于6位</data>
+  <data name="GetPwd_PasswordResetFailed">重置密码失败</data>
+  <data name="GetPwd_SendRestPwdMailSuccess">邮件发送成功,请登录邮箱查收邮件</data>
+  <data name="GetPwd_NotFindRegEmailAddress">没有找到注册邮箱地址</data>
+  <data name="GetPwd_RegEmailAddrIncorrect">注册邮箱地址格式不正确</data>
+  <!-- 重置密码 -->
+  <data name="ResetPwd_NotFindUserInfo">找不到会员信息</data>
+  <data name="ResetPwd_NewPwdNotEmpty">新密码不能为空</data>
+  <data name="ResetPwd_NewPwdConfirmNotEmpty">确认新密码不能为空</data>
+  <data name="ResetPwd_2PwdInputNoMatch">两次新密码输入不一致</data>
+  <data name="ResetPwd_NewPwdLenCannotLess6">新密码长度不能少于6位</data>
+  <data name="ResetPwd_InvalidEmailAddress">无效的邮箱地址</data>
+  <data name="ResetPwd_ResetPwdExpired">重置密码时间已过期</data>
+  <data name="ResetPwd_EmailAndRegEmailNoMatch">邮箱地址与注册邮箱不匹配</data>
+  <data name="ResetPwd_Fail">密码重置失败</data>
+  <data name="ResetPwd_Success">密码重置成功</data>
+  <!-- 会员激活 -->
+  <data name="UserAct_MemberNotExistOrDeleted">会员不存在或者已经被删除</data>
+  <data name="UserAct_InvalidParameter">参数无效</data>
+  <!-- 修改密码 -->
+  <data name="ChangePwd_OldPwdNotEmpty">原密码不正确</data>
+  <data name="ChangePwd_NewPwdNotEmpty">新密码不正确</data>
+  <data name="ChangePwd_2PwdInputNoMatch">两次新密码输入不一致</data>
+  <data name="ChangePwd_OldPwdIncorrect">原密码不正确</data>
+  <data name="ChangePwd_ModifyPwdSuccess">密码修改成功,请重新登录</data>
+  <data name="ChangePwd_ModifyPwdFail">密码修改失败</data>
+  <!-- 个人资料 -->
+  <data name="Profile_UpdateSuccess">个人资料更新成功</data>
+  <data name="Profile_UpdateFail">个人资料更新失败</data>
+  <!-- 收货地址 -->
+  <data name="Addr_ConsigneeNotEmpty">收件人不能为空</data>
+  <data name="Addr_DetailAddrNotEmpty">街道地址不能为空</data>
+  <data name="Addr_ZipCodeNotEmpty">邮政编码不能为空</data>
+  <data name="Addr_MobileOrPhoneMustOne">手机号码或者电话必填一项</data>
+  <data name="Addr_Success">操作成功</data>
+  <data name="Addr_AddFail">添加失败</data>
+  <data name="Addr_UpdateFail">修改失败</data>
+  <!-- 会员订单 -->
+  <data name="Order_StatusIncorrect">状态不符合</data>
+  <data name="Order_NoFindOrderInfo">没有找到订单信息</data>
+  <!-- 留言反馈 -->
+  <data name="Feedback_Title">${username}的留言信息</data>
+  <data name="Feedback_UserNameEmpty">姓名不能为空</data>
+  <data name="Feedback_ContentEmpty">内容不能为空</data>
+  <data name="Feedback_Success">留言成功,我们将尽快答复您!</data>
+  <data name="Feedback_SuccessButMailFail">留言成功,但邮件发送失败!</data>
+  <data name="Feedback_Fail">留言失败,请联系管理员!</data>
+  <!-- 邮件订阅 -->
+  <data name="DingYue_EmailNotEmpty">邮箱地址不能为空</data>
+  <data name="DingYue_EmailIncorrect">邮箱地址格式不正确</data>
+  <data name="DingYue_EmailExists">此邮箱已经加入了订阅</data>
+  <data name="DingYue_Success">恭喜您！订阅成功</data>
+  <!-- CMS UI -->
+  <data name="CMS_NodeNotExist">栏目不存在</data>
+  <data name="CMS_ContentNotExist">内容不存在</data>
+  <data name="CMS_NodeNeedLoginToView">本栏目内容需要登录查看</data>
+  <data name="CMS_TheUserGroupAccessDenied">您所在会员组没有权限查看本栏目内容</data>
+  <data name="CMS_TheUserLevelAccessDenied">您所在会员等级没有权限查看本栏目内容</data>
+  <data name="CMS_FileNotExist">文件不存在</data>
+  <data name="CMS_NotExistLanguageSet">不存在此语言设置</data>
+  <!-- WebIM-->
+  <data name="IM_Manager">Manager</data>
+  <data name="IM_User">User</data>
+  <data name="IM_CurrChator">The Current Chator</data>
+  <data name="IM_SendButton">Sned(Ctrl+Enter)</data>
+  <data name="IM_WebIMTitle">images/tit1_en.png</data>
+  <data name="IM_MsgRecordButton">images/btn2_en.png</data>
+  <data name="IM_MessageRecord">Message Record</data>
+  <data name="IM_SearchTxt">Search</data>
+  <data name="IM_DeleteMyRecord">Delete My Record</data>
+  <data name="IM_MessageNotEmpty">Please Enter The Message</data>
+  <data name="IM_ChooseTheChator">Please Choose The Chator</data>
+  <data name="IM_ParameterErroUserTypeIncorrect">Parameter Error</data>
+  <data name="IM_YouNotLoginPleaseLogin">Login Expire Or No Login,Try Login Again</data>
+  <data name="IM_MessageDeletedSuccess">The Message Has Deleted</data>
+  <data name="IM_BrowserTitle">${username} is online</data>
+  <data name="IM_ClickOnMyDialogue">Click To Chat</data>
+  <data name="IM_OffLine">Offline</data>
+  <!-- Shop-->
+  <data name="Shop_PleaseFillOutEnterpriseInfoWaitAuditInquiry">请先填写企业信息,管理员审核后,才能询价</data>
+  <data name="Shop_PleaseLogin">请先登录</data>
+  <data name="Shop_SellerNotExist">卖家不存在</data>
+  <data name="Shop_BuyInfoNotExist">求购信息不存在</data>
+  <data name="Shop_BuyInfoNotAudit">求购信息未审核</data>
+  <data name="Shop_ResInfoNotExist">现货资源信息不存在</data>
+  <data name="Shop_ResInfoNotAudit">现货资源信息未审核</data>
+  <data name="Shop_BizNotExist">商家不存在</data>
+  <data name="Shop_ProNotExist">商品不存在</data>
+  <data name="Shop_ProHaveShelf">商品已下架</data>
+  <data name="Shop_PleaseScore">请评分</data>
+  <data name="Shop_ParameterNotValid">参数不正确</data>
+  <data name="Shop_HaveYouEverToOrder">您已经评价过此订单</data>
+  <data name="Shop_EvaluationOrderSuccess">评价订单成功</data>
+  <data name="Shop_OperationFailed">操作失败</data>
+  <data name="Shop_OrderStateDoesNotComply">订单状态不符合</data>
+  <data name="Shop_IllegalData">数据非法</data>
+  <data name="Shop_CabinNotExist">该购物舱不存在</data>
+  <data name="Shop_CabinNotInquiry">该购物舱还未报价</data>
+  <data name="Shop_CabinNotView">该购物舱，您不能查看</data>
+  <data name="Shop_CabinNotSendConfir">该购物舱还未发送确认</data>
+  <data name="Shop_SaveSuccess">保存成功</data>
+  <data name="Shop_CabinSendConfirSuccess">发送卖家确认成功</data>
+  <data name="Shop_OnlyBuyerCabinSendConfir">只能是买家发送卖家确认</data>
+  <data name="Shop_ConfirSuccess">确认成功</data>
+  <data name="Shop_OnlySellerCabinConfir">只能是卖家确认</data>
+  <data name="Shop_OperationSuccess">操作成功</data>
+  <data name="Shop_OnlyBuyerCabinSendAgent">只能是买家发送买家代理询价</data>
+  <data name="Shop_OnlySellerCabinSendAgent">只能是卖家发送卖家代理询价</data>
+  <data name="Shop_YouNotPassAuditTemporarilyOutOfOrder">您还没有通过审核，暂时不能下订单</data>
+  <data name="Shop_TheShopCabinGenerateOrdersToView">该购物舱已生成订单，请到订单去查看</data>
+  <data name="Shop_YouNotInquiryPleaseInquiry">您还未发起询价,请在购物舱中发起询价</data>
+  <data name="Shop_BizNotOfferPleaseOfferAfterToSubmit">商家还未报价,请在购物舱中等待商家报价之后再提交</data>
+  <data name="Shop_BizNotConfirContractPleaseWaitBizOfferToSubmit">商家还未确认合同,请在生成合同订单中等待商家报价之后再提交</data>
+  <data name="Shop_OrdersSubmitErrorPleaseCheckDataOrContactAdmin">提交订单发生错误，请检查数据是否正确或联系网站管理员</data>
+  <data name="Shop_ObjectNotExistDeleteFailed">对象不存在，删除失败</data>
+</root>

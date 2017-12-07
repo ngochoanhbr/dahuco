@@ -1,0 +1,142 @@
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\obj\Debug\ResolveAssemblyReference.cache
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\bin\SinGooCMS.WebUI.dll
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\bin\SinGooCMS.WebUI.pdb
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.dll
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.MP.dll
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\bin\SinGooCMS.BLL.Custom.dll
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\bin\SinGooCMS.BLL.dll
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\bin\SinGooCMS.Common.dll
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\bin\SinGooCMS.Config.dll
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\bin\SinGooCMS.Control.dll
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\bin\SinGooCMS.Core.dll
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\bin\SinGooCMS.DAL.dll
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\bin\SinGooCMS.Entity.dll
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\bin\SinGooCMS.Extensions.dll
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\bin\SinGooCMS.Payments.dll
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\bin\SinGooCMS.Platform.dll
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\bin\SinGooCMS.Plugin.dll
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\bin\SinGooCMS.Utility.dll
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\bin\LitJSON.dll
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\bin\ThoughtWorks.QRCode.dll
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\bin\SinGooCMS.BLL.Custom.pdb
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\obj\Debug\SinGooCMS.WebUI.dll
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\obj\Debug\SinGooCMS.WebUI.pdb
+F:\产品研发\v1.3\开发版\UI\SinGooCMS.WebUI\bin\SinGooCMS.Weixin.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\SinGooCMS.WebUI.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\SinGooCMS.WebUI.pdb
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.MP.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.MP.Sample.CommonService.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.QY.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\SinGooCMS.BLL.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\SinGooCMS.Common.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\SinGooCMS.Config.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\SinGooCMS.Control.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\SinGooCMS.Core.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\SinGooCMS.DAL.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\SinGooCMS.Entity.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\SinGooCMS.Extensions.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\SinGooCMS.Plugin.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\SinGooCMS.Utility.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\LitJSON.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\ThoughtWorks.QRCode.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\NPOI.OOXML.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\NPOI.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\NPOI.OpenXmlFormats.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\NPOI.OpenXml4Net.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\ICSharpCode.SharpZipLib.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.pdb
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.MP.pdb
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.MP.Sample.CommonService.pdb
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.QY.pdb
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\SinGooCMS.BLL.pdb
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\SinGooCMS.Config.pdb
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\SinGooCMS.Control.pdb
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\SinGooCMS.Entity.pdb
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\SinGooCMS.Extensions.pdb
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\SinGooCMS.Plugin.pdb
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\bin\SinGooCMS.Utility.pdb
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\obj\Debug\SinGooCMS.WebUI.csprojResolveAssemblyReference.cache
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\obj\Debug\SinGooCMS.WebUI.dll
+D:\Mr. Hoanh\Code\Origin\UI\SinGooCMS.WebUI\obj\Debug\SinGooCMS.WebUI.pdb
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.WebUI.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.WebUI.pdb
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.MP.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.MP.Sample.CommonService.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.QY.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.BLL.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Common.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Config.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Control.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Core.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.DAL.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Entity.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Extensions.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Plugin.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Utility.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\LitJSON.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\ThoughtWorks.QRCode.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\NPOI.OOXML.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\NPOI.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\NPOI.OpenXmlFormats.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\NPOI.OpenXml4Net.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\ICSharpCode.SharpZipLib.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.pdb
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.MP.pdb
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.MP.Sample.CommonService.pdb
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.QY.pdb
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.BLL.pdb
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Config.pdb
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Control.pdb
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Entity.pdb
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Extensions.pdb
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Plugin.pdb
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Utility.pdb
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\obj\Debug\SinGooCMS.WebUI.csprojResolveAssemblyReference.cache
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\obj\Debug\SinGooCMS.WebUI.dll
+D:\Mr. Hoanh\Holybot\Code\UI\SinGooCMS.WebUI\obj\Debug\SinGooCMS.WebUI.pdb
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.WebUI.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.WebUI.pdb
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.MP.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.MP.Sample.CommonService.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.QY.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.BLL.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Common.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Config.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Control.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Core.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.DAL.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Entity.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Extensions.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Plugin.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Utility.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\LitJSON.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\ThoughtWorks.QRCode.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\NPOI.OOXML.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\NPOI.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\NPOI.OpenXmlFormats.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\NPOI.OpenXml4Net.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\ICSharpCode.SharpZipLib.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.pdb
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.MP.pdb
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.MP.Sample.CommonService.pdb
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\Senparc.Weixin.QY.pdb
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.BLL.pdb
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Config.pdb
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Control.pdb
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Entity.pdb
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Extensions.pdb
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Plugin.pdb
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Utility.pdb
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\obj\Debug\SinGooCMS.WebUI.csprojResolveAssemblyReference.cache
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\obj\Debug\SinGooCMS.WebUI.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\obj\Debug\SinGooCMS.WebUI.pdb
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Platform.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.BLL.Custom.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.WebIM.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Weixin.dll
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.Platform.pdb
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.BLL.Custom.pdb
+D:\dahuco\Code\Origin\A Minh\Code\UI\SinGooCMS.WebUI\bin\SinGooCMS.WebIM.pdb

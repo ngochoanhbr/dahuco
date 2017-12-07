@@ -1,0 +1,4 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="MultipleHtmlType.ascx.cs"
+    Inherits="SinGooCMS.WebUI.h5.Controls.FieldControls.MultipleHtmlType" %>
+<CKEditor:CKEditorControl ID="txtContent" PasteFromWordPromptCleanup="true" runat="server" Width="100%" Height="360"></CKEditor:CKEditorControl>
+<script type="text/javascript">    function upimg(str, elementID) {if (str == "undefined" || str == "") { return; } var ret = ""; $.each(str.split(','), function (i, item) { if (item != "") ret += "<img src='" + item + "' alt='' />"; }); CKEDITOR.instances[elementID].insertHtml(ret);}</script>

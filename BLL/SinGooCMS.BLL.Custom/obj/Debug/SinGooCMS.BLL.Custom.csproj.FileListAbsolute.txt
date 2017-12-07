@@ -1,0 +1,204 @@
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\obj\Debug\ResolveAssemblyReference.cache
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.Custom.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.Custom.pdb
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.pdb
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\NVelocity.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Plugin.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\System.Data.SQLite.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\Newtonsoft.Json.Net35.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\NPOI.OOXML.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\NPOI.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\ThoughtWorks.QRCode.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\MyXls.SL2.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\LitJSON.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\BouncyCastle.Crypto.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\NPOI.OpenXmlFormats.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\NPOI.OpenXml4Net.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\ICSharpCode.SharpZipLib.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.pdb
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Common.pdb
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Config.pdb
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Core.pdb
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.DAL.pdb
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Entity.pdb
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Utility.pdb
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\NVelocity.xml
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.pdb
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Plugin.pdb
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.Custom.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.Custom.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\NVelocity.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Plugin.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\System.Data.SQLite.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\Newtonsoft.Json.Net35.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\NPOI.OOXML.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\NPOI.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\ThoughtWorks.QRCode.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\MyXls.SL2.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\LitJSON.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\BouncyCastle.Crypto.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\NPOI.OpenXmlFormats.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\NPOI.OpenXml4Net.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\ICSharpCode.SharpZipLib.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Common.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Config.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Core.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.DAL.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Entity.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Utility.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\NVelocity.xml
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Plugin.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\obj\Debug\ResolveAssemblyReference.cache
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.pdb
+F:\UEProject\CMS项目开发版\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\obj\Debug\ResolveAssemblyReference.cache
+F:\UEProject\CMS项目开发版\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.dll
+F:\UEProject\CMS项目开发版\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.pdb
+F:\UEProject\CMS项目开发版\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.Custom.dll
+F:\UEProject\CMS项目开发版\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.Custom.pdb
+F:\UEProject\CMS项目开发版\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Config.dll
+F:\UEProject\CMS项目开发版\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\NVelocity.dll
+F:\UEProject\CMS项目开发版\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Plugin.dll
+F:\UEProject\CMS项目开发版\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.dll
+F:\UEProject\CMS项目开发版\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.dll
+F:\UEProject\CMS项目开发版\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\Newtonsoft.Json.Net35.dll
+F:\UEProject\CMS项目开发版\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\MyXls.SL2.dll
+F:\UEProject\CMS项目开发版\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\NPOI.dll
+F:\UEProject\CMS项目开发版\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\LitJSON.dll
+F:\UEProject\CMS项目开发版\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\ICSharpCode.SharpZipLib.dll
+C:\Documents and Settings\Administrator\桌面\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.Custom.dll
+C:\Documents and Settings\Administrator\桌面\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.Custom.pdb
+C:\Documents and Settings\Administrator\桌面\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Config.dll
+C:\Documents and Settings\Administrator\桌面\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\NVelocity.dll
+C:\Documents and Settings\Administrator\桌面\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Plugin.dll
+C:\Documents and Settings\Administrator\桌面\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.dll
+C:\Documents and Settings\Administrator\桌面\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.dll
+C:\Documents and Settings\Administrator\桌面\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\Newtonsoft.Json.Net35.dll
+C:\Documents and Settings\Administrator\桌面\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\MyXls.SL2.dll
+C:\Documents and Settings\Administrator\桌面\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\NPOI.dll
+C:\Documents and Settings\Administrator\桌面\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\LitJSON.dll
+C:\Documents and Settings\Administrator\桌面\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\lib\ICSharpCode.SharpZipLib.dll
+C:\Documents and Settings\Administrator\桌面\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.dll
+C:\Documents and Settings\Administrator\桌面\SinGooShopv1.2\Code\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.pdb
+\\192.168.1.15\y易家\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.Custom.dll
+\\192.168.1.15\y易家\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.Custom.pdb
+\\192.168.1.15\y易家\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Config.dll
+\\192.168.1.15\y易家\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Plugin.dll
+\\192.168.1.15\y易家\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.dll
+\\192.168.1.15\y易家\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.dll
+\\192.168.1.15\y易家\BLL\SinGooCMS.BLL.Custom\lib\Newtonsoft.Json.Net35.dll
+\\192.168.1.15\y易家\BLL\SinGooCMS.BLL.Custom\lib\LitJSON.dll
+\\192.168.1.15\y易家\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.csprojResolveAssemblyReference.cache
+\\192.168.1.15\y易家\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.dll
+\\192.168.1.15\y易家\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.pdb
+F:\熊佳恒\y易家\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.Custom.dll
+F:\熊佳恒\y易家\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.Custom.pdb
+F:\熊佳恒\y易家\Code\BLL\SinGooCMS.BLL.Custom\obj\Debug\ResolveAssemblyReference.cache
+F:\熊佳恒\y易家\Code\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.dll
+F:\熊佳恒\y易家\Code\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.pdb
+F:\熊佳恒\y易家\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Config.dll
+F:\熊佳恒\y易家\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Plugin.dll
+F:\熊佳恒\y易家\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.dll
+F:\熊佳恒\y易家\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.dll
+F:\熊佳恒\y易家\Code\BLL\SinGooCMS.BLL.Custom\lib\Newtonsoft.Json.Net35.dll
+F:\熊佳恒\y易家\Code\BLL\SinGooCMS.BLL.Custom\lib\LitJSON.dll
+F:\熊佳恒\y易家\Code\BLL\SinGooCMS.BLL.Custom\lib\BouncyCastle.Crypto.dll
+\\192.168.1.15\y易家\BLL\SinGooCMS.BLL.Custom\lib\BouncyCastle.Crypto.dll
+D:\Mr. Hoanh\Code\Easyhome\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.Custom.dll
+D:\Mr. Hoanh\Code\Easyhome\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.Custom.pdb
+D:\Mr. Hoanh\Code\Easyhome\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Config.dll
+D:\Mr. Hoanh\Code\Easyhome\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Plugin.dll
+D:\Mr. Hoanh\Code\Easyhome\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.dll
+D:\Mr. Hoanh\Code\Easyhome\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.dll
+D:\Mr. Hoanh\Code\Easyhome\Code\BLL\SinGooCMS.BLL.Custom\lib\Newtonsoft.Json.Net35.dll
+D:\Mr. Hoanh\Code\Easyhome\Code\BLL\SinGooCMS.BLL.Custom\lib\LitJSON.dll
+D:\Mr. Hoanh\Code\Easyhome\Code\BLL\SinGooCMS.BLL.Custom\lib\BouncyCastle.Crypto.dll
+D:\Mr. Hoanh\Code\Easyhome\Code\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.csprojResolveAssemblyReference.cache
+D:\Mr. Hoanh\Code\Easyhome\Code\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.dll
+D:\Mr. Hoanh\Code\Easyhome\Code\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.pdb
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.Custom.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.Custom.pdb
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Config.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\NVelocity.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Plugin.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\System.Data.SQLite.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\Newtonsoft.Json.Net35.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\ThoughtWorks.QRCode.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\MyXls.SL2.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\NPOI.OOXML.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\NPOI.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\LitJSON.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\BouncyCastle.Crypto.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\NPOI.OpenXmlFormats.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\NPOI.OpenXml4Net.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\ICSharpCode.SharpZipLib.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.pdb
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Common.pdb
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Core.pdb
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.DAL.pdb
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Entity.pdb
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Utility.pdb
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Config.pdb
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\NVelocity.xml
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Plugin.pdb
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.pdb
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.pdb
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.csprojResolveAssemblyReference.cache
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.pdb
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.csprojResolveAssemblyReference.cache
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.Custom.dll
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.Custom.pdb
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.dll
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.pdb
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Config.dll
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.dll
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.dll
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\MyXls.SL2.dll
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\NPOI.OOXML.dll
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\NPOI.dll
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\ThoughtWorks.QRCode.dll
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\Newtonsoft.Json.Net35.dll
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\NPOI.OpenXmlFormats.dll
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\NPOI.OpenXml4Net.dll
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\ICSharpCode.SharpZipLib.dll
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.pdb
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Entity.pdb
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Utility.pdb
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Config.pdb
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.pdb
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.pdb
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.Custom.dll
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.Custom.pdb
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Config.dll
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.dll
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.dll
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\MyXls.SL2.dll
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\NPOI.OOXML.dll
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\NPOI.dll
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\ThoughtWorks.QRCode.dll
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\Newtonsoft.Json.Net35.dll
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\NPOI.OpenXmlFormats.dll
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\NPOI.OpenXml4Net.dll
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\ICSharpCode.SharpZipLib.dll
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.pdb
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Entity.pdb
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Utility.pdb
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Config.pdb
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.pdb
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.pdb
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.csprojResolveAssemblyReference.cache
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.dll
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\obj\Debug\SinGooCMS.BLL.Custom.pdb

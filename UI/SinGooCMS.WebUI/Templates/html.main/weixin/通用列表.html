@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    #parse("inc/_meta.html")
+</head>
+<script>
+    var landor = window.landor || {}; landor.svgSupport = document.implementation.hasFeature("", "1.1"), landor.browserSpec = "addEventListener" in window && landor.svgSupport ? "html5" : "html4", landor.touch = "ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch, landor.smoothscroll = !0; try { var mod = "landorStorage"; localStorage.setItem(mod, mod), localStorage.removeItem(mod), landor.localstorage = !0 } catch (e) { landor.localstorage = !1 } if ("iP" !== navigator.platform.substr(0, 2) || window.indexedDB || (landor.smoothscroll = !1), function () { var a = document.documentElement, b = " js " + landor.browserSpec + (landor.touch ? " touch" : " no-touch") + (landor.svgSupport ? " svg" : " no-svg") + (landor.smoothscroll ? " smoothscroll" : "no-smoothscroll") + (landor.localstorage ? " localstorage" : "no-localstorage"); a.className = a.className.replace(/\bno-js\b/, b) } (), window.location.hash && window.location.href.indexOf("#!") > -1) { url = ""; var urlArray = window.location.hash.split("/"); "about" == urlArray[1] ? "news" == urlArray[2] ? urlArray[3] && urlArray[4] ? url = "/news/" + urlArray[4] : url = "/news" : "people" == urlArray[2] ? urlArray[3] ? url = "/about/meet-our-people#" + urlArray[3] : url = "/about/meet-our-people" : url = "/about" : "careers" == urlArray[1] ? url = "/join-our-team" : "locations" == urlArray[1] ? urlArray[2] ? url = "/offices/" + urlArray[2] : url = "/offices" : "talk" == urlArray[1] ? urlArray[2] && urlArray[3] && urlArray[4] ? url = "/thinking/" + urlArray[4] : urlArray[2] && urlArray[3] ? url = "/thinking/" + urlArray[3] : url = "/thinking" : "work" == urlArray[1] && (urlArray[2] && urlArray[3] ? url = "/work/" + urlArray[3] : url = "/work"), window.location = url }
+</script>
+<body data-behavior="header_scroll">
+    <!-- top -->
+    #parse("inc/_header.html")
+    <!-- top end -->
+    ##确定上级栏目 有上级就显示上级,没有则显示当前
+    #set($parentnode=$cms.GetNode($currnode.ParentID)) 
+    #if($parentnode==$null) #set($parentnode=$currnode)
+    #elseif($parentnode.NodeName=="中文" || $parentnode.NodeName=="English") #set($parentnode=$currnode) 
+    #end 
+    <div class="main" style="background: #e7e8eb;">
+        <div class="container" style="background: #fff; margin-top: 40px; padding: 0;">
+            <div class="col-md-2 col-sm-2 text-center hidden-xs">
+                <ul class="help nav">
+                    ##确定默认栏目 子栏目遍历
+                    #if($parentnode.ChildCount>0)
+                        #foreach($item in $cms.GetChildNodes($parentnode.AutoID))
+                        #if($key==1) #set($defnode=$item) #end
+                        <li><a #if(($parentnode.AutoID==$currnode.AutoID && $key==1) || $currnode.AutoID==$item.AutoID)class="on"#end href="${item.NodeUrl}">${item.NodeName}</a></li>
+                        #end
+                    #else
+                        <li><a class="on" href="$parentnode.NodeUrl">$parentnode.NodeName</a></li>
+                    #end
+                </ul>
+            </div>
+            <div class="col-md-10 col-sm-10" style="border-left: 1px solid #e7e7eb;">
+                <div class="pagex">
+                    <div class="pagex-hd">
+                        ${currnode.NodeName}
+                    </div>
+                    <div class="pagex-bd pagex">
+                        <ul class="support-download-box">
+                            #foreach($item in $cms.GetContents(${currnode.AutoID},"","",$pager.PageIndex,$pager.PageSize))
+                            <li><a href="${item.ContentUrl}" target="_blank">${item.Title}</a><span>${item.AutoTimeStamp.ToString("yyyy-MM-dd")}</span> </li>
+                            #end
+                        </ul>
+                    </div>
+                    #parse("inc/_pager.html")
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--底部-->
+    #parse("inc/_footer.html")
+    <!--底部 end-->
+    <script type="text/javascript" src="dist/js/scrollReveal.js"></script>
+    <script>
+        (function () {
+            window.scrollReveal = new scrollReveal({ reset: false, move: '50px' });
+        })();
+    </script>
+</body>
+</html>

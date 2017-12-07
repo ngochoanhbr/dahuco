@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <!-- Hệ thống -->
+  <data name="SystemAlertTitle">Hệ thống gợi ý</data>
+  <data name="DialogTitle">Gợi ý</data>
+  <data name="ValidateCodeIncorrect">Mã xác nhận không chính xác!</data>
+  <data name="SendEmailFail">Email gửi không thành công, xin vui lòng kiểm tra email đã mở tính năng SMTP hay chưa</data>
+  <!-- Người dùng -->
+  <data name="UserStatus_Error">Phát sinh lỗi</data>
+  <data name="UserStatus_UserNameNoValidate">Tên tài khoản không phù hợp</data>
+  <data name="UserStatus_EmailNoValidate">Email không đúng</data>
+  <data name="UserStatus_MobileNoValidate">Số điện thoại không đúng</data>
+  <data name="UserStatus_ExistsUserName">Tên tài khoản đã được sử dụng</data>
+  <data name="UserStatus_ExistsEmail">Email đã được sử dụng</data>
+  <data name="UserStatus_ExistsMobile">Số điện thoại đã được sử dụng</data>
+  
+  <data name="Release_Exists">Sản phẩm này đã được đăng với mã sản phẩm：${msg}  Vui lòng đăng sản phẩm khác</data>
+  <!-- Đăng ký -->
+  <data name="Reg_MemberInfoNotComplete">Thông tin thành viên không đầy đủ, thông tin nhóm thành viên và cấp bậc thành viên phải đầy đủ</data>
+  <data name="Reg_InvalidUserNameForMobile">Tên tài khoản không hợp lệ, xin vui lòng nhập đúng số điện thoại</data>
+  <data name="Reg_InvalidUserNameForEmail">Tên tài khoản không hợp lệ, xin vui lòng nhập đúng địa chỉ email</data>
+  <data name="Reg_InvalidUserName">Tên thành viên không hợp lệ</data>
+  <data name="Reg_SystemRetainsUserName">${username}! Hệ thống đã lưu giữ tên thành viên của bạn, xin vui lòng lựa chọn các tên tài khoản khác</data>
+  <data name="Reg_UserNameLenNeed">Tên tài khoản không được ít hơn 6 kí tự</data>
+  <data name="Reg_UserNameAlreadyExists">Tên tài khoản đã được sử dụng</data>
+  <data name="Reg_UserPwdLenNeed">Mật mã không được ít hơn 6 kí tự</data>
+  <data name="Reg_2PwdInputNoMatch">Hai mật khẩu không khớp với nhau</data>
+  <data name="Reg_EmailTypeError">Email không chính xác</data>
+  <data name="Reg_EmailAddressAlreadyExists">Địa chỉ email đã được sử dụng</data>
+  <data name="Reg_MobileTypeError">Số điện thoại di động không chính xác</data>
+  <data name="Reg_MobileAlreadyExists">Số điện thoại di động đã được sử dụng</data>
+  <data name="Reg_UserAccountActive">Kích hoạt tài khoản thành viên</data>
+  <data name="Reg_SendEmailFail">Email gửi không thành công, xin vui lòng kiểm tra email đã mở tính năng SMTP hay chưa</data>
+  <data name="Reg_Fail">Đăng ký thành viên thất bại</data>
+  <data name="Reg_FailWithMsg">Đăng ký thất bại：${msg}</data>
+  <data name="Reg_RegOkAndActiveByEmail">Đăng ký thành công, xin vui lòng đăng nhập email để kích hoạt tài khoản thành viên</data>
+  <data name="Reg_SuccessWillJumpMemberCenter">Chúc mừng quý khách đã đăng ký tài khoản thành công, trang web sẽ chuyển về trang chủ!</data>
+  <data name="Reg_Success">Chúc mừng quý khách đã đăng ký thành công, xin vui lòng đăng nhập tài khoản</data>
+  <!-- Đăng nhập -->
+  <data name="LoginStatus_UserNameIncorrect">Tên tài khoản không chính xác</data>
+  <data name="LoginStatus_EmailIncorrect">Địa chỉ email không chính xác</data>
+  <data name="LoginStatus_MobileIncorrect">Số điện thoại di động không chính xác</data>
+  <data name="LoginStatus_PasswordIncorrect">Mật mã không chính xác</data>
+  <data name="LoginStatus_MutilLoginFail">Đăng nhập liên tiếp thất bại nhiều lần</data>
+  <data name="LoginStatus_StatusNotAllow">Trạng thái đăng nhập chưa được xác định</data>
+  <data name="LoginStatus_Success">Thành công</data>
+  <!-- Đăng nhập thất bại -->
+  <data name="Login_LoginFailTooMany">Đăng nhập liên tục ${num} lần thất bại, không được phép đăng nhập trong 5 phút</data>
+  <data name="Login_FailWithMsg">Đăng nhập thất bại：${msg}</data>
+  <!-- Lấy lại mật khẩu -->
+  <data name="GetPwd_FindBackThePwd">Tìm lại mật mã</data>
+  <data name="GetPwd_UserNotExist">Tài khoản không tồn tại</data>
+  <data name="GetPwd_NoSendMobileValidateCodeYet">Chưa gửi mã xác nhận</data>
+  <data name="GetPwd_MobileValidateCodeIncorrect">Mã xác nhận không chính xác</data>
+  <data name="GetPwd_NewPwdNotEmpty">Mật khẩu mới không được để trống</data>
+  <data name="GetPwd_NewPwdLenCannotLess6">Mật khẩu mới không được ít hơn 6 kí tự</data>
+  <data name="GetPwd_PasswordResetFailed">Đặt lại mật khẩu thất bại</data>
+  <data name="GetPwd_SendRestPwdMailSuccess">Email đã gửi đi thành công, xin vui lòng đăng nhập email để nhận thư</data>
+  <data name="GetPwd_NotFindRegEmailAddress">Không tìm được địa chỉ email đăng ký</data>
+  <data name="GetPwd_RegEmailAddrIncorrect">Địa chỉ email đăng ký không chính xác</data>
+  <!-- Đặt lại mật khẩu -->
+  <data name="ResetPwd_NotFindUserInfo">Không tìm được thông tin thành viên</data>
+  <data name="ResetPwd_NewPwdNotEmpty">Mật khẩu mới không được để trống</data>
+  <data name="ResetPwd_NewPwdConfirmNotEmpty">Xác nhận lại mật khẩu mới không được để trống</data>
+  <data name="ResetPwd_2PwdInputNoMatch">Hai mật khẩu mới không khớp với nhau</data>
+  <data name="ResetPwd_NewPwdLenCannotLess6">Mật khẩu mới không được ít hơn 6 kí tự</data>
+  <data name="ResetPwd_InvalidEmailAddress">Địa chỉ email không có thực</data>
+  <data name="ResetPwd_ResetPwdExpired">Đã quá thời gian thiết lập lại mật khẩu</data>
+  <data name="ResetPwd_EmailAndRegEmailNoMatch">Địa chỉ email không phù hợp với email đăng ký</data>
+  <data name="ResetPwd_Fail">Thiết lập mật khẩu thất bại</data>
+  <data name="ResetPwd_Success">Thiết lập mật khẩu thành công</data>
+  <!-- Kích hoạt thành viên -->
+  <data name="UserAct_MemberNotExistOrDeleted">Thành viên không tồn tại hoặc đã bị xóa đi</data>
+  <data name="UserAct_InvalidParameter">Tham số không hợp lệ</data>
+  <!-- Thay đổi mật khẩu -->
+  <data name="ChangePwd_OldPwdNotEmpty">Mật khẩu cũ không chính xác</data>
+  <data name="ChangePwd_NewPwdNotEmpty">Mật khẩu mới không chính xác</data>
+  <data name="ChangePwd_2PwdInputNoMatch">Hai mật khẩu mới nhập không khớp nhau</data>
+  <data name="ChangePwd_OldPwdIncorrect">Mật khẩu cũ không chính xác</data>
+  <data name="ChangePwd_ModifyPwdSuccess">Mật khẩu thay đổi thành công, xin vui lòng đăng nhập lại</data>
+  <data name="ChangePwd_ModifyPwdFail">Mật khẩu thay đổi thất bại</data>
+  <!-- Thông tin cá nhân -->
+  <data name="Profile_UpdateSuccess">Thông tin cá nhân cập nhật thành công</data>
+  <data name="Profile_UpdateFail">Thông tin cá nhân cập nhật thất bại</data>
+  <!-- Công ty -->
+  <data name="Comp_NameNotEmpty">Tên công ty không được để trống</data>
+  <data name="Comp_AddressNotEmpty">Địa chỉ không được để trống</data>
+  <data name="Comp_PhoneNotEmpty">Điện thoại không được để trống</data>
+  <data name="Comp_AddFail">Thêm thất bại</data>
+  <data name="Comp_Success">Thực hiện thành công</data>
+  <data name="Comp_UpdateFail">Chỉnh sửa thất bại</data>
+  <data name="Comp_DeleteFail">Xóa công ty thất bại</data>
+  <!-- Đơn hàng -->
+  <data name="Order_StatusIncorrect">Trạng thái không phù hợp</data>
+  <data name="Order_NoFindOrderInfo">Không tìm được thông tin đơn đặt hàng</data>
+  <!-- Phản hồi -->
+  <data name="Feedback_Title"> Tin nhắn của ${username}</data>
+  <data name="Feedback_UserNameEmpty">Họ tên không được để trống</data>
+  <data name="Feedback_ContentEmpty">Nội dung không được để trống</data>
+  <data name="Feedback_Success">Để lại tin nhắn gửi lại thành công, chúng tôi sẽ trả lời lại với quý khách trong thời gian sớm nhất!</data>
+  <data name="Feedback_SuccessButMailFail">Để lại tin nhắn thành công, nhưng email không thành công!</data>
+  <data name="Feedback_Fail">Để lại tin nhắn không thành công, hãy liên hệ lại với chúng tôi!</data> 
+  <!--  -->
+  <data name="DingYue_EmailNotEmpty">Địa chỉ email không được để trống</data>
+  <data name="DingYue_EmailIncorrect">Địa chỉ email không hợp lệ</data>
+  <data name="DingYue_EmailExists">Email này đã được thêm vào danh sách theo dõi</data>
+  <data name="DingYue_Success">Chúc mừng bạn! Đã theo dõi thành công!</data>
+  <!-- CMS UI -->
+  <data name="CMS_NodeNotExist">Cột không tồn tại</data>
+  <data name="CMS_ContentNotExist">Nội dung không tồn tại</data>
+  <data name="CMS_NodeNeedLoginToView">Nội dung của cột này cần phải đăng nhập</data>
+  <data name="CMS_TheUserGroupAccessDenied">Bạn nằm trong nhóm thành viên không có quyền hạn xem nội dung cột này</data>
+  <data name="CMS_TheUserLevelAccessDenied">Cấp độ thành viên của bạn không có quyền hạn xem nội dung cột này</data>
+  <data name="CMS_FileNotExist">Dữ liệu không tồn tại</data>
+  <data name="CMS_NotExistLanguageSet">Không có tồn tại thiết lập ngôn ngữ này</data>
+  <!-- WebIM-->
+  <data name="IM_Manager">Manager Quản lý</data>
+  <data name="IM_User">User Người dùng</data>
+  <data name="IM_CurrChator">The Current Chator  </data>
+  <data name="IM_SendButton">Send(Ctrl+Enter)</data>
+  <data name="IM_WebIMTitle">images/tit1_en.png</data>
+  <data name="IM_MsgRecordButton">images/btn2_en.png</data>
+  <data name="IM_MessageRecord">Message Record</data>
+  <data name="IM_SearchTxt">Search</data>
+  <data name="IM_DeleteMyRecord">Delete My Record</data>
+  <data name="IM_MessageNotEmpty">Please Enter The Message</data>
+  <data name="IM_ChooseTheChator">Please Choose The Chator</data>
+  <data name="IM_ParameterErroUserTypeIncorrect">Parameter Error</data>
+  <data name="IM_YouNotLoginPleaseLogin">Login Expire Or No Login,Try Login Again</data>
+  <data name="IM_MessageDeletedSuccess">The Message Has Deleted</data>
+  <data name="IM_BrowserTitle">${username} is online</data>
+  <data name="IM_ClickOnMyDialogue">Click To Chat</data>
+  <data name="IM_OffLine">Offline</data>
+  <!-- Shop-->
+  <data name="Shop_PleaseFillOutEnterpriseInfoWaitAuditInquiry">Xin vui lòng nhập thông tin công ty, sau khi nhân viên kiểm duyệt, sẽ bắt đầu tìm giá</data>
+  <data name="Shop_PleaseLogin">Xin vui lòng đăng nhập trước</data>
+  <data name="Shop_SellerNotExist">Phía bán không tồn tại</data>
+  <data name="Shop_BuyInfoNotExist">Thông tin tìm mua không tồn tại</data>
+  <data name="Shop_BuyInfoNotAudit">Thông tin tìm mua chưa được kiểm duyệt</data>
+  <data name="Shop_ResInfoNotExist">Thông tin nguồn hàng không tồn tại</data>
+  <data name="Shop_ResInfoNotAudit">Thông tin nguồn hàng chưa được kiểm duyệt</data>
+  <data name="Shop_BizNotExist">Nhà cung cấp không tồn tại</data>
+  <data name="Shop_ProNotExist">Sản phẩm không tồn tại</data>
+  <data name="Shop_ProHaveShelf">Sản phẩm đã hết</data>
+  <data name="Shop_PleaseScore">Vui lòng đánh giá</data>
+  <data name="Shop_ParameterNotValid">Tham số không chính xác</data>
+  <data name="Shop_HaveYouEverToOrder">Bạn đã đánh giá đơn hàng này</data>
+  <data name="Shop_EvaluationOrderSuccess">Đánh giá đơn hàng thành công</data>
+  <data name="Shop_OperationFailed">Thao tác thất bại</data>
+  <data name="Shop_OrderStateDoesNotComply">Trạng thái đơn hàng không phù hợp</data>
+  <data name="Shop_IllegalData">Số liệu không đúng</data>
+  <data name="Shop_CabinNotExist">Kho hàng này không tồn tại</data>
+  <data name="Shop_CabinNotInquiry">Kho hàng này chưa báo giá</data>
+  <data name="Shop_CabinNotView">Kho hàng này bạn không được xem</data>
+  <data name="Shop_CabinNotSendConfir">Kho hàng này chưa xác nhận</data>
+  <data name="Shop_SaveSuccess">Lưu trữ thành công</data>
+  <data name="Shop_CabinSendConfirSuccess">Thông tin gửi cho người bán thành công</data>
+  <data name="Shop_OnlyBuyerCabinSendConfir">Chỉ có người mua mới gửi thông tin xác nhận được cho người bán</data>
+  <data name="Shop_ConfirSuccess">Xác nhận thành công</data>
+  <data name="Shop_OnlySellerCabinConfir">Chỉ có người bán xác nhận được</data>
+  <data name="Shop_OperationSuccess">Thao tác thành công</data>
+  <data name="Shop_OnlyBuyerCabinSendAgent">Chỉ có người mua mới gửi </data>
+</root>

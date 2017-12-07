@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" Inherits="SinGooCMS.WebUI.h5.Controls.FieldControls.DateTimeType" %>
+<asp:TextBox ID="txtField" Width="150px" runat="server" CssClass="form-control" date-selector='true'></asp:TextBox>

@@ -1,0 +1,10 @@
+G:\JsonLeeCMS\JsonLeeCMS_Developer\JsonLeeCMS.Logic\bin\Debug\JsonLeeCMS.BLL.Demo.dll
+G:\JsonLeeCMS\JsonLeeCMS_Developer\JsonLeeCMS.Logic\bin\Debug\JsonLeeCMS.BLL.Demo.pdb
+G:\JsonLeeCMS\JsonLeeCMS_Developer\JsonLeeCMS.Logic\obj\Debug\ResolveAssemblyReference.cache
+G:\JsonLeeCMS\JsonLeeCMS_Developer\JsonLeeCMS.Logic\obj\Debug\JsonLeeCMS.BLL.Demo.dll
+G:\JsonLeeCMS\JsonLeeCMS_Developer\JsonLeeCMS.Logic\obj\Debug\JsonLeeCMS.BLL.Demo.pdb
+G:\JsonLeeCMS\JsonLeeCMS_Developer\BLL\JsonLeeCMS.BLL.Demo\bin\Debug\JsonLeeCMS.BLL.Demo.dll
+G:\JsonLeeCMS\JsonLeeCMS_Developer\BLL\JsonLeeCMS.BLL.Demo\bin\Debug\JsonLeeCMS.BLL.Demo.pdb
+G:\JsonLeeCMS\JsonLeeCMS_Developer\BLL\JsonLeeCMS.BLL.Demo\obj\Debug\ResolveAssemblyReference.cache
+G:\JsonLeeCMS\JsonLeeCMS_Developer\BLL\JsonLeeCMS.BLL.Demo\obj\Debug\JsonLeeCMS.BLL.Demo.dll
+G:\JsonLeeCMS\JsonLeeCMS_Developer\BLL\JsonLeeCMS.BLL.Demo\obj\Debug\JsonLeeCMS.BLL.Demo.pdb

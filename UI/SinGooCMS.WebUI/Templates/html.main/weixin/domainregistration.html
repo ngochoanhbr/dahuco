@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    #parse("inc/_meta.html")
+    <link href="/Include/Plugin/artDialog/skins/idialog.css" rel="stylesheet" type="text/css" />
+    <script src="/Include/Plugin/artDialog/jquery.artDialog.js" type="text/javascript"></script>
+    <script src="/Include/Plugin/artDialog/plugins/iframeTools.js" type="text/javascript"></script>
+    <script src="/Include/Script/publicfun.js" type="text/javascript"></script>
+</head>
+<body style="background: #ebebeb;">
+    <header class="main-header" style="background-image: url(${mbpath}dist/images/44e1c4e50d55159c65da6a41bc07e.jpg);">
+        <div class="container">
+            <div class="col-xs-12">
+                <h1>域名注册</h1>
+            </div>
+            <div class="col-sm-12">
+                <a href="/" class="btn btn-default btn-doc">返回首页</a>
+            </div>
+        </div>
+    </header>
+    <nav class="main-navigation">
+        <div class="container">
+            <div class="navbar-header" data-scroll-reveal="enter left over 1.5s">
+                <ul id="myTab" class="nav nav-tabs">
+                    <li class="active"><a href="#home" data-toggle="tab">英文域名</a></li>
+                    <li><a href="#ios" data-toggle="tab">中文域名</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" style="margin-bottom: 35px;">
+        <main class="col-md-8 main-content" data-scroll-reveal="enter top over 2s">
+            <div class="post">
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade in active" id="home">
+                        <div class="domain-search clear-fix input-group">
+                            <input type="text" class="form-control" id="enname" placeholder="输入您想要的域名，如 ue">
+                            <div class="input-group-btn">
+                                <button type="button" class="btn btn-default btn-go-sch" onclick="queryENDomain()">查询</button>
+                            </div>
+                        </div>
+                        <div class="domain-box clear">
+                            <div class="domain-list clear-fix">
+                                <ul id="endomains">
+                                    #foreach($item in $cmsext.GetENDomains())
+                                    <li #if(${item.Domain}==".com" || ${item.Domain}==".net" || ${item.Domain}==".top") class="checked" #end>$!{item.Domain}</li>
+                                    #end
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="ios">
+                        <div class="domain-search clear-fix input-group">
+                            <input type="text" class="form-control" id="cnname" placeholder="输入您想要的域名，如 联华">                            
+                            <div class="input-group-btn">
+                                <button type="button" class="btn btn-default btn-go-sch" onclick="queryCNDomain()">查询</button>
+                            </div>
+                        </div>
+                        <div class="domain-box clear">
+                            <div class="domain-list clear-fix">
+                                <ul id="cndomains">
+                                    #foreach($item in $cmsext.GetCNDomains())
+                                    <li #if(${item.Domain}==".com" || ${item.Domain}==".net" || ${item.Domain}==".top") class="checked" #end>$!{item.Domain}</li>
+                                    #end
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <aside class="col-md-4 sidebar" data-scroll-reveal="enter right over 2.5s">
+            <div class="widget">
+                <h4 class="title">域名动态</h4>
+                <div class="content  tag-cloud">
+                    #foreach($item in ${cms.GetContents(2,"","Sort Asc,AutoID Desc",1,10)})
+                    <a href="${item.ContentUrl}" target="_blank">
+                        ${item.Title}
+                    </a>
+                    #end
+                </div>
+            </div>
+        </aside>
+    </div>
+    <!--底部-->
+    #parse("inc/_footer.html")
+    <!--底部 end-->    
+</body>
+</html>
+<script type="text/javascript" src="${mbpath}dist/js/scrollReveal.js"></script>
+<script type="text/javascript">
+    (function () {
+        window.scrollReveal = new scrollReveal({ reset: false, move: '100px' });
+    })();
+
+    jQuery("#endomains li,#cndomains li").click(function () {
+        if (!jQuery(this).hasClass("checked")) {
+            var max = 0;
+            if (jQuery(this).parent().attr("id") == "endomains")
+                max = countEN().length;
+            if (jQuery(this).parent().attr("id") == "cndomains")
+                max = countCN().length;
+            if (max > 5)
+                showtip("最多可选择5个域名选项");
+            else
+                jQuery(this).addClass("checked");
+        } else {
+            jQuery(this).removeClass("checked");
+        }
+    });
+    //选中了多少个
+    function countEN() {
+        return count("#endomains li");
+    }
+    function countCN() {
+        return count("#cndomains li");
+    }
+    function count(e) {
+        var arrDomain = new Array();
+        jQuery.each(jQuery(e), function (index, item) {
+            if (jQuery(item).hasClass("checked"))
+                arrDomain.push(jQuery(item).text().trim());
+        });
+
+        return arrDomain;
+    }
+    function queryENDomain() {
+        httpPost(jQuery("#enname").val(), countEN().toString());
+    }
+    function queryCNDomain() {
+        httpPost(jQuery("#cnname").val(), countCN().toString());
+    }
+    function httpPost(name, dns) {
+        if (name == "")
+            showtip("请输入查询的域名");
+        else if (dns == "")
+            showtip("请选择域名后缀");
+        else
+            location = "/biz/domain/query?name="+encodeURI(name)+"&dns="+encodeURI(dns);
+
+        return false;
+    }
+</script>

@@ -1,0 +1,16 @@
+﻿document.write("<section class=\"es-poster hz-poster\"> "); 
+document.write("	<div class=\"swiper-container\"> "); 
+document.write("	    <div class=\"swiper-wrapper\"> "); 
+#foreach($item in $ads)
+document.write("	        <div class=\"swiper-slide\" style=\"background-image:url(${item.AdMediaPath})\"> "); 
+#if(${item.AdLink}=="#" || ${item.AdLink}=="")
+document.write("		      	<a href=\"javascript:void(0)\" title=\"$!{item.AdText}\"></a> "); 
+#else
+document.write("		      	<a href=\"${item.AdLink}\" target=\"_blank\" title=\"$!{item.AdText}\"></a> "); 
+#end
+document.write("		    </div> "); 
+#end
+document.write("	    </div> "); 
+document.write("	    <div class=\"swiper-pagination\"></div> "); 
+document.write("	</div> "); 
+document.write("</section> "); 

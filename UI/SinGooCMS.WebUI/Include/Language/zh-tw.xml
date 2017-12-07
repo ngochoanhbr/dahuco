@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <data name="DialogTitle">温馨提示</data>
+  <data name="Login_ValidateCodeError">验证码不正确!</data>
+  <data name="Login_LoginFailTooMany">连续登录失败超过${num}次，5分钟内禁止登录</data>
+  <data name="Reg_ValidateCodeError">验证码不正确！</data>
+  <data name="Reg_UserNameLenNeed">用户名长度不少于6位</data>
+  <data name="Reg_UserPwdLenNeed">密码长度不少于6位</data>
+  <data name="Reg_2PwdInputNoMatch">两次密码输入不一致</data>
+  <data name="Reg_EmailTypeError">邮箱格式不正确</data>
+  <data name="Reg_Success">恭喜您,注册成功,请登录会员</data>
+  <data name="Reg_Fail">注册失败</data>
+  <data name="Feedback_ValidateCodeError">验证码不能为空</data>
+  <data name="Feedback_UserNameEmpty">姓名不能为空</data>
+  <data name="Feedback_ContentEmpty">内容不能为空</data>
+  <data name="Feedback_Success">留言成功,我们将尽快答复您!</data>
+  <data name="Feedback_SuccessButMailFail">留言成功,但邮件发送失败!</data>
+  <data name="Feedback_Fail">留言失败,请联系管理员!</data>
+
+  <!-- Utility -->
+  <data name="Home">商城首页</data>
+  <data name="News">新闻中心</data>
+  <data name="GuestBook">留言薄</data>
+  <data name="MemberLogin">用户登陆</data>
+  <data name="LeftNavigation">商品分类</data>
+  <data name="SetAsHomepage">设为首页</data>
+  <data name="AddToFavorite">我的收藏夹</data>
+  <data name="ContactUs">联系我们</data>
+  <data name="SimplifiedCharacter">简</data>
+  <data name="ComplexFont">繁</data>
+  <data name="English">英</data>
+  <data name="Search">Tìm</data>
+  <data name="ProductSearch">商品Tìm</data>
+  <data name="MemberCenter">用户中心</data>
+  <data name="Register">用户注册</data>
+  <data name="HelpCenter">帮助中心</data>
+  <data name="HelpNavigation">帮助导航</data>
+  <data name="Pertinent">相关问题</data>
+  <data name="charset">gb2312</data>
+  <data name="WhereYouAre">您的位置：</data>
+  <data name="PreviousPage">上一页</data>
+  <data name="NextPage">下一页</data>
+  <data name="InputError">输入有误</data>
+  <data name="Cancel">取消</data>
+  <data name="More">更多</data>
+  <data name="PleaseLogin">请先登录</data>
+  <data name="HadFavourite">您的收藏夹已经有了这个物品</data>
+  <data name="FavouriteSucc">收藏成功</data>
+  <data name="bbs">客服论坛</data>
+  <data name="PriceCenter">报价中心</data>
+  <data name="UserNewlyViewProducts">最近浏览的商品</data>
+  <data name="GlobalInfo">请不要更改Global文件</data>
+  <!-- End Utility -->
+  <!-- General -->
+  <data name="MsgYourRequestHasBeenCompleted">您的操作已成功</data>
+  <data name="MsgAccountOrPasswordIncorrect">登录信息错误，请重新登录</data>
+  <data name="MsgCodeIncorrect">验证码错误</data>
+  <data name="MsgAnonymousNotAllow">暂不支持匿名购买，请联系网店管理员</data>
+  <data name="MsgPleaseSignInFirst">请先登陆</data>
+  <data name="MsgPasswordIncorrect">密码不正确</data>
+  <data name="MsgEmailIncorrect">Email不正确</data>
+  <data name="MsgQuestionAndAnswerRequest">取回密码问题和答案必须填写</data>
+  <data name="DateTimeFormatYMD">yyyy-MM-dd</data>
+  <!-- End General -->
+  <!-- Login -->
+  <data name="MemberForm">会员登录</data>
+  <data name="LoginAccountRequest">请填写会员号</data>
+  <data name="LoginPasswordRequest">请填写密码</data>
+  <data name="LoginTextCodeRequest">请填写验证码</data>
+  <data name="LoginTextAccount">帐  号：</data>
+  <data name="LoginTextPassword">密  码：</data>
+  <data name="LoginTextCode">验  证：</data>
+  <data name="LoginTextActive">有效期：</data>
+  <data name="LoginTextKeep1Hour">不保留</data>
+  <data name="LoginTextKeep1Day">保留一天</data>
+  <data name="LoginTextKeep1Week">保留一周</data>
+  <data name="LoginTextKeep1Month">保留一月</data>
+  <data name="LoginTextKeep1Year">保留一年</data>
+  <data name="LoginButtonLogin">登陆</data>
+  <data name="LoginButtonRegister">注册</data>
+  <data name="LoginButtonForgotPassword">忘记密码？</data>
+  <data name="LoginButtonBuyNow">直接购买</data>
+  <data name="ShopManage">管理后台</data>
+  <data name="Logout">退出</data>
+  <data name="AdminLoginButtonLogin">　</data>
+  <data name="LoginError">登录失败</data>
+  <data name="CertificationError">验证码失败</data>
+  <!-- End Login -->
+  <!-- News -->
+  <data name="ShopNews">商城动态</data>
+  <data name="NewsList">新闻列表</data>
+  <data name="LastNews">最新新闻</data>
+  <data name="NewsCategories">新闻类别</data>
+  <data name="NewsPagerFormat">当前页{0}，共{1}页 当前新闻为{2}，共{3}个新闻</data>
+  <!-- End News-->
+  <!-- ShoppingCart-->
+  <data name="ShoppingCart">购物车</data>
+  <data name="ShoppingCartProductNum">物品数量</data>
+  <data name="ShoppingCartTotalPrice">共计</data>
+  <data name="ShoppingCartViewCart">进入购物车</data>
+  <data name="ButtonCartChange">cart_change_zh.gif</data>
+  <data name="ButtonCartClear">cart_clear_zh.gif</data>
+  <data name="ButtonCartContinue">cart_continue_zh.gif</data>
+  <data name="ButtonCartNext">cart_next_zh.gif</data>
+  <data name="ReceiverInfo">收货人信息</data>
+  <data name="ReceiverAddress">收货地点</data>
+  <data name="ReceiverName">收货人姓名</data>
+  <data name="ReceiverEmail">收货人Email</data>
+  <data name="ReceiverTelephone">收货人电话</data>
+  <data name="ReceiverPostalcode">收货人邮编</data>
+  <data name="ReceiverSameAsBuyer">购买人与收货人相同</data>
+  <data name="BuyerInfo">购买人信息</data>
+  <data name="BuyerAddress">购买人地址</data>
+  <data name="BuyerName">购买人姓名</data>
+  <data name="BuyerEmail">购买人Email</data>
+  <data name="BuyerTelephone">购买人电话</data>
+  <data name="BuyerPostalcode">购买人邮编</data>
+  <data name="BuyerMemberName">用户名</data>
+  <data name="ShippingInfo">配送信息</data>
+  <data name="ShippingPrice">配送价格</data>
+  <data name="PaymentInfo">支付方式</data>
+  <data name="OrderComment">订单附言</data>
+  <data name="NoProductCanNoCheckOut">您的购物车没有商品，不能结帐！</data>
+  <data name="ProductNotExist">该商品不存在！</data>
+  <data name="ProductNotForSale">该商品暂停销售！</data>
+  <data name="ProductNotStorage">该商品缺货，暂时不能购买！</data>
+  <!-- End ShoppingCart-->
+
+  <!-- Poll-->
+  <data name="Poll">网站调查</data>
+  <data name="PollSubmit">投票</data>
+  <data name="PollResult">查看</data>
+  <data name="PollMore">更多投票...</data>
+  <data name="All_Polls">所有投票</data>
+  <data name="Votes">票</data>
+  <data name="Poll_Result">投票结果</data>
+  <data name="Poll_Voted">您已经投过票了</data>
+  <data name="Poll_Total">总投票数</data>
+  <data name="CloseWindows">关闭窗口</data>
+  <data name="Error">操作不正确</data>
+  <!-- End Poll-->
+
+  <!-- Link-->
+  <data name="LinkTitle">友情链接</data>
+  <data name="LinkJoin">申请合作</data>
+  <data name="LinkMore">更多合作</data>
+  <data name="Partner">合作伙伴</data>
+  <!-- End Link-->
+
+  <!-- Product -->
+  <data name="TopLevelNav">销售排行</data>
+  <data name="AllProducts">全部商品</data>
+  <data name="CommendProducts">精品推荐</data>
+  <data name="HotProducts">热销商品</data>
+  <data name="NewProducts">最新商品</data>
+  <data name="SpecialProducts">打折商品</data>
+  <data name="DigitalCamera">数码相机</data>
+  <data name="Clothes">服装鞋帽</data>
+  <data name="Hairdressing">美容化妆</data>
+  <data name="Male">男士用品</data>
+  <data name="Electron">电子数码</data>
+  <data name="Fashion">时尚服饰</data>
+  <data name="MarketPrice">市场价格</data>
+  <data name="MemberPrice">会员价格</data>
+  <data name="FittingPrice">配件价</data>
+  <data name="Credit">积分</data>
+  <data name="Buy">购买</data>
+  <data name="AddToFavourite">收藏</data>
+  <data name="SubCategoryList">子类列表</data>
+  <data name="ProductList">商品列表</data>
+  <data name="Details">详细</data>
+  <data name="ProductName">商品名称</data>
+  <data name="ProductNo">商品编号</data>
+  <data name="ProductBrand">商品品牌</data>
+  <data name="ProductUnit">计量单位</data>
+  <data name="ProductRating">商品评分</data>
+  <data name="RelatedProducts">相关商品</data>
+  <data name="Fittings">配件</data>
+  <data name="Quantity">货品数量</data>
+  <data name="Weight">货品重量</data>
+  <data name="Total">合计</data>
+  <data name="FinalTotal">总计</data>
+  <data name="IsDiscount">折扣</data>
+  <data name="AfterDiscount">主商品打折后</data>
+  <data name="Yes">是</data>
+  <data name="No">否</data>
+  <data name="ProductPagerFormat">当前页{0}，共{1}页 当前商品为{2}，共{3}个商品</data>
+  <data name="ProductComment">商品评论</data>
+  <data name="SelectProductLevel">选择星级</data>
+  <data name="RelatedProducts">相关产品</data>
+  <data name="RelatedImages">相关图片</data>
+  <!-- End Product -->
+
+  <!-- Bulletin-->
+  <data name="Poster">留言者</data>
+  <data name="Bulletin">公告</data>
+  <data name="Date">日期</data>
+  <data name="Reply">店主回复</data>
+  <data name="Content">内容</data>
+  <data name="Name">名字</data>
+  <data name="Submit">提交</data>
+  <data name="HideEmailAddress">隐藏邮件地址</data>
+  <data name="BulletinCommentRequest">请填写评论内容</data>
+  <data name="BulletinNameRequest">请填写名字</data>
+  <data name="BulletinPagerFormat">当前页{0}，共{1}页 当前留言为{2}，共{3}个留言</data>
+  <data name="BulletinAlert">您的留言将在通过管理员审批后显示</data>
+  <!-- End Bulletin-->
+
+  <!-- Member -->
+  <data name="NormalMember">普通用户</data>
+  <data name="DiscountInfo">购物可享受{0}折优惠</data>
+  <data name="AdvancePayment">预付款</data>
+  <data name="AdvancePaymentNotes">预付款记录</data>
+  <data name="AdvancePaymentBalance">预付款余额：</data>
+  <data name="AdvancePaymentDesc">查看我的预付款记录和何时使用了预付款，剩余金额。</data>
+  <data name="Favourites">商品收藏</data>
+  <data name="FavouritesDesc">我在本站收藏的商品列表。</data>
+  <data name="MemberInfomations">会员信息</data>
+  <data name="MemberInfomationsDesc">查看及修改我的信息，准确的个人信息可以确保您及时收到商品。</data>
+  <data name="ChangePassword">修改密码</data>
+  <data name="ChangePasswordDesc">经常修改密码可以使密码的安全性大大提高。</data>
+  <data name="Quit">退出登陆状态</data>
+  <data name="QuitDesc">退出登录状态后，除非重新登录，其它人也不能查看您的信息了。</data>
+  <data name="OldPassword">旧密码</data>
+  <data name="NewPassword">新密码</data>
+  <data name="ConfirmPassword">确认新密码</data>
+  <data name="MemberLevel">会员等级</data>
+  <data name="PasswordQuestion">找回密码问题</data>
+  <data name="PasswordAnswer">找回密码答案</data>
+  <data name="MemberRegister">会员注册</data>
+  <data name="MemberName">用户名</data>
+  <data name="MemberPassword">密码</data>
+  <data name="MemberPasswordConfirm">密码确认</data>
+  <data name="JoinOurMailList">是否接收本站的Email信息</data>
+  <data name="MemberQuestion">找回密码问题</data>
+  <data name="MemberAnswer">找回密码答案</data>
+  <data name="FindOutPasswordQuestionAndAnswerIsNeed">找回密码问题和找回密码答案必须填写</data>
+  <data name="FindOutPasswordQuestionAndAnswerNoSame">找回密码问题和找回密码答案不能相同</data>
+  <data name="MemberNameExist">用户名已被使用，请重新选择</data>
+  <data name="MemberEmailExist">电子邮件地址已被使用，请重新选择</data>
+  <data name="RegisterSuccess">注册成功</data>
+  <data name="RegisterError">注册过程出现错误，请重新操作或者联系网站管理员</data>
+  <data name="MemberLostpassSetup1">第一步：输入您的用户名</data>
+  <data name="MemberLostpassSetup2">第二步：输入密码的答案</data>
+  <data name="ChangePWSuccess">修改成功</data>
+  <data name="AnswerNoCorrect">答案不正确</data>
+  <data name="UserNameInexistence">这个用户不存在</data>
+  <data name="RegisterInfo">注册信息</data>
+  <data name="FindOutPW">找回密码</data>
+  <data name="LeaveWord">留言</data>
+  <data name="YourCredit">当前积分</data>
+  <!-- End Member -->
+
+  <!-- Order -->
+  <data name="ValidateOrders">订单确认</data>
+  <data name="MyOrders">我的订单</data>
+  <data name="MyOrdersDesc">查看我在网站上的所有订单，并可在线支付未支付的订单。</data>
+  <data name="OrderInfo">订单信息</data>
+  <data name="OrderNo">订单号</data>
+  <data name="OrderTime">下单时间</data>
+  <data name="TotalPrice">总金额</data>
+  <data name="ProductPrice">商品总金额</data>
+  <data name="ShippingPrice">商品运费</data>
+  <data name="TotalPay">实际应付款</data>
+  <data name="OrderStatus">订单状态</data>
+  <data name="ViewOrder">查看订单</data>
+  <data name="CancelOrder">取消订单</data>
+  <data name="OrderFeedback">订单反馈</data>
+  <data name="OrderConfirmed">已确认</data>
+  <data name="OrderNotConfirmed">未确认</data>
+  <data name="OrderPayed">已付款</data>
+  <data name="OrderNotPayed">未付款</data>
+  <data name="OrderShipped">已发货</data>
+  <data name="OrderNotShipped">未发货</data>
+  <data name="OrderFinished">已归档</data>
+  <data name="OrderNotFinished">未归档</data>
+  <data name="OrderCancelled">已取消</data>
+  <data name="OrderPayOnline">在线支付</data>
+  <data name="OrderPrint">打印</data>
+  <data name="OrderFinish">完成</data>
+  <data name="ThankYouForYourOrdering">谢谢您的购物,您的订单已经成功提交！</data>
+  <data name="UseAdvancePayment">使用预付款</data>
+  <data name="TotalNotPayed">还需付款金额</data>
+  <data name="NO.">序号</data>
+  <data name="OrderWord">订单留言</data>
+  <data name="OrderList">留言列表</data>
+  <!-- End Order -->
+
+  <!-- Admin Currency-->
+  <data name="AdminCurrency_DeleteNotAllow">不允许删除系统唯一的货币</data>
+  <data name="AdminCurrency_DeleteDefaultCurrencyNotAllow">不允许删除默认货币</data>
+  <!-- End Admin Currency-->
+
+  <!-- Search-->
+  <data name="Search_Title">Tìm结果</data>
+  <data name="Search_NoProducts">没有符合Tìm条件的商品</data>
+  <data name="Search_Advance">高级Tìm</data>
+  <data name="Search_Key">关键词</data>
+  <data name="Search_Price">商品价格</data>
+  <data name="Search_HighPrice">最高价格</data>
+  <data name="Search_LowPrice">最低价格</data>
+  <data name="Search_Category">商品分类</data>
+  <data name="Search_AllCategory">全部类别</data>
+  <!-- End Search-->
+
+  <!-- CheckOut-->
+  <data name="YourShoppingCart">您购物车中的商品</data>
+  <data name="ShippingWay">配送方式</data>
+  <data name="DeliverGoodsDate">送货日期</data>
+  <data name="YourAdvancePayment">您的预付款</data>
+  <data name="TimeFrom">时间从</data>
+  <data name="To">到</data>
+  <data name="DiscountOrNot">是否参与打折</data>
+  <data name="CheckOut_AddPay">附加费用</data>
+  <data name="PleaseMakeSure">请确认以上商品准确无误，如果您需要修改所购商品，请</data>
+  <data name="Clickhere">点击这里返回购物车</data>
+  <data name="CheckOut_Alert1">必须填写带*号的项</data>
+  <data name="CheckOut_Alert2">请选择配送方式</data>
+  <data name="CheckOut_Alert3">请选择支付方式</data>
+  <data name="CheckOut_Alert4">您没有可以用的预付款</data>
+  <data name="CheckOut_Alert5">您的购物车没有商品，不能结帐！</data>
+  <data name="CheckOut_Alert6">选择得时间有误！</data>
+  <data name="CheckOut_Alert7">请选择时间！</data>
+  <data name="UseAlipay">支付宝购买</data>
+  <!-- End CheckOut-->
+
+  <!-- Links-->
+  <data name="Links_Apply">申请友情链接</data>
+  <data name="Links_WebSiteName">网站名称</data>
+  <data name="Links_Default">做为首页链接</data>
+  <data name="Links_Url">网站地址</data>
+  <data name="Links_Pic">网站图标</data>
+  <data name="Links_Remark1">网站简介</data>
+  <data name="Links_Remark2">最多255字</data>
+  <data name="Links">友情链接</data>
+  <data name="Links_Width">网站图标将被设定为宽</data>
+  <data name="Links_Higth">高</data>
+  <data name="Links_Alert1">网站名称必须填写</data>
+  <data name="Links_Alert2">提交成功!请等待管理员通过您的审批!</data>
+  <data name="Links_Alert3">对不起,我们暂时不提供友情链接申请!</data>
+  <!-- End Links-->
+  <!-- OrderFeedback-->
+  <data name="Time">时间</data>
+  <data name="Remark">备注</data>
+  <data name="CancelReason">原因</data>
+  <!-- End OrderFeedback-->
+
+  <!--Orderemail-->
+  <data name="OrderEmail_Account">客户帐号: </data>
+  <data name="OrderEmail_OrderNo">本订单号: </data>
+  <data name="OrderEmail_Sort">序</data>
+  <data name="OrderEmail_ProductName">商品名称</data>
+  <data name="OrderEmail_ProductNumber">商品编号</data>
+  <data name="MemberPrices">会员价</data>
+  <data name="FittingsPrice">配件价</data>
+  <data name="OrderEmail_Quantity">数量</data>
+  <data name="OrderEmail_UnitPrice">单价</data>
+  <data name="SumPrice">单项小计</data>
+  <data name="OrderEmail_SumPrice">金额</data>
+  <data name="OrderEmail_ProductTotalPrice">商品总价格: </data>
+  <data name="OrderEmail_CustomItemPrice">配件价格: </data>
+  <data name="OrderEmail_ShipPrice">商品运费: </data>
+  <data name="OrderEmail_TotalPrice">订单总金额: </data>
+  <data name="OrderEmail_AdvancePayment">使用预付款: </data>
+  <data name="OrderEmail_Pay">还需付款金额: </data>
+  <data name="OrderEmail_BuyerName">购货人姓名:</data>
+  <data name="OrderEmail_BuyerAccount">用户名: </data>
+  <data name="OrderEmail_Phone">联系电话: </data>
+  <data name="OrderEmail_Email">Email地址: </data>
+  <data name="OrderEmail_BuyerAddress">购货人地址: </data>
+  <data name="OrderEmail_Postalcode">邮政编码: </data>
+  <data name="OrderEmail_ReceiverName">收货人姓名: </data>
+  <data name="OrderEmail_ReceiverAddress">收货人地址: </data>
+  <data name="OrderEmail_ShippingTime">送货时间: </data>
+  <data name="OrderEmail_OrderTime">下订时间: </data>
+  <data name="OrderEmail_Remark">备注: </data>
+  <data name="BuyerInfo">购货人信息</data>
+  <data name="Product">个商品</data>
+  <data name="Page">页</data>
+  <data name="cbPayment">使用预付款</data>
+  <data name="Edit">修改用户信息</data>
+  <data name="Delete">删除</data>
+  <data name="Handle">操作</data>
+  <data name="HandleTime">操作时间</data>
+  <data name="Summary">摘要</data>
+  <data name="Yes">是</data>
+  <data name="No">否</data>
+  <!-- End OrderEmail-->
+  <data name="ProductPageInfo">当前页{0}，共{1}页 当前商品为{2}，共{3}个商品</data>
+  <!--End-->
+</root>

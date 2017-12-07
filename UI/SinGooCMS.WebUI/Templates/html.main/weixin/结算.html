@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>结算</title>
+    <link rel="stylesheet" type="text/css" href="${mbpath}dist/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="${mbpath}dist/css/cart.css">
+    <link rel="stylesheet" type="text/css" href="${mbpath}dist/css/header-footer.css">
+    <script type="text/javascript" src="${mbpath}dist/js/jquery.min.js"></script>
+    <script type="text/javascript" src="${mbpath}dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    #parse("inc/_specialheader.html")
+    <div class="page-main pt-30 pb-30">
+        <form method="post" id="form1">
+        <div class="l-row l-last">
+            <div class="l-process l-process-3 clear-fix" style="margin: 20px 0px;">
+                <span class="l-unit l-current">确认订单</span> <span class="l-arrow l-current-unit l-arrow-complete">
+                    <span class="l-next"></span><span class="l-prev"></span></span><span class="l-unit l-current">
+                        支付</span> <span class="l-arrow l-current-unit"><span class="l-next"></span><span
+                            class="l-prev"></span></span><span class="l-unit">支付完成</span>
+            </div>
+            <div class="l-process l-process-2 clear-fix" id="process-2" style="margin: 20px 0;
+                display: none">
+                <span class="l-unit l-current">确认订单</span> <span class="l-arrow l-current-unit"><span
+                    class="l-next"></span><span class="l-prev"></span></span><span class="l-unit">开通完成</span>
+            </div>
+            <!--4种方式-->
+        </div>
+        <div class="l-row l-last bg-white">
+            <div class="order-info">
+                <div class="title">
+                    <div class="total">
+                        <span class="cny">¥</span><span class="money">${totalamount.ToString("f2")}</span>
+                    </div>
+                    <strong>订单信息</strong>
+                </div>
+                <div class="content content-scroll">
+                    <table class="uc-table">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong title="">${currpro.ShortDesc}</strong>
+                                </td>
+                                <td>
+                                    <span title=""></span>
+                                </td>
+                                <td class="align-right">
+                                    <span class="cny">¥</span><span>${totalamount.ToString("f2")}</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="other-box current pl-10 pr-10">
+                <div class="title">
+                    <ul id="myTab" class="nav nav-tabs mt-20">
+                        <li class="active"><a href="#home" data-toggle="tab">支付宝</a> </li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <div id="myTabContent" class="tab-content">
+                        <div class="tab-pane fade in active" id="home">
+                            <div class="bank-list">
+                                <ul>
+                                    #foreach($item in ${shop.GetPayments()})
+                                    #if(!${item.IsMobile} && !${item.IsWeixin})
+                                    <li style="width:100%;"><span class="p-logo">
+                                        <img src="${item.Logo}" alt="${item.DisplayName}" /></span></li>
+                                    <input type="hidden" name="_payurl" value="${item.PayUrl}" />
+                                    #end
+                                    #end
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="l-row">
+            <div class="cart-bar clear-fix mt-10" id="J_cartBar">
+                <div class="section-left">
+                    <a href="/biz/mbsite/index" class="back-shopping J_goShoping">继续购物</a></span>
+                </div>
+                <span class="activity-money hide">活动优惠：减 <i id="J_cartActivityMoney">0</i> 元 </span>
+                <span class="total-price">合计（不含运费）：<em id="J_cartTotalPrice">${totalamount.ToString("f2")}</em>元 </span>
+                <a href="javascript:void(0);" class="btn btn-a btn btn-primary" onclick="jQuery('form').submit();">去结算</a>
+                <div class="no-select-tip hide" id="J_noSelectTip">
+                    请勾选需要结算的商品 <i class="arrow arrow-a"></i><i class="arrow arrow-b"></i>
+                </div>
+            </div>
+        </div>
+        <input type="hidden" value="$!{buytype}" name="_buytype" />
+        <input type="hidden" value="$!{cartids}" name="_cartids" />
+        <input type="hidden" value="$!{currpro.AutoID}" name="_pid" />
+        <input type="hidden" value="$!{goodsattr.Specification}" name="_attrpath" />
+        <input type="hidden" value="$!{quantity}" name="_quantity" />
+        <input type="hidden" value="True" name="_needpay" />
+        </form>
+    </div>    
+    #parse("inc/_specialfooter.html")
+</body>
+</html>

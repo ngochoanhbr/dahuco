@@ -1,0 +1,10 @@
+F:\产品研发\v1.1.1\默认版本\Code\BLL\Senparc.Weixin.QY\obj\Debug\ResolveAssemblyReference.cache
+F:\产品研发\v1.1.1\默认版本\Code\BLL\JsonLeeCMS.BLL.Custom\lib\Senparc.Weixin.QY.dll
+F:\产品研发\v1.1.1\默认版本\Code\BLL\JsonLeeCMS.BLL.Custom\lib\Senparc.Weixin.QY.pdb
+F:\产品研发\v1.1.1\默认版本\Code\BLL\Senparc.Weixin.QY\obj\Debug\Senparc.Weixin.QY.dll
+F:\产品研发\v1.1.1\默认版本\Code\BLL\Senparc.Weixin.QY\obj\Debug\Senparc.Weixin.QY.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\Senparc.Weixin.QY\obj\Debug\ResolveAssemblyReference.cache
+F:\产品研发\v1.2\SinGooShop\BLL\Senparc.Weixin.QY\obj\Debug\Senparc.Weixin.QY.dll
+F:\产品研发\v1.2\SinGooShop\BLL\Senparc.Weixin.QY\obj\Debug\Senparc.Weixin.QY.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\JsonLeeCMS.BLL.Custom\lib\Senparc.Weixin.QY.dll
+F:\产品研发\v1.2\SinGooShop\BLL\JsonLeeCMS.BLL.Custom\lib\Senparc.Weixin.QY.pdb

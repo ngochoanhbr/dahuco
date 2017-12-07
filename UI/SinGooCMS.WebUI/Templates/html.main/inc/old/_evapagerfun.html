@@ -1,0 +1,21 @@
+﻿<div class="pagecode">
+#if($evapager.RecordCount>0)
+#if($evapager.PageIndex<=1)
+   <span class="disabled">上一页</span>
+#else
+<a class="prevPage" href="javascript:void(0)" onclick="$evapager.GetUrl('prev');">上一页</a>
+#end
+#foreach($n in $evapager.GetPages(10))
+#if($n==$evapager.PageIndex)
+<span class="current">$n</span>
+#else
+<a href="javascript:void(0)" onclick="$evapager.GetUrl($n);">$n</a> 
+#end
+#end
+#if($evapager.PageIndex==$evapager.PageCount)
+<span class="disabled">下一页</span>
+#else
+<a class="nextPage" href="javascript:void(0)" onclick="$evapager.GetUrl('next');">下一页</a>
+#end
+#end
+</div>

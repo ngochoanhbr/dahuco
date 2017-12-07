@@ -1,0 +1,5 @@
+F:\产品研发\v1.1.1\默认版本\Code\BLL\Senparc.Weixin.MP\obj\Debug\ResolveAssemblyReference.cache
+F:\产品研发\v1.1.1\默认版本\Code\BLL\JsonLeeCMS.BLL.Custom\lib\Senparc.Weixin.MP.dll
+F:\产品研发\v1.1.1\默认版本\Code\BLL\JsonLeeCMS.BLL.Custom\lib\Senparc.Weixin.MP.pdb
+F:\产品研发\v1.1.1\默认版本\Code\BLL\Senparc.Weixin.MP\obj\Debug\Senparc.Weixin.MP.dll
+F:\产品研发\v1.1.1\默认版本\Code\BLL\Senparc.Weixin.MP\obj\Debug\Senparc.Weixin.MP.pdb

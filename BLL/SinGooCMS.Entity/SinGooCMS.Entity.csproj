@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{80106719-8219-4348-91FD-493DAA19B5A3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SinGooCMS.Entity</RootNamespace>
+    <AssemblyName>SinGooCMS.Entity</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>http://localhost/Model/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\SinGooCMS.BLL.Custom\lib\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SinGooCMS.Core, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\SinGooCMS.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SinGooCMS.DAL, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\SinGooCMS.DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\AccountDetailInfo.cs" />
+    <Compile Include="Base\AccountInfo.cs" />
+    <Compile Include="Base\AccountsRoleInfo.cs" />
+    <Compile Include="Base\AdPlaceInfo.cs" />
+    <Compile Include="Base\AdsInfo.cs" />
+    <Compile Include="Base\AreaModelInfo.cs" />
+    <Compile Include="Base\AttachmentInfo.cs" />
+    <Compile Include="Base\AuctionInfo.cs" />
+    <Compile Include="Base\AuctionLogInfo.cs" />
+    <Compile Include="Base\AutoRlyInfo.cs" />
+    <Compile Include="Base\BrandInfo.cs" />
+    <Compile Include="Base\CartInfo.cs" />
+    <Compile Include="Base\CatalogInfo.cs" />
+    <Compile Include="Base\CategoryInfo.cs" />
+    <Compile Include="Base\CommentActiveLogInfo.cs" />
+    <Compile Include="Base\CommentInfo.cs" />
+    <Compile Include="Base\CompanyInfo.cs" />
+    <Compile Include="Base\ContentInfo.cs" />
+    <Compile Include="Base\ContFieldInfo.cs" />
+    <Compile Include="Base\ContModelInfo.cs" />
+    <Compile Include="Base\CustomerInfo.cs" />
+    <Compile Include="Base\ManufactureInfo.cs" />
+    <Compile Include="Extend\CountryInfo.cs" />
+    <Compile Include="Base\SupplierInfo.cs" />
+    <Compile Include="Base\CouponsInfo.cs" />
+    <Compile Include="Base\CreateFileInfo.cs" />
+    <Compile Include="Base\DBBakFile.cs" />
+    <Compile Include="Base\DeliveryRecInfo.cs" />
+    <Compile Include="Base\DictItemInfo.cs" />
+    <Compile Include="Base\DictsInfo.cs" />
+    <Compile Include="Base\DingYueInfo.cs" />
+    <Compile Include="Base\DingYueLogInfo.cs" />
+    <Compile Include="Base\ErrorLogInfo.cs" />
+    <Compile Include="Base\EvaluationInfo.cs" />
+    <Compile Include="Base\EventLogInfo.cs" />
+    <Compile Include="Base\ExchangeApplyInfo.cs" />
+    <Compile Include="Base\FavoritesInfo.cs" />
+    <Compile Include="Base\FeedbackInfo.cs" />
+    <Compile Include="Base\FileUploadInfo.cs" />
+    <Compile Include="Base\FolderInfo.cs" />
+    <Compile Include="Base\GatheringRecInfo.cs" />
+    <Compile Include="Base\GoodsAttrCateInfo.cs" />
+    <Compile Include="Base\GoodsAttrInfo.cs" />
+    <Compile Include="Base\GoodsClassInfo.cs" />
+    <Compile Include="Base\GoodsQAInfo.cs" />
+    <Compile Include="Base\GoodsSpecifyInfo.cs" />
+    <Compile Include="Base\GrouponInfo.cs" />
+    <Compile Include="Base\GuiGeItemImage.cs" />
+    <Compile Include="Base\GuiGePicInfo.cs" />
+    <Compile Include="Base\GuiGeSet.cs" />
+    <Compile Include="Base\IPStrategyInfo.cs" />
+    <Compile Include="Base\LinksInfo.cs" />
+    <Compile Include="Base\LoginLogInfo.cs" />
+    <Compile Include="Base\MemberPriceInfo.cs" />
+    <Compile Include="Base\MemberPriceSetInfo.cs" />
+    <Compile Include="Base\MessageInfo.cs" />
+    <Compile Include="Base\ModuleInfo.cs" />
+    <Compile Include="Base\NodeInfo.cs" />
+    <Compile Include="Base\OperateInfo.cs" />
+    <Compile Include="Base\OrderActionInfo.cs" />
+    <Compile Include="Base\OrderItemInfo.cs" />
+    <Compile Include="Base\OrdersInfo.cs" />
+    <Compile Include="Base\PayLogInfo.cs" />
+    <Compile Include="Base\PaymentInfo.cs" />
+    <Compile Include="Base\PaymentSettingInfo.cs" />
+    <Compile Include="Base\PhotoAlbumInfo.cs" />
+    <Compile Include="Base\PostageModelInfo.cs" />
+    <Compile Include="Base\PriceLadderInfo.cs" />
+    <Compile Include="Base\ProductFieldInfo.cs" />
+    <Compile Include="Base\ProductInfo.cs" />
+    <Compile Include="Base\ProductModelInfo.cs" />
+    <Compile Include="Base\PromotionInfo.cs" />
+    <Compile Include="Base\PurviewInfo.cs" />
+    <Compile Include="Base\RefundApplyInfo.cs" />
+    <Compile Include="Base\ResourceInfo.cs" />
+    <Compile Include="Base\RoleInfo.cs" />
+    <Compile Include="Base\SalesRetInfo.cs" />
+    <Compile Include="Base\SearchRankInfo.cs" />
+    <Compile Include="Base\SettingCategoryInfo.cs" />
+    <Compile Include="Base\ShippingAddressInfo.cs" />
+    <Compile Include="Base\ShopSpecialInfo.cs" />
+    <Compile Include="Base\ShortProduct.cs" />
+    <Compile Include="Base\SiteTemplateInfo.cs" />
+    <Compile Include="Base\SMSInfo.cs" />
+    <Compile Include="Base\StockoutInfo.cs" />
+    <Compile Include="Base\TagsInfo.cs" />
+    <Compile Include="Base\UserFieldInfo.cs" />
+    <Compile Include="Base\UserGroupInfo.cs" />
+    <Compile Include="Base\UserInfo.cs" />
+    <Compile Include="Base\UserLevelInfo.cs" />
+    <Compile Include="Base\UserLoginLogInfo.cs" />
+    <Compile Include="Base\VerInfo.cs" />
+    <Compile Include="Base\VisitorInfo.cs" />
+    <Compile Include="Base\VoteInfo.cs" />
+    <Compile Include="Base\VoteItemInfo.cs" />
+    <Compile Include="Base\VoteLogInfo.cs" />
+    <Compile Include="Base\WxMenuInfo.cs" />
+    <Compile Include="Extend\AreaModelInfo.cs" />
+    <Compile Include="Extend\AttachmentInfo.cs" />
+    <Compile Include="Extend\AutoRlyInfo_Ext.cs" />
+    <Compile Include="Extend\FieldSetting.cs" />
+    <Compile Include="Extend\FileSystemItem.cs" />
+    <Compile Include="Extend\KuaidiComInfo.cs" />
+    <Compile Include="Extend\PostageModelInfo.cs" />
+    <Compile Include="Extend\SmallUser.cs" />
+    <Compile Include="Extend\ZoneInfo.cs" />
+    <Compile Include="Extend\ContArchives_Ext.cs" />
+    <Compile Include="Extend\ContentInfo_Ext.cs" />
+    <Compile Include="Extend\ContFieldInfo_Ext.cs" />
+    <Compile Include="Extend\CreateFileInfo_Ext.cs" />
+    <Compile Include="Extend\CustomVariable.cs" />
+    <Compile Include="Extend\IndustryInfo.cs" />
+    <Compile Include="Extend\MemberPriceInfo_Ext.cs" />
+    <Compile Include="Extend\NodeContCountInfo.cs" />
+    <Compile Include="Extend\NodeInfo_Ext.cs" />
+    <Compile Include="Extend\NodeSetting.cs" />
+    <Compile Include="Extend\PaymentInfo_Ext.cs" />
+    <Compile Include="Extend\ProductFieldInfo_Ext.cs" />
+    <Compile Include="Extend\SuitProductItemInfo.cs" />
+    <Compile Include="Extend\UserFieldInfo_Ext.cs" />
+    <Compile Include="Extend\UserInfo_Ext.cs" />
+    <Compile Include="Extend\UserLevelInfo_Ext.cs" />
+    <Compile Include="Extend\PayTypeSetting.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\SinGooCMS.Config\SinGooCMS.Config.csproj">
+      <Project>{3A45FA1E-5A09-4246-8203-74564CB0D32B}</Project>
+      <Name>SinGooCMS.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SinGooCMS.Utility\SinGooCMS.Utility.csproj">
+      <Project>{C4E506B4-C0DB-4664-900C-EE9AB1E87FD2}</Project>
+      <Name>SinGooCMS.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

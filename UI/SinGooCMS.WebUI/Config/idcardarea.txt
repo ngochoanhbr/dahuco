@@ -1,0 +1,54 @@
+﻿291	Bac Lieu
+222	Bac Ninh
+263	Bao Loc
+251	Bien Hoa
+262	Buon Ma Thuot
+290	Ca Mau
+203	Cam Pha
+258	Cam Ranh
+292	Can Tho
+206	Cao Bang
+277	Cao Lanh
+296	Chau Doc
+263	Da Lat
+236	Da Nag
+233	Dong Ha
+232	Dong Hoi
+203	Ha Long
+220	Hai Duong
+24	Hanoi
+225	Haiphong
+28	Ho Chi Minh
+234	Hue
+221	Hung Yen
+260	Kon Tum
+213	Lai Chau
+214	Lao Cai
+296	Long Xuyen
+273	My Tho
+228	Nam Dinh
+258	Nha Trang
+229	Ninh Binh
+259	Phan Rang-Thap Cham
+252	Phan Thiet
+269	Pleiku
+255	Quang Ngai
+256	Qui Nhon
+297	Rach Gia
+299	Soc Trang
+235	Tam Ky
+272	Tan An
+227	Thai Binh
+237	Thanh Hoa
+208	Thai Nguyen
+274	Thu Dau Mot
+274	Thuan An
+294	Tra Vinh
+222	Tu Son
+257	Tuy Hoa
+203	Uong Bi
+210	Viet Tri
+238	Vinh
+270	Vinh Long
+211	Vinh Yen
+254	Vung Tau

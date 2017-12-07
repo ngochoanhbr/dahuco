@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品列表</title>
+    <link rel="stylesheet" type="text/css" href="${mbpath}dist/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="${mbpath}dist/css/list.css">
+    <link rel="stylesheet" type="text/css" href="${mbpath}dist/css/header-footer.css">
+    <script type="text/javascript" src="${mbpath}dist/js/jquery.min.js"></script>
+    <link href="/Include/Plugin/artDialog/skins/idialog.css" rel="stylesheet" type="text/css" />
+    <script src="/Include/Plugin/artDialog/jquery.artDialog.js" type="text/javascript"></script>
+    <script src="/Include/Plugin/artDialog/plugins/iframeTools.js" type="text/javascript"></script>
+    <script src="/Include/Script/publicfun.js" type="text/javascript"></script>
+    <script src='/Include/Script/jquery.cookie.js' type='text/javascript'></script>
+    <script src="/Include/Script/shop.js" type="text/javascript"></script>
+</head>
+<body>
+    #parse("inc/_specialheader.html")
+    <div class="breadcrumbs">
+        <div class="l-row l-last">
+            <a href="/">首页</a><span class="sep">&gt;</span><span>所有商品</span>
+        </div>
+    </div>
+    <!--面包屑 end-->
+    <!--筛选-->
+    <div class="bg-white">
+        <div class="l-row l-last">
+            <div class="filter-box">
+                <div class="filter-list-wrap">
+                    <dl class="filter-list clear-fix">
+                        <dt>行业分类：</dt>
+                        <dd class="active">
+                            全部</dd>
+                        <dd>
+                            <a href="#">集团企业</a></dd>
+                        <dd>
+                            <a href="#">电子商务</a></dd>
+                        <dd>
+                            <a href="#">科技教育</a></dd>
+                        <dd>
+                            <a href="#">金融保险</a></dd>
+                        <dd>
+                            <a href="#">家居房产</a></dd>
+                        <dd>
+                            <a href="#">酒店旅游</a></dd>
+                        <dd>
+                            <a href="#">医疗保健</a></dd>
+                        <dd>
+                            <a href="#">工业制造</a></dd>
+                        <dd>
+                            <a href="#">HTML5</a></dd>
+                        <dd>
+                            <a href="#">其他</a></dd>
+                    </dl>
+                    <a class="more J_filterToggle" href="javascript: void(0);">更多<i class="iconfont">&#xe622;</i></a>
+                </div>
+                <div class="filter-list-wrap">
+                    <dl class="filter-list clear-fix">
+                        <dt>模板类型：</dt>
+                        <dd class="active">
+                            全部</dd>
+                        <dd>
+                            <a href="#">PC+手机版</a></dd>
+                        <dd>
+                            <a href="#">PC版</a></dd>
+                        <dd>
+                            <a href="#">手机版</a></dd>
+                    </dl>
+                    <a class="more J_filterToggle" href="javascript: void(0);">更多<i class="iconfont">&#xe622;</i></a>
+                </div>
+                <div class="filter-list-wrap">
+                    <dl class="filter-list clear-fix filter-list-row-3">
+                        <dt>功能选择：</dt>
+                        <dd class="active">
+                            全部</dd>
+                        <dd>
+                            <a href="#">标准功能型</a></dd>
+                        <dd>
+                            <a href="#">营销功能型</a></dd>
+                    </dl>
+                    <a class="more J_filterToggle" href="javascript: void(0);">更多<i class="iconfont">&#xe622;</i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--筛选-->
+    <div class="content">
+        <div class="l-row l-last">
+            <div class="goods-list-box">
+                <div class="goods-list-box">
+                    <div class="goods-list clear-fix">
+                        #set($pros=${shop.GetProducts("$!{condition}","Sort Asc,AutoID desc",${pager.PageIndex},${pager.PageSize})})
+                        #if($pros.Count>0)
+                        #foreach($item in $pros)
+                        <div class="goods-detail-item">
+                            <div class="item-main">
+                                <h2 class="title">
+                                    <a href="${item.ProductUrl}">${item.ProductName}</a>
+                                </h2>
+                                <p class="price">
+                                    ￥${item.Price.ToString("f2")}</p>
+                                <div class="thumbs">
+                                    <ul class="thumb-list clear-fix">
+                                        <li>
+                                            <img class="lazy" data-original="$cms.GetThumb(${item.ProImg})"
+                                                alt="${item.ProductName}" width="34" height="34" />
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="reviews">
+                                    <p class="review">
+                                        ${item.ShortDesc}
+                                    </p>
+                                    <div class="meta clear-fix">
+                                        <p class="author">
+                                            <img class="avatar lazy" data-original="$cms.GetThumb(${item.ProImg})">894039435
+                                        </p>
+                                        <a class="more" href="${item.ProductUrl}">查看详情 &gt;</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-sub">
+                                <div class="figure figure-img">
+                                    <a href="${item.ProductUrl}">
+                                        <img class="lazy" data-original="$cms.GetThumb(${item.ProImg})" alt="">
+                                    </a>
+                                </div>
+                                <div class="actions clear-fix">
+                                    <a class="btn-like J_likeGoods" href="javascript: void(0);" onclick="shop.addFavorite(this,${item.AutoID});"><i class="iconfont">&#xe665;</i>
+                                        <span>喜欢</span>                                    
+                                    </a><a class="btn-buy btn-buy-detail J_buyGoods" href="${item.ProductUrl}">
+                                        <span>查看详情</span> <i class="iconfont">&#xe85d;</i> </a>
+                                </div>
+                                <div class="flags">
+                                </div>
+                                <div class="notice">
+                                </div>
+                            </div>
+                        </div>
+                        #end
+                        #else
+                        没有找到该条件下的商品哦！
+                        #end
+                    </div>
+                    <div class="text-center">
+                        <ul class="pagination">
+                            <li class="disabled"><a>«</a></li>
+                            <li class="disabled"><a>‹</a></li>
+                            <li class="active"><a>1</a></li>
+                            <li><a>2</a></li>
+                            <li class="disabled"><a>›</a></li>
+                            <li class="disabled"><a>»</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    #parse("inc/_specialfooter.html")
+</body>
+</html>
+<script type="text/javascript" src="${mbpath}dist/js/jquery.lazyload.js"></script>
+<script>
+    $("img.lazy").lazyload({
+        effect: "fadeIn"
+    });
+</script>

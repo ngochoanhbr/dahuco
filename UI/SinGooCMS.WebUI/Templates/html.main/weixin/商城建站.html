@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    #parse("inc/_meta.html")
+</head>
+<script>
+    var landor = window.landor || {}; landor.svgSupport = document.implementation.hasFeature("", "1.1"), landor.browserSpec = "addEventListener" in window && landor.svgSupport ? "html5" : "html4", landor.touch = "ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch, landor.smoothscroll = !0; try { var mod = "landorStorage"; localStorage.setItem(mod, mod), localStorage.removeItem(mod), landor.localstorage = !0 } catch (e) { landor.localstorage = !1 } if ("iP" !== navigator.platform.substr(0, 2) || window.indexedDB || (landor.smoothscroll = !1), function () { var a = document.documentElement, b = " js " + landor.browserSpec + (landor.touch ? " touch" : " no-touch") + (landor.svgSupport ? " svg" : " no-svg") + (landor.smoothscroll ? " smoothscroll" : "no-smoothscroll") + (landor.localstorage ? " localstorage" : "no-localstorage"); a.className = a.className.replace(/\bno-js\b/, b) } (), window.location.hash && window.location.href.indexOf("#!") > -1) { url = ""; var urlArray = window.location.hash.split("/"); "about" == urlArray[1] ? "news" == urlArray[2] ? urlArray[3] && urlArray[4] ? url = "/news/" + urlArray[4] : url = "/news" : "people" == urlArray[2] ? urlArray[3] ? url = "/about/meet-our-people#" + urlArray[3] : url = "/about/meet-our-people" : url = "/about" : "careers" == urlArray[1] ? url = "/join-our-team" : "locations" == urlArray[1] ? urlArray[2] ? url = "/offices/" + urlArray[2] : url = "/offices" : "talk" == urlArray[1] ? urlArray[2] && urlArray[3] && urlArray[4] ? url = "/thinking/" + urlArray[4] : urlArray[2] && urlArray[3] ? url = "/thinking/" + urlArray[3] : url = "/thinking" : "work" == urlArray[1] && (urlArray[2] && urlArray[3] ? url = "/work/" + urlArray[3] : url = "/work"), window.location = url }
+</script>
+<body data-behavior="header_scroll">
+    <!-- top -->
+    #parse("inc/_header.html")
+    <!-- top end -->
+    <div class="inside-ads mall-bg">
+        <div class="container section-content ">
+            <figure class="scgq"></figure>
+            <figure class="scpc"></figure>
+            <figure class="scpc-hover"></figure>
+            <figure class="scpc-hover-2"></figure>
+            <figure class="tip"></figure>
+            <figure class="hand"></figure>
+            <figure class="text"></figure>
+        </div>
+    </div>
+
+    <div class="floor_1">
+        <div class="container text-center">
+            <h1 class="floor_1-title" data-scroll-reveal="enter bottom over 0.8s">
+                1分钟了解SinGooShop</h1>
+            <p class="floor_1-subtitle" data-scroll-reveal="enter bottom over 1s">
+                快速电商平台解决方案介绍</p>
+            <div class="col-md-6 floor_1-text">
+                <h2 data-scroll-reveal="enter bottom over 1.2s">
+                    帮助传统线下企业快速搭建线上平台实现线上线下同步运营。</h2>
+                <p data-scroll-reveal="enter bottom over 1.4s">
+                    SinGooShop单用户网店系统（电商平台），是一套帮助线下企业快速实现线上运营的平台，网店平台提供了包括商品、订单、会员、营销、支付、广告等管理，支持PC端、手机端、微信端同步展示，360度全方位营销模式，电商平台采用当前流行的html5，bootstrap元素，用户体验更友好。SinGooShop同时提供了方便的二次开发接口。</p>
+                <div class="col-md-12" data-scroll-reveal="enter bottom over 1.8s">
+                    <a href="http://shopdemo.ue.net.cn" target="_blank" class="more">去Demo体验一下</a></div>
+            </div>
+            <div class="col-md-6">
+                <img src="${mbpath}dist/images/fl1_01.jpg" alt="" data-scroll-reveal="enter bottom over 1.6s">
+            </div>
+        </div>
+    </div>
+    <div class="floor_2">
+        <div class="container text-center">
+            <h1 class="floor_2-title" data-scroll-reveal="enter bottom over 0.8s">
+                SinGooShop的4大核心</h1>
+            <p class="floor_2-subtitle" data-scroll-reveal="enter bottom over 1s">
+                网店系统的完美支持</p>
+            <div class="col-md-3 col-xs-12 col-sm-6" data-scroll-reveal="enter bottom over 1.2s">
+                <h3 class="name">
+                    线上线下完美整合</h3>
+                <div>
+                    SinGooShop电商平台，整合线下资源，通过拓展线上的商务渠道，线上电商线下门店融合，达成共享资源、同步销售、融合管理。实现从接触点到服务环节都是完美的体验。
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-12 col-sm-6" data-scroll-reveal="enter bottom over 1.4s">
+                <h3 class="name">
+                    多界面多皮肤支持</h3>
+                <div>
+                    平台支持前端界面模板化。觉得这版电商界面看够了吗？或者想换个展示？每个节日、每个活动都可以定制一套模板，客户也可以自己制作模板。自由切换模板换肤，不同的购物体验。</div>
+            </div>
+            <div class="col-md-3 col-xs-12 col-sm-6" data-scroll-reveal="enter bottom over 1.6s">
+                <h3 class="name">
+                    多客户端支持</h3>
+                <div>
+                    打破传统的单一销售模式。传统的PC端单一展示、销售模式无法满足当前移动端的盛行。SinGooShop平台不仅支持PC端访问，同时支持手机移动端，微信端的访问，让销售受众更大化，提升销售业绩。
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-12 col-sm-6" data-scroll-reveal="enter bottom over 1.8s">
+                <h3 class="name">
+                    个性化需求满足</h3>
+                <div>
+                    SinGooShop电商平台，不仅可以快速搭建单用户网店系统，同时也支持项目订制、二次开发，为了满足更高端用户需求，平台预留了扩展接口，在此基础上完成更强大，功能更多的电商平台。
+                </div>
+            </div>
+            <!--<div class="col-md-12">
+                <a href="#" class="more">了解优势，精准匹配需求</a>
+            </div>-->
+        </div>
+    </div>
+    <div class="floor_3">
+        <div class="container text-center">
+            <h1 class="floor_3-title" data-scroll-reveal="enter bottom over 0.8s">
+                O2O解决方案业务图</h1>
+            <p class="floor_3-subtitle" data-scroll-reveal="enter bottom over 1.2s">
+                一张图，看明白线上到线下O2O商城业务流程</p>
+            <div class="col-md-12">
+                <img src="${mbpath}dist/images/topt.jpg" data-scroll-reveal="enter bottom over 1.4s">
+            </div>
+            <!--<div class="col-md-12" data-scroll-reveal="enter bottom over 1.6s">
+                <a href="#" class="more">了解优势，精准匹配需求</a>
+            </div>-->
+        </div>
+    </div>
+    <!-- banner-->
+    <section class="es-poster hz-poster">
+	<div class="swiper-container swiper-container-tow">
+	    <div class="swiper-wrapper">
+	        <div class="swiper-slide" style="background-image: url(/Templates/html/dist/images/scjzdt.jpg)">
+		      	<!--<a href="javascript:void(0)"></a>-->
+		    </div>
+	    </div>
+	   <!--添加分页-->
+	    <div class="swiper-pagination"></div>
+	</div>
+    </section>
+    <!-- banner end-->
+    <!--底部-->
+    #parse("inc/_footer.html")
+    <!--底部 end-->
+    <script type="text/javascript" src="${mbpath}dist/js/scrollReveal.js"></script>
+    <script>
+        (function () {
+            window.scrollReveal = new scrollReveal({ reset: false, move: '50px' });
+        })();
+    </script>
+</body>
+</html>

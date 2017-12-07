@@ -1,0 +1,30 @@
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.Control\obj\Debug\ResolveAssemblyReference.cache
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.Control\obj\Debug\GenerateResource.read.1.tlog
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.Control\obj\Debug\GenerateResource.write.1.tlog
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.Control\obj\Debug\SinGooCMS.Control.Properties.Resources.resources
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.pdb
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.Control\obj\Debug\SinGooCMS.Control.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.Control\obj\Debug\SinGooCMS.Control.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.Control\obj\Debug\ResolveAssemblyReference.cache
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.Control\obj\Debug\SinGooCMS.Control.Properties.Resources.resources
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.Control\obj\Debug\GenerateResource.read.1.tlog
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.Control\obj\Debug\GenerateResource.write.1.tlog
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.Control\obj\Debug\SinGooCMS.Control.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.Control\obj\Debug\SinGooCMS.Control.pdb
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.Control\obj\Debug\SinGooCMS.Control.csprojResolveAssemblyReference.cache
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.Control\obj\Debug\SinGooCMS.Control.Properties.Resources.resources
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.Control\obj\Debug\SinGooCMS.Control.csproj.GenerateResource.Cache
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.Control\obj\Debug\SinGooCMS.Control.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.Control\obj\Debug\SinGooCMS.Control.pdb
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.pdb
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.dll
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Control.pdb
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.Control\obj\Debug\SinGooCMS.Control.csprojResolveAssemblyReference.cache
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.Control\obj\Debug\SinGooCMS.Control.Properties.Resources.resources
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.Control\obj\Debug\SinGooCMS.Control.csproj.GenerateResource.Cache
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.Control\obj\Debug\SinGooCMS.Control.dll
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.Control\obj\Debug\SinGooCMS.Control.pdb

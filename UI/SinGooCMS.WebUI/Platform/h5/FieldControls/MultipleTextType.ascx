@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" Inherits="SinGooCMS.WebUI.h5.Controls.FieldControls.MultipleTextType" %>
+<asp:TextBox ID="txtField" runat="server" TextMode="MultiLine" CssClass="form-control" Rows="3" Columns="60"></asp:TextBox>

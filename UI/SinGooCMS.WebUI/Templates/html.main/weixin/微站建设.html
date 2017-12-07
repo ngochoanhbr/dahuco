@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    #parse("inc/_meta.html")
+</head>
+<script>
+    var landor = window.landor || {}; landor.svgSupport = document.implementation.hasFeature("", "1.1"), landor.browserSpec = "addEventListener" in window && landor.svgSupport ? "html5" : "html4", landor.touch = "ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch, landor.smoothscroll = !0; try { var mod = "landorStorage"; localStorage.setItem(mod, mod), localStorage.removeItem(mod), landor.localstorage = !0 } catch (e) { landor.localstorage = !1 } if ("iP" !== navigator.platform.substr(0, 2) || window.indexedDB || (landor.smoothscroll = !1), function () { var a = document.documentElement, b = " js " + landor.browserSpec + (landor.touch ? " touch" : " no-touch") + (landor.svgSupport ? " svg" : " no-svg") + (landor.smoothscroll ? " smoothscroll" : "no-smoothscroll") + (landor.localstorage ? " localstorage" : "no-localstorage"); a.className = a.className.replace(/\bno-js\b/, b) } (), window.location.hash && window.location.href.indexOf("#!") > -1) { url = ""; var urlArray = window.location.hash.split("/"); "about" == urlArray[1] ? "news" == urlArray[2] ? urlArray[3] && urlArray[4] ? url = "/news/" + urlArray[4] : url = "/news" : "people" == urlArray[2] ? urlArray[3] ? url = "/about/meet-our-people#" + urlArray[3] : url = "/about/meet-our-people" : url = "/about" : "careers" == urlArray[1] ? url = "/join-our-team" : "locations" == urlArray[1] ? urlArray[2] ? url = "/offices/" + urlArray[2] : url = "/offices" : "talk" == urlArray[1] ? urlArray[2] && urlArray[3] && urlArray[4] ? url = "/thinking/" + urlArray[4] : urlArray[2] && urlArray[3] ? url = "/thinking/" + urlArray[3] : url = "/thinking" : "work" == urlArray[1] && (urlArray[2] && urlArray[3] ? url = "/work/" + urlArray[3] : url = "/work"), window.location = url }
+</script>
+<body data-behavior="header_scroll">
+    <!-- top -->
+    #parse("inc/_header.html")
+    <!-- top end -->
+    <!--
+
+    <div class="page_header" style="background-image: url(${mbpath}dist/images/micro-station-bj.jpg);
+        background-size: cover; background-repeat: no-repeat;">
+        <div class="container text-left">
+            <h3 class="text-blue">
+                手机世界开发</h3>
+            <h1 class="text-blue">
+                Mobile phone development</h1>
+        </div>
+    </div>
+-->
+    <div class="inside-ads phone-web" style="background-color: #121212;">
+        <div class="container section-content ">
+            <figure class="wxsite"></figure>
+            <figure class="wxsite-hover"></figure>
+            <h2 class="small-title">
+                与世界零距离</h2>
+            <h3 class="title">
+                迎接挑战，您准备好了吗？</h3>
+        </div>
+    </div>
+
+    <div class="micro-web-site">
+        <div class="container text-center">
+            <div class="col-md-6 micro-web-site-content">
+                <h3 class="micro-web-site-title-en" data-scroll-reveal="enter bottom over 0.8s">
+                    Micro web site</h3>
+                <h1 class="micro-web-site-title-zh" data-scroll-reveal="enter bottom over 1s">
+                    微网站开发</h1>
+                <p class="micro-web-site-title-info" data-scroll-reveal="enter bottom over 1.2s">
+                    微官网是指将企业信息、服务、活动等内容<br />
+                    通过微信网页的方式进行表现，不但提高了信息量，<br />
+                    也使信息的展现更加赏心悦目，进一步提高用户体验。</p>
+                <!--<a href="#" class="more">相关案例</a>-->
+            </div>
+            <div class="col-md-6" data-scroll-reveal="enter bottom over 1.4s">
+                <img src="${mbpath}dist/images/Micro-web-site-bj.png">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="app-design">
+        <div class="container text-center">
+            <div class="col-md-6 micro-web-site-content">
+                <h3 class="micro-web-site-title-en" data-scroll-reveal="enter bottom over 0.8s">
+                    HTML5 design</h3>
+                <h1 class="micro-web-site-title-zh" data-scroll-reveal="enter bottom over 1s">
+                    HTML5 响应式设计</h1>
+                <p class="micro-web-site-title-info" data-scroll-reveal="enter bottom over 1.2s">
+                    前端代码采用最新技术HTML5的标准，<br>
+                    能快速有效适配手机、平板、PC等设备，<br>
+                    颠覆了传统的建站方式，<br>
+                    为客户打造多元化、可视化、智能化且精美的网站。
+                </p>
+                <!--<a href="#" class="more">相关案例</a>-->
+            </div>
+            <div class="col-md-6" data-scroll-reveal="enter bottom over 1.4s">
+                <img src="${mbpath}dist/images/app-design.png">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="micro-web-site">
+        <div class="container text-center">
+            <div class="col-md-12" data-scroll-reveal="enter bottom over 1.6s">
+               <img src="${mbpath}dist/images/wz.png">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="eight-policy">
+        <div class="container text-center">
+            <div class="eight-policy-title">
+                八大政策
+            </div>
+            <div class="eight-policy-box">
+                <div class="col-md-3 col-xs-6 col-sm-3" data-scroll-reveal="enter bottom over 0.8s">
+                    <div class="eight-policy-box-img">
+                        <img src="${mbpath}dist/images/cpxs.png">
+                    </div>
+                    <div class="eight-policy-box-name">
+                        产品销售
+                    </div>
+                    <div class="eight-policy-box-info">
+                        上门销售培训和一对一网络课堂<br />
+                        业务培训支持
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3" data-scroll-reveal="enter bottom over 1s">
+                    <div class="eight-policy-box-img">
+                        <img src="${mbpath}dist/images/shyy.png">
+                    </div>
+                    <div class="eight-policy-box-name">
+                        售后运营
+                    </div>
+                    <div class="eight-policy-box-info">
+                        全方位售后运营指导及产品生产<br />
+                        流程支持
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3" data-scroll-reveal="enter bottom over 1.2s">
+                    <div class="eight-policy-box-img">
+                        <img src="${mbpath}dist/images/ppxc.png">
+                    </div>
+                    <div class="eight-policy-box-name">
+                        品牌宣传
+                    </div>
+                    <div class="eight-policy-box-info">
+                        宣传资料全渠道投放<br />
+                        品牌推广带动全网传播
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3" data-scroll-reveal="enter bottom over 1.4s">
+                    <div class="eight-policy-box-img">
+                        <img src="${mbpath}dist/images/gxsd.png">
+                    </div>
+                    <div class="eight-policy-box-name">
+                        高效甩单
+                    </div>
+                    <div class="eight-policy-box-info">
+                        总部将客户信息按区域分配<br />
+                        提供甩单支持
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3" data-scroll-reveal="enter bottom over 1.6s">
+                    <div class="eight-policy-box-img">
+                        <img src="${mbpath}dist/images/qybh.png">
+                    </div>
+                    <div class="eight-policy-box-name">
+                        区域保护
+                    </div>
+                    <div class="eight-policy-box-info">
+                        区域保护系统和价格保护政策<br />
+                        避免订单冲突
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3" data-scroll-reveal="enter bottom over 1.8s">
+                    <div class="eight-policy-box-img">
+                        <img src="${mbpath}dist/images/jsbz.png">
+                    </div>
+                    <div class="eight-policy-box-name">
+                        技术保障
+                    </div>
+                    <div class="eight-policy-box-info">
+                        海外集群服务器和双线网络<br />
+                        保证平台稳定
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3" data-scroll-reveal="enter bottom over 2s">
+                    <div class="eight-policy-box-img">
+                        <img src="${mbpath}dist/images/cpsj.png">
+                    </div>
+                    <div class="eight-policy-box-name">
+                        产品升级
+                    </div>
+                    <div class="eight-policy-box-info">
+                        一流研发运营团队<br />
+                        持续续航维护升级服务
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3" data-scroll-reveal="enter bottom over 2.2s">
+                    <div class="eight-policy-box-img">
+                        <img src="${mbpath}dist/images/ycfw.png">
+                    </div>
+                    <div class="eight-policy-box-name">
+                        远程服务
+                    </div>
+                    <div class="eight-policy-box-info">
+                        全天候贴心客服服务<br />
+                        7*24小时实时跟踪
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--底部-->
+    #parse("inc/_footer.html")
+    <!--底部 end-->
+    <script type="text/javascript" src="${mbpath}dist/js/scrollReveal.js"></script>
+    <script>
+        (function () {
+            window.scrollReveal = new scrollReveal({ reset: false, move: '50px' });
+        })();
+    </script>
+</body>
+</html>

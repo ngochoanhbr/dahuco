@@ -1,0 +1,39 @@
+﻿@charset "utf-8";
+.area-box{}
+.area-input{border:1px #dadada solid;height:26px;line-height:26px;width:200px; padding-left:5px; font-family:"Microsoft YaHei"; margin-bottom:3px;}
+#areaopt_div	{display:none; position:absolute; width:0; text-indent:0;z-index:99999;}
+#areaopt,#areaopt_back	{ width:367px; height:auto; position:absolute; margin-left:-201px; margin-top:27px; background-color:#fff;z-index:100;}
+#areaopt			{ font-size:12px; font-weight:normal;border:solid 1px #dadada; border-radius: 3px}
+#areaopt_back		{ z-index:99; border:none; height:40px;}
+#areaopt div.areaopt_con	{  }
+#areaopt .clear		{ clear:both; display:block;}
+#areaopt a {
+    color: #333;
+    text-decoration: none;
+    padding: 2px;
+    text-align: left;
+    margin: 1px;
+    display: block;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    border: solid 1px #dadada;
+    border-radius: 3px;
+}
+#areaopt a:hover{ background-color:#09C; color:#fff; }
+#areaopt .areaopt_mouseon	{ background-color:#09C; color:#fff; }
+
+#areaopt .areaopt_province	{ width:100%; height:auto; overflow:hidden;}
+#areaopt .areaopt_province div	{ display:block; margin-bottom:0;}
+#areaopt .areaopt_province a	{ }
+#areaopt .areaopt_city		{ width:100%; height:auto; background-color:#fff; margin-top:3px; margin-bottom:3px; display:none; border-top:dashed 1px #ccc; overflow:hidden; }
+#areaopt .areaopt_city div	{ margin-bottom:0;}
+#areaopt .areaopt_city a	{ }
+#areaopt .areaopt_zone		{ width:100%; height:auto; background-color:#fff; display:none; border-top:dashed 1px #ccc; overflow:hidden; }
+#areaopt .areaopt_zone div	{ margin-bottom:0;}
+#areaopt .areaopt_zone a	{}
+#areaopt .areaopt_tools		{ text-align:right; width:100%; color:#09C; margin-top:3px;padding: 5px;border-top:solid 1px #ccc;}
+#areaopt .areaopt_btn		{padding:2px 3px;margin-top:3px; background-color:#d9534f; color:#FFF; font-size:12px; overflow:hidden; margin-left:10px;}
+#areaopt .areaopt_btn:hover{cursor:pointer;}
+#areaopt .areaopt_tip		{ color:#ee1c24; margin-left:4px;margin-right:10px; }

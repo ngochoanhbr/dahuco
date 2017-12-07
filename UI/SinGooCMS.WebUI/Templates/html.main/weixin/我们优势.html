@@ -1,0 +1,263 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    #parse("inc/_meta.html")
+</head>
+<script>
+    var landor = window.landor || {}; landor.svgSupport = document.implementation.hasFeature("", "1.1"), landor.browserSpec = "addEventListener" in window && landor.svgSupport ? "html5" : "html4", landor.touch = "ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch, landor.smoothscroll = !0; try { var mod = "landorStorage"; localStorage.setItem(mod, mod), localStorage.removeItem(mod), landor.localstorage = !0 } catch (e) { landor.localstorage = !1 } if ("iP" !== navigator.platform.substr(0, 2) || window.indexedDB || (landor.smoothscroll = !1), function () { var a = document.documentElement, b = " js " + landor.browserSpec + (landor.touch ? " touch" : " no-touch") + (landor.svgSupport ? " svg" : " no-svg") + (landor.smoothscroll ? " smoothscroll" : "no-smoothscroll") + (landor.localstorage ? " localstorage" : "no-localstorage"); a.className = a.className.replace(/\bno-js\b/, b) } (), window.location.hash && window.location.href.indexOf("#!") > -1) { url = ""; var urlArray = window.location.hash.split("/"); "about" == urlArray[1] ? "news" == urlArray[2] ? urlArray[3] && urlArray[4] ? url = "/news/" + urlArray[4] : url = "/news" : "people" == urlArray[2] ? urlArray[3] ? url = "/about/meet-our-people#" + urlArray[3] : url = "/about/meet-our-people" : url = "/about" : "careers" == urlArray[1] ? url = "/join-our-team" : "locations" == urlArray[1] ? urlArray[2] ? url = "/offices/" + urlArray[2] : url = "/offices" : "talk" == urlArray[1] ? urlArray[2] && urlArray[3] && urlArray[4] ? url = "/thinking/" + urlArray[4] : urlArray[2] && urlArray[3] ? url = "/thinking/" + urlArray[3] : url = "/thinking" : "work" == urlArray[1] && (urlArray[2] && urlArray[3] ? url = "/work/" + urlArray[3] : url = "/work"), window.location = url }
+</script>
+<body data-behavior="header_scroll">
+    <!-- top -->
+    #parse("inc/_header.html")
+    <!-- top end -->
+    <!--
+    <div class="page_header" style="background-image: url(${mbpath}dist/images/youshibj.jpg);
+        background-size: cover; background-repeat: no-repeat;">
+    </div>
+    -->
+    <div class="inside-ads Advantage" style="background-color: #000;">
+        <div class="container section-content ">
+            <figure class="dq-img"></figure>
+            <h2 class="small-title text-center">
+                阿里云指定服务商</h2>
+            <h3 class="title text-center">
+                中国人寿、创维、宏电、路升光电、您？</h3>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div class="about">
+            <div class="superiority-tiele" data-scroll-reveal="enter bottom over 0.8s">
+                公司简介</div>
+            <span class="line" data-scroll-reveal="enter bottom over 1s"></span>
+            <p class="details" data-scroll-reveal="enter bottom over 1.2s">
+                2001年，联华网络创立于中国深圳市福田区华强北赛格科技园（现位于深圳市龙华新区民治街道民康路口蓝坤大厦1516室）。专业从事网站建设、电子商务解决方案、网络营销推广、系统软件开发、域名空间邮箱销售等业务；公司发展这些年，成就卓然，分别与百度、网易、腾讯、中兴通讯、阿里云（万网）、中国银行深圳分公司、深国投、云南省文化产业博览会、昆明市政协、香港理工大学研究院等著名企业、单位建站了合作关系，为其提供高质、高效的网站解决方案，并得到了一致好评。
+                联华网络拥有专业的网页设计人员、前端制作人员、程序开发人员、数据库设计人员、项目管理人员以及售后服务人员共20余人。 所有员工都具有5年以上计算机实际应用基础，以及5年以上互联网实践经验。扎实的专业功底是我们立足的根本，对理想的追求是我们发展的动力。公司秉承“客户的需求就是我们的追求”这一理念，为客户提供优质的服务，与客户一起携手未来！</p>
+            <span class="line" data-scroll-reveal="enter bottom over 1.4s"></span>
+            <div class="robin_circle hidden-xs hidden-sm">
+                <div class="r_out" data-scroll-reveal="enter bottom over 1.6s">
+                    <div class="r_in">
+                        <div class="r_c c1">
+                        </div>
+                        <div class="r_num">
+                            98%</div>
+                    </div>
+                    <p>
+                        大学专科计算机专业以上学历</p>
+                </div>
+                <div class="r_out" data-scroll-reveal="enter bottom over 1.8s">
+                    <div class="r_in">
+                        <div class="r_c c2">
+                        </div>
+                        <div class="r_num">
+                            60%</div>
+                    </div>
+                    <p>
+                        从业5年以上</p>
+                </div>
+                <div class="r_out" data-scroll-reveal="enter bottom over 2s">
+                    <div class="r_in">
+                        <div class="r_c c3">
+                        </div>
+                        <div class="r_num">
+                            30%</div>
+                    </div>
+                    <p>
+                        业内顶尖人才</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="supplier">
+        <div class="container text-center">
+            <div class="supplier-title" data-scroll-reveal="enter bottom over 0.8s">
+                阿里云指定供应商</div>
+            <div class="supplier-subtitle" data-scroll-reveal="enter bottom over 1s">
+                战略合作伙伴</div>
+            <p class="supplier-info" data-scroll-reveal="enter bottom over 1.2s">
+                公司先后与雅虎中国、万网、润讯，商务中国、新网、欧克软件等公司建立了战略合作伙伴关系。公司专业提供软件开发、网站开发运营及全方位企业电子商务方案策划的全流程服务。公司成立以来，出色的完成了文博会、云南文化产业推介中心、昆明政协、中国联通、中国银行、吉林银行、深圳南山体育局等数百个重大项目的开发和运营，赢得客户一致好评。
+            </p>
+        </div>
+    </div>
+    <div class="container strength text-center">
+        <div class="strength-title" data-scroll-reveal="enter bottom over 0.8s">
+            十七年热情永不止步</div>
+        <div class="strength-subtitle" data-scroll-reveal="enter bottom over 1s">
+            seventeen years keep walking</div>
+        <p class="strength-info" data-scroll-reveal="enter bottom over 1.2s">
+            联华网络秉承着“客户的需求就是我们的追求”这一理念，建立了科学的管理运营机制和强有力的市场体系，拥有专家级的资深IT技术人员团队和咨询、服务人员精英团队，将继续以最优化的资源配置与最佳的
+            效益增长为源动力，与庞大而优秀的客户群体一起，共同迎接信息时代的挑战。</p>
+        <div class="col-md-4 col-xs-4">
+            <h2 class="timer count-title" id="count-number" data-to="17" data-speed="1500">
+            </h2>
+            <p class="count-title-info">
+                17年专业历程</p>
+        </div>
+        <div class="col-md-4 col-xs-4">
+            <h2 class="timer count-title" id="count-number" data-to="10000" data-speed="1500">
+            </h2>
+            <p class="count-title-info">
+                超过1万次服务经验</p>
+        </div>
+        <div class="col-md-4 col-xs-4">
+            <h2 class="timer count-title" id="count-number" data-to="500" data-speed="1500">
+            </h2>
+            <p class="count-title-info">
+                中国品牌设计500强</p>
+        </div>
+        <!--<a href="#" class="more">查看更多</a>-->
+    </div>
+    <div class="team">
+        <div class="container text-center">
+            <div class="team-title" data-scroll-reveal="enter bottom over 0.8s">
+                团队</div>
+            <div class="team-info" data-scroll-reveal="enter bottom over 1s">
+                这是一个年轻的团队，精兵强将随你点兵，有想法、有担当、做奋斗的好青年，如初春如朝日等待您的出现在人生最宝贵的时候做了不后悔的努力，为团队的壮大奉献自己的才能，我们就是联华的财富与核心竞争力！给我们一个机会，还你一个不悔的选择！
+            </div>
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-img">
+                            <!--src="http://landor-prod.imgix.net/app/uploads/2015/08/28183518/Peter-Knapp-RT.jpg?w=360&h=250&f=crop&auto=format"-->
+                            <img src="${mbpath}dist/images/rw01.jpg">
+                        </div>
+                        <div class="swiper-slide-english">
+                            WANJUAN TAN</div>
+                        <div class="swiper-slide-ch">
+                            谭婉娟</div>
+                        <span class="line"></span>
+                        <div class="swiper-slide-post">
+                            资深网页设计师</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-img">
+                            <img src="${mbpath}dist/images/rw02.jpg">
+                        </div>
+                        <div class="swiper-slide-english">
+                            LINGXING DU</div>
+                        <div class="swiper-slide-ch">
+                            杜林星</div>
+                        <span class="line"></span>
+                        <div class="swiper-slide-post">
+                            喜草品牌策略顾问</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-img">
+                            <img src="${mbpath}dist/images/rw03.jpg">
+                        </div>
+                        <div class="swiper-slide-english">
+                            YANG</div>
+                        <div class="swiper-slide-ch">
+                            杨瑞</div>
+                        <span class="line"></span>
+                        <div class="swiper-slide-post">
+                            高级软件工程师</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="../${mbpath}dist/js/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            slidesPerView: 3,
+            spaceBetween: 50,
+            loop: true,
+            autoplay: 4000, //可选选项，自动滑动
+            breakpoints: {
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 40
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 10
+                }
+            }
+        });
+    </script>
+    <!-- banner-->
+    <section class="es-poster hz-poster">
+	<div class="swiper-container swiper-container-tow">
+	    <div class="swiper-wrapper"><!--background-image: url(http://landor-prod.imgix.net/app/uploads/2015/08/27135741/D5V7386B.jpg?auto=format&ixjsv=1.1.2&w=1910)-->
+	        <div class="swiper-slide" style="background-image: url(/Templates/html/dist/images/ys01.jpg)">
+		      	<!--<a href="#" target="_blank" title="办公桌面"></a>-->
+		    </div>
+	    </div>
+	</div>
+    </section>
+    <!--<script>
+        var swiper = new Swiper('.swiper-container-tow', {
+            pagination: '.swiper-pagination',
+            slidesPerView: 1,
+            paginationClickable: true,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: 5000, //可选选项，自动滑动
+            autoplayDisableOnInteraction: false
+        });
+    </script>-->
+    <!-- banner end-->
+    <div class="witness">
+        <div class="container text-center">
+            <div class="witness-title" data-scroll-reveal="enter bottom over 0.8s">
+                超过万余家客户共同见证</div>
+            <div class="witness-numeral" data-scroll-reveal="enter bottom over 1s">
+                10000+</div>
+            <span class="line" data-scroll-reveal="enter bottom over 1.2s"></span>
+            <p class="witness-info" data-scroll-reveal="enter bottom over 1.4s">
+                感谢客户信任与支持，让我们从开始一直走到现在。未来，我们将一如既往地为客户提供专业策划与设计、整体网站解决方案服务；对于我们所热爱的事业保持高度的热情与专注，在市场上独树一帜，给予客户及我们自身的不断发展...</p>
+            <div class="index-partner-logo container">
+                <ul id="links">
+                    #foreach($item in $cms.GetDict("CustomerLogos").Items) #if($key % 6==1)<div class="clear">
+                        #end
+                        <li class="col-md-2 col-sm-3 col-xs-6">
+                            <img class="lazy" data-original="${mbpath}dist/logo/${item.KeyValue}">
+                        </li>
+                        #if($key % 6==0)</div>
+                    #end #end
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--底部-->
+    #parse("inc/_footer.html")
+    <!--底部 end-->
+    <script type="text/javascript">
+        window.onscroll = function () {
+            var t = document.documentElement.scrollTop || document.body.scrollTop;
+            if (t > 100) {
+                $(".c1").animate({
+                    height: "70%"
+                }, 2000);
+                $(".c2").animate({
+                    height: "50%"
+                }, 2000)
+                $(".c3").animate({
+                    height: "43%"
+                }, 2000);
+            }
+        }
+    </script>
+    <script type='text/javascript' src="${mbpath}dist/js/animateNumber.js"></script>
+    <script type="text/javascript" src="${mbpath}dist/js/scrollReveal.js"></script>
+    <script>
+        (function () {
+            window.scrollReveal = new scrollReveal({ reset: false, move: '50px' });
+        })();
+    </script>
+</body>
+</html>
+

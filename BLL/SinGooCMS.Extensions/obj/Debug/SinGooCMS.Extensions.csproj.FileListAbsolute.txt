@@ -1,0 +1,20 @@
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.Extensions\obj\Debug\ResolveAssemblyReference.cache
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.pdb
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.Extensions\obj\Debug\SinGooCMS.Extensions.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.Extensions\obj\Debug\SinGooCMS.Extensions.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.Extensions\obj\Debug\ResolveAssemblyReference.cache
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.Extensions\obj\Debug\SinGooCMS.Extensions.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.Extensions\obj\Debug\SinGooCMS.Extensions.pdb
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.pdb
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.Extensions\obj\Debug\SinGooCMS.Extensions.csprojResolveAssemblyReference.cache
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.Extensions\obj\Debug\SinGooCMS.Extensions.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.Extensions\obj\Debug\SinGooCMS.Extensions.pdb
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.dll
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Extensions.pdb
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.Extensions\obj\Debug\SinGooCMS.Extensions.csprojResolveAssemblyReference.cache
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.Extensions\obj\Debug\SinGooCMS.Extensions.dll
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.Extensions\obj\Debug\SinGooCMS.Extensions.pdb

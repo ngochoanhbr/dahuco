@@ -1,0 +1,21 @@
+﻿<div class="pagination" data-scroll-reveal="enter bottom over 3.6s">
+#if($pager.RecordCount>0)
+#if($pager.PageIndex<=1)
+   <a class="disabled"><</a>
+#else
+<a class="prevPage" href="$pager.GetUrl('prev')"><</a>
+#end
+#foreach($n in $pager.GetPages(10))
+#if($n==$pager.PageIndex)
+<a class="act">$n</a>
+#else
+<a href="$pager.GetUrl($n)">$n</a>
+#end
+#end
+#if($pager.PageIndex==$pager.PageCount)
+<a class="disabled">></a>
+#else
+<a class="nextPage" href="$pager.GetUrl('next')">></a>
+#end
+#end
+</div>

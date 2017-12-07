@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+html,body{ height:100%;}
+body{ background:#fff;}
+.error h2{
+	padding:30px 0px;
+	height:126px;
+	line-height:126px;
+    width:200px;
+	margin:0 auto;
+	background:url(warning.jpg) left no-repeat;
+    font-size:30px;
+	padding-left:136px;
+	font-weight:bold;
+	color:#999;
+	}
+.error h2.repairs{
+	padding:50px 0px;
+	height:126px;
+	line-height:126px;
+    width:200px;
+	margin:0 auto;
+	background:url(repairs.jpg) left no-repeat;
+    font-size:30px;
+	padding-left:160px;
+	font-weight:bold;
+	color:#999;
+	}
+
+.error-info{
+	width:600px;
+	margin:0 auto; 
+	padding:20px; 
+	background:#f8f8f8;	
+	box-shadow:#ccc 5px 5px 10px;
+    }
+.error-info h3{padding-bottom:20px; font-size:14px; color:#F60;font-weight:bold;}
+.error-info p{line-height:22px;}
+.error-info h4{ padding-top:20px;}
+.error-info a{font-size:14px; color:#F60;padding:0px 2px; text-decoration:underline;}

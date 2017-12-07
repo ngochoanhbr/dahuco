@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="SinGooCMS.WebUI.Platform.MasterPage.IFrame" %>
+
+<!DOCTYPE html>
+<html>
+<head id="Head1" runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Trang quản trị (<%=SinGooCMS.Config.ConfigProvider.Configs.SiteName %>)</title>
+    <script type="text/javascript" src="/Include/Script/jquery.min.js"></script>    
+    <script type="text/javascript" src="/platform/h5/js/default.js"></script>
+    <script type="text/javascript" src="/Include/Script/publicfun.js"></script>
+    <script type="text/javascript" src="/Include/Script/jquery.updatepanel.js"></script>
+    <script type="text/javascript" src="/Include/Plugin/artDialog/jquery.artDialog.js"></script>
+    <script type="text/javascript" src="/Include/Plugin/artDialog/plugins/iframeTools.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Include/Plugin/artDialog/skins/html5.css" /> 
+    <link rel="stylesheet" type="text/css" href="/Include/Style/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/platform/h5/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/platform/h5/square/blue.css" />
+    <link rel="stylesheet" type="text/css" href="/platform/h5/css/viewer.min.css" />    
+    <link rel="stylesheet" type="text/css" href="/platform/h5/css/bootstrap-switch.min.css" />    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-image: none">
+    <div id="loading" style="margin: 100px auto; width: 100px;">
+        <img src="/Include/Images/loading.gif" border="0" alt="" /><br />
+        Đang tải...
+    </div>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="scriptManager1" runat="server">
+    </asp:ScriptManager>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
+<script type="text/javascript" src="/Include/Script/bootstrap.min.js"></script>  
+<script type="text/javascript" src="/platform/h5/js/icheck.min.js"></script>
+<script type="text/javascript" src="/platform/h5/js/jquery.nicescroll.js"></script>
+<script type="text/javascript" src="/platform/h5/js/viewer.min.js"></script>
+<script type="text/javascript" src="/platform/h5/js/bootstrap-switch.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#loading").hide();
+        $("[data-toggle='tooltip']").tooltip();
+        //Checkbox样式
+        $('.checkbox_radio').iCheck({
+            checkboxClass: 'icheckbox_square-blue',  
+            radioClass: 'iradio_square-blue', 
+            increaseArea: '10%',
+        });
+        //是否Lựa chọn 
+        $(".ios-switch").bootstrapSwitch();
+    });
+    window.document.onkeydown = function (event) {
+        if (jQuery("#btncancel")) {
+            event = event || window.event;
+            if (event.keyCode == 27) { //esc
+                $.dialog.close();
+            }
+        }
+    }
+    $("#left-panel").niceScroll({
+        cursorcolor: "#787D84",
+        cursoropacitymax: 5,
+        touchbehavior: false,
+        cursorwidth: "5px",
+        cursorborder: "0",
+        cursorborderradius: "5px"
+    }); 
+    $('#checkall').on('ifChecked', function (event) {
+        $("input[type='checkbox']").iCheck('check');
+    });
+    $('#checkall').on('ifUnchecked', function (event) {
+        $("input[type='checkbox']").iCheck('uncheck');
+    });
+    //Xem图片
+    $("img[viewer='true'],div[viewer='true']").viewer({url:"data-original"});
+</script>

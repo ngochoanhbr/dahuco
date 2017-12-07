@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>支付结果</title>
+    <link rel="stylesheet" type="text/css" href="${mbpath}dist/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="${mbpath}dist/css/cart.css">
+    <link rel="stylesheet" type="text/css" href="${mbpath}dist/css/header-footer.css">    
+</head>
+<body>
+    #parse("inc/_specialheader.html")
+    <!--头部引用 header-footer.css end-->
+    <div class="page-main pt-30 pb-30">
+        <div class="l-row l-last">
+            <div class="l-process l-process-3 clear-fix" style="margin: 20px 0px;">
+                <span class="l-unit l-current">确认订单</span> <span class="l-arrow l-current-unit l-arrow-complete">
+                    <span class="l-next"></span><span class="l-prev"></span></span><span class="l-unit l-current">
+                        支付</span> <span class="l-arrow l-current-unit l-arrow-complete"><span class="l-next">
+                        </span><span class="l-prev"></span></span><span class="l-unit l-current">支付完成</span>
+            </div>
+        </div>
+        <div class="l-row l-last bg-white">
+            <div class="order-info">
+                <div class="title">
+                    <strong>订单信息</strong>
+                </div>
+                <div class="content content-scroll">
+                    <div class="Payment-status">
+                        <i class="iconfont ok">&#xe6f3;</i>
+                        <h3 class="mt-30">
+                            支付成功 <a href="/">返回首页</a> | <a href="/user/infocenter">进入会员中心</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    #parse("inc/_specialfooter.html")
+</body>
+</html>
+<script type="text/javascript" src="${mbpath}dist/js/jquery.min.js"></script>
+<script type="text/javascript" src="${mbpath}dist/js/bootstrap.min.js"></script>

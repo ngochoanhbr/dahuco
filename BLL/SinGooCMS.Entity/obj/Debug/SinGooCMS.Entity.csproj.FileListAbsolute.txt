@@ -1,0 +1,25 @@
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.Entity\obj\Debug\ResolveAssemblyReference.cache
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Entity.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Entity.pdb
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.Entity\obj\Debug\SinGooCMS.Entity.dll
+F:\产品研发\v1.2\SinGooCMS\BLL\SinGooCMS.Entity\obj\Debug\SinGooCMS.Entity.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Entity.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Entity.pdb
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.Entity\obj\Debug\ResolveAssemblyReference.cache
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.Entity\obj\Debug\SinGooCMS.Entity.dll
+F:\产品研发\v1.2\SinGooShop\BLL\SinGooCMS.Entity\obj\Debug\SinGooCMS.Entity.pdb
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.Entity\obj\Debug\SinGooCMS.Entity.csprojResolveAssemblyReference.cache
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.Entity\obj\Debug\SinGooCMS.Entity.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.Entity\obj\Debug\SinGooCMS.Entity.pdb
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Entity.dll
+D:\Mr. Hoanh\Code\QL VPGT\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Entity.pdb
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Entity.dll
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Entity.pdb
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.Entity\obj\Debug\SinGooCMS.Entity.csprojResolveAssemblyReference.cache
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.Entity\obj\Debug\SinGooCMS.Entity.dll
+D:\Mr. Hoanh\Code\Origin\BLL\SinGooCMS.Entity\obj\Debug\SinGooCMS.Entity.pdb
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Entity.dll
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.BLL.Custom\lib\SinGooCMS.Entity.pdb
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.Entity\obj\Debug\SinGooCMS.Entity.csprojResolveAssemblyReference.cache
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.Entity\obj\Debug\SinGooCMS.Entity.dll
+D:\dahuco\Code\Origin\A Minh\Code\BLL\SinGooCMS.Entity\obj\Debug\SinGooCMS.Entity.pdb

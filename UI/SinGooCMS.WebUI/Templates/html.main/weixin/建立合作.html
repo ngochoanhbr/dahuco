@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    #parse("inc/_meta.html")
+    <script src="/Include/Script/publicfun.js" type="text/javascript"></script>
+    <link href="/Include/Plugin/artDialog/skins/idialog.css" rel="stylesheet" type="text/css" />
+    <script src="/Include/Plugin/artDialog/jquery.artDialog.js" type="text/javascript"></script>
+    <script src="/Include/Plugin/artDialog/plugins/iframeTools.js" type="text/javascript"></script>
+</head>
+<script>
+    var landor = window.landor || {}; landor.svgSupport = document.implementation.hasFeature("", "1.1"), landor.browserSpec = "addEventListener" in window && landor.svgSupport ? "html5" : "html4", landor.touch = "ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch, landor.smoothscroll = !0; try { var mod = "landorStorage"; localStorage.setItem(mod, mod), localStorage.removeItem(mod), landor.localstorage = !0 } catch (e) { landor.localstorage = !1 } if ("iP" !== navigator.platform.substr(0, 2) || window.indexedDB || (landor.smoothscroll = !1), function () { var a = document.documentElement, b = " js " + landor.browserSpec + (landor.touch ? " touch" : " no-touch") + (landor.svgSupport ? " svg" : " no-svg") + (landor.smoothscroll ? " smoothscroll" : "no-smoothscroll") + (landor.localstorage ? " localstorage" : "no-localstorage"); a.className = a.className.replace(/\bno-js\b/, b) } (), window.location.hash && window.location.href.indexOf("#!") > -1) { url = ""; var urlArray = window.location.hash.split("/"); "about" == urlArray[1] ? "news" == urlArray[2] ? urlArray[3] && urlArray[4] ? url = "/news/" + urlArray[4] : url = "/news" : "people" == urlArray[2] ? urlArray[3] ? url = "/about/meet-our-people#" + urlArray[3] : url = "/about/meet-our-people" : url = "/about" : "careers" == urlArray[1] ? url = "/join-our-team" : "locations" == urlArray[1] ? urlArray[2] ? url = "/offices/" + urlArray[2] : url = "/offices" : "talk" == urlArray[1] ? urlArray[2] && urlArray[3] && urlArray[4] ? url = "/thinking/" + urlArray[4] : urlArray[2] && urlArray[3] ? url = "/thinking/" + urlArray[3] : url = "/thinking" : "work" == urlArray[1] && (urlArray[2] && urlArray[3] ? url = "/work/" + urlArray[3] : url = "/work"), window.location = url }
+</script>
+<body data-behavior="header_scroll">
+    <!-- top -->
+    #parse("inc/_header.html")
+    <!-- top end -->
+
+    <!--
+    <div class="page_header" style="background-image: url(${mbpath}dist/images/hzbj.jpg);
+        background-size: cover; background-repeat: no-repeat;">
+        <div class="container text-center">
+            <h3>
+                联华网络提供最有价值的互联网营销设计方案</h3>
+            <h1>
+                企业"互联网+" 的落地执行者</h1>
+        </div>
+    </div>
+    -->
+<div class="inside-ads Cooperation" style="background-color:#121212;">
+    <div class="container section-content">
+        <figure class="rw-img"></figure>
+        <h2 class="small-title text-center">联华网络－品牌创造价格</h2>
+        <h3 class="title text-center">您的追求，我的梦想。</h3>
+    </div>
+</div>
+
+
+
+
+
+
+    
+    <div class="container text-center">
+        <div class="about">
+            <div class="superiority-tiele" data-scroll-reveal="enter bottom over 0.8s">
+                企业历程</div>
+            <span class="line" data-scroll-reveal="enter bottom over 1s"></span>
+            <p class="details" data-scroll-reveal="enter bottom over 1.2s">
+                2001年联华网络在深圳华强北赛格科技园正式成立。<br />
+                2002年12月联华网络与百度公司合作，成为百度公司在深圳的第一家代理商。
+                <br />
+                2003年3月联华网络与3721、SOHU、163（网易）签约，成为其在深圳的一级合作伙伴。
+                <br />
+                2003年8月公司发展迅速，会员企业首次突破1500余家。
+                <br />
+                2004年1月公司签约中国银行深圳分公司，成为其内部OA平台的开发商。
+                <br />
+                2004年7月深交所上市公司深国投选择联华网络作为其集团互联网整体解决方案提供商。
+                <br />
+                2005年3月联华网络签约中兴通讯公司，成为其移动互联网技术解决方案商。
+                <br />
+                2005年4月签约腾讯科技（深圳）有限公司（QQ），为其提供移动互联网增值服务。
+                <br />
+                2006年6月联华网络成为深圳市互联网协会副理事长。
+                <br />
+                2006年9月签约云南省文化产业博览会。<br />
+                2007年9月签约昆明市政协。
+                <br />
+                2008年3月签约香港理工大学研究院。
+                <br />
+                2009年5月签约招商地产，鲸山别墅（上市公司）。
+                <br />
+                2009年8月签约深圳南山体育局。
+                <br />
+                2010年3月签约海格物流。
+                <br />
+                2014年3月与阿里云建立战略合作伙伴关系。
+                <br />
+                2015年8月与台湾华广通路公司签约，为其提供电子商务解决方案。<br />
+                2016年5月与深圳大族激光全额子公司路升光电签约，为其提供新版官网解决方案。
+                <br />
+            </p>
+            <script>
+                $('.details').readmore({ moreLink: "<a href='javascript:void(0)' class='more'>查看更多</a>", lessLink: "", sectionCSS: "" });               
+            </script>
+        </div>
+    </div>
+    <div class="advertising">
+        <div class="container text-center">
+            <h1 class="advertising-title" data-scroll-reveal="enter bottom over 0.8s">
+                您给我们信任，我们给您惊喜</h1>
+            <p class="advertising-subtitle" data-scroll-reveal="enter bottom over 1s">
+                为数以千计的客户提供整体网站解决方案！</p>
+        </div>
+    </div>
+    <div class="offices">
+        <div class="container text-center">
+            <div class="offices-title" data-scroll-reveal="enter bottom over 0.8s">
+                我们工作的地方</div>
+            <p class="offices-subtitle" data-scroll-reveal="enter bottom over 1s">
+                公司座落在年青、富有创造力、无限可能的南部沿海城市－深圳</p>
+        </div>
+        <div class="container offices-images-box">
+            <div class="col-md-4 col-xs-12 col-sm-4" data-scroll-reveal="enter bottom over 0.8s">
+                <div class="work-imgbox dtl12">
+                    <img src="${mbpath}dist/images/gz02.jpg" alt="会议室,APP,UI,WEB设计" title="会议室,APP设计">
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 col-sm-4" data-scroll-reveal="enter bottom over 1s">
+                <div class="work-imgbox dtl12">
+                    <img src="${mbpath}dist/images/gz01.jpg" alt="圣诞快乐,APP,UI,WEB设计" title="圣诞快乐,APP设计">
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 col-sm-4" data-scroll-reveal="enter bottom over 1.2s">
+                <div class="work-imgbox dtl12">
+                    <img src="${mbpath}dist/images/gz03.jpg" alt="办公环境,APP,UI,WEB设计" title="办公环境,APP设计">
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 col-sm-4" data-scroll-reveal="enter bottom over 1.3s">
+                <div class="work-imgbox dtl12">
+                    <img src="${mbpath}dist/images/gz05.jpg" alt="会议室,APP,UI,WEB设计" title="会议室,APP设计">
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 col-sm-4" data-scroll-reveal="enter bottom over 1.4s">
+                <div class="work-imgbox dtl12">
+                    <img src="${mbpath}dist/images/gz04.jpg" alt="圣诞快乐,APP,UI,WEB设计" title="圣诞快乐,APP设计">
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 col-sm-4" data-scroll-reveal="enter bottom over 1.5s">
+                <div class="work-imgbox dtl12">
+                    <img src="${mbpath}dist/images/gz06.jpg" alt="办公环境,APP,UI,WEB设计" title="办公环境,APP设计">
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 col-sm-4" data-scroll-reveal="enter bottom over 1.3s">
+                <div class="work-imgbox dtl12">
+                    <img src="${mbpath}dist/images/gz07.jpg" alt="会议室,APP,UI,WEB设计" title="会议室,APP设计">
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 col-sm-4" data-scroll-reveal="enter bottom over 1.4s">
+                <div class="work-imgbox dtl12">
+                    <img src="${mbpath}dist/images/gz08.jpg" alt="圣诞快乐,APP,UI,WEB设计" title="圣诞快乐,APP设计">
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 col-sm-4" data-scroll-reveal="enter bottom over 1.5s">
+                <div class="work-imgbox dtl12">
+                    <img src="${mbpath}dist/images/gz09.jpg" alt="办公环境,APP,UI,WEB设计" title="办公环境,APP设计">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="message">
+        <div class="container">
+            <h2>
+                在线提交您的需求</h2>
+            <span>我们会在24小时内回复您的邮件，节假日除外。</span>
+            <div class="form">
+                <div class="col-md-4">
+                    <input type="text" placeholder="您的姓名" id="p_name" maxlength="50">
+                </div>
+                <div class="col-md-4">
+                    <input type="text" placeholder="您的固话/手机" id="p_phone" maxlength="50">
+                </div>
+                <div class="col-md-4">
+                    <input type="text" placeholder="您的邮箱" id="p_email" maxlength="30">
+                </div>
+                <div class="col-md-12">
+                    <textarea placeholder="填写您的需求，不超过2000汉字" id="p_need"></textarea>
+                </div>
+                <div class="col-md-12">
+                    <input type="submit" value="提交" id="p_sumit">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--底部-->
+    #parse("inc/_footer.html")
+    <!--底部 end-->
+</body>
+</html>
+<script type="text/javascript" src="${mbpath}dist/js/scrollReveal.js"></script>
+<script>
+    (function () {
+        window.scrollReveal = new scrollReveal({ reset: false, move: '50px' });
+    })();
+    jQuery("#p_sumit").click(function () {
+        var p_name, p_phone, p_email, p_need;
+        p_name = jQuery("#p_name").val();
+        p_phone = jQuery("#p_phone").val();
+        p_email = jQuery("#p_email").val();
+        p_need = jQuery("#p_need").val();
+        if (p_name == "") showtip("请填写您的姓名");
+        else if (p_phone == "") showtip("请填写您的电话，以便联系");
+        else if (p_email == "") showtip("请填写您的需求");
+        else {
+            jQuery.post("/Include/Ajax/AjaxCustom.aspx", { t: "saveapply", _name: p_name, _phone: p_phone, _email: p_email, _content: p_need, temp: Math.random() }, function (data) {
+                showtip(data.msg);
+            }, "JSON");
+        }
+    });
+</script>

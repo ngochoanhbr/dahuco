@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{36334B0F-11D3-4AEC-8699-CBB9B6CC4A58}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SinGooCMS.Plugin</RootNamespace>
+    <AssemblyName>SinGooCMS.Plugin</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\SinGooCMS.BLL.Custom\lib\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJSON">
+      <HintPath>lib\LitJSON.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Net35, Version=4.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Newtonsoft.Json.Net35.dll</HintPath>
+    </Reference>
+    <Reference Include="SinGooCMS.BLL, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\SinGooCMS.BLL.dll</HintPath>
+    </Reference>
+    <Reference Include="SinGooCMS.Core, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SinGooCMS.BLL.Custom\lib\SinGooCMS.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ThoughtWorks.QRCode, Version=1.0.2774.19990, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\ThoughtWorks.QRCode.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Express\Kuaidi100.cs" />
+    <Compile Include="Express\KuaidiCom.cs" />
+    <Compile Include="Express\KuaidiComInfo.cs" />
+    <Compile Include="Express\UENews.cs" />
+    <Compile Include="Express\UENewsInfo.cs" />
+    <Compile Include="OAuth\OAuthConfig.cs" />
+    <Compile Include="OAuth\QQAuth.cs" />
+    <Compile Include="OAuth\qq\index.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OAuth\qq\result_json.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OAuth\qq\return_url.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OAuth\SinaAuth.cs" />
+    <Compile Include="OAuth\sina\index.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OAuth\sina\result_json.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OAuth\sina\return_url.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SMS\ISMS.cs" />
+    <Compile Include="SMS\MessageSet.cs" />
+    <Compile Include="SMS\MomingSMS.cs" />
+    <Compile Include="SMS\MsgService.cs" />
+    <Compile Include="SMS\QcloudSMS.cs" />
+    <Compile Include="SMS\SinoteleICTSMS.cs" />
+    <Compile Include="SMS\SMSProvider.cs" />
+    <Compile Include="SMS\WebChineseSMS.cs" />
+    <Compile Include="ThirdLogin\Helper.cs" />
+    <Compile Include="ThirdLogin\OAuthConfig.cs" />
+    <Compile Include="ThirdLogin\QQAuth.cs" />
+    <Compile Include="ThirdLogin\SinaAuth.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="VerifyCode\ImageCode.cs" />
+    <Compile Include="VerifyCode\IVerifyCode.cs" />
+    <Compile Include="VerifyCode\VerifyCode.cs" />
+    <Compile Include="VerifyCode\VerifyCodePlus.cs" />
+    <Compile Include="VerifyCode\VerifyCodeProvider.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SinGooCMS.Config\SinGooCMS.Config.csproj">
+      <Project>{3A45FA1E-5A09-4246-8203-74564CB0D32B}</Project>
+      <Name>SinGooCMS.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SinGooCMS.Control\SinGooCMS.Control.csproj">
+      <Project>{2A067E35-B67E-4D43-B9A3-5C2037CF2696}</Project>
+      <Name>SinGooCMS.Control</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SinGooCMS.Entity\SinGooCMS.Entity.csproj">
+      <Project>{80106719-8219-4348-91FD-493DAA19B5A3}</Project>
+      <Name>SinGooCMS.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SinGooCMS.Utility\SinGooCMS.Utility.csproj">
+      <Project>{C4E506B4-C0DB-4664-900C-EE9AB1E87FD2}</Project>
+      <Name>SinGooCMS.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

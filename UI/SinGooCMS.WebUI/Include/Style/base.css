@@ -1,0 +1,93 @@
+@charset "utf-8";
+/*aspnetpager分页控件样式
+*/
+.paginator
+{
+	font: 12px Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	height: 25px;
+	line-height: 25px;
+}
+.paginator a
+{
+	padding: 3px 8px;
+	border: solid 1px #ddd;
+	background: #fff;
+	text-decoration: none;
+	margin-right: 2px;
+}
+.paginator a:visited
+{
+	padding: 1px 6px;
+	border: solid 1px #ddd;
+	background: #fff;
+	text-decoration: none;
+}
+.paginator .break
+{
+	padding: 1px 6px;
+	border: none;
+	text-decoration: none;
+}
+.paginator .active
+{
+	padding: 1px 6px;
+	font-weight: bold;
+	font-size: 13px;
+	border: none;
+	color:Red;
+}
+.paginator a:hover
+{
+	color: #fff;
+	background: #ffa501;
+	border-color: #ffa501;
+	text-decoration: none;
+}
+
+/*上传页面*/
+.ajaxuploader {text-align: center; margin-top:20px} 
+
+.AjaxUploadcontent { 
+text-align: left; 
+width: 500px;
+border:solid 5px #CBCAC6;
+background-color:#f9f9f9;
+padding: 20px 20px 40px 20px; 
+font-family:Segoe UI, Arial,Verdana,Helvetica,sans-serif;
+font-size: 100%;
+margin: 0 auto; 
+} 
+
+/*表格gridview鼠标移过*/
+/*注意选择器的层叠关系*/
+.stripe_tb th {
+background:#B5CBE6;
+color:black;
+text-align:left;
+}
+.stripe_tb{
+	border-collapse:separate;
+}
+.stripe_tb td {
+border-bottom:1px solid #ccc;
+}
+/*.stripe_tb td * {
+padding:6px 11px;
+}*/
+.stripe_tb tr.alt td {
+background:#f8f8f8; /*这行将给所有偶数行加上背景色*/
+}
+.stripe_tb tr.over td {
+background:#FEF3D1; /*这个将是鼠标高亮行的背景色*/
+}
+.stripe_tb tr.click td {
+background:yellow; /*这个将是鼠标高亮行的背景色*/
+}
+
+.no { color: Red;font-size:12px } 
+.yes{ color: Blue;font-size:12px}
+.show { display:block }
+.hide { display:none }
+.ok{color:Blue}

@@ -1,0 +1,23 @@
+﻿#set($arrMap=["Members","BuyGuid","Payment","SalesServ","About"])
+<div class="sitemap w fn-clear">
+    #foreach($item in $arrMap)
+    <dl>
+        <dt>$!{cms.GetNode("$item").NodeName}</dt>
+        <dd>
+            #foreach($itemchild in $cms.GetChildNodes("$item"))
+            <div><a href="$!{itemchild.NodeUrl}" target="_blank">$!{itemchild.NodeName}</a></div>
+            #end
+        </dd>
+    </dl>
+    #end
+    <div class="coverage">
+        <div class="dt">
+            客服联系电话
+        </div>
+        <div class="dd">
+            <p>
+                0755-88824568</p>
+        </div>
+    </div>
+</div>
+

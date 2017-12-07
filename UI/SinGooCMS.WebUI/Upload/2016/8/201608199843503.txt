@@ -1,0 +1,89 @@
+提示
+<i class="iconfont ml-20" data-toggle="tooltip" data-placement="right" title="完整的邮箱账号 ">
+                            &#xe613;</i>
+
+文本
+class="form-control"
+
+按钮
+class="btn btn-danger"
+
+是/否 标记
+<%#Eval("IsSystem").ToString() == "True" ? "<i class=\"iconfont font-22 text-success\">&#xe62f;</i>" : "<i class=\"iconfont font-22 \">&#xe62e;</i>"%>
+
+<style type="text/css">
+        .tableed > tbody > tr > td
+        {
+            line-height: 16px;
+        }
+    </style>
+
+删除
+
+OnClientClick="return singoo.getCheckCount('lstTable')>0 && confirm('确定删除吗？\r\将删除所有选中项，并且不可恢复，请谨慎操作');"
+
+<asp:LinkButton ID="lnk_Delete" Text="删除" CommandArgument='<%#Eval("AutoID")%>' runat="server"
+                                                                OnClientClick="return confirm('确定删除吗?')" OnClick="lnk_Delete_Click" />
+
+复选框样式
+1.class="checkbox_radio"
+
+2.
+<input type="checkbox" id="isstatopen" runat="server" class="ios-switch" />
+
+
+<asp:CheckBox ID="chk" runat="server" class="checkbox_radio" />
+<asp:HiddenField ID="autoid" runat="server" Value='<%#Eval("AutoID") %>' />
+
+<asp:TextBox runat="server" ID="txtsort" class="form-control text-center" Text='<%#Eval("Sort") %>'></asp:TextBox>
+
+Tìm框的样式
+wicon
+
+
+图片上传
+<div class="images_model">
+                                <div class="box-hd">
+                                    <i class="iconfont" onclick="$.dialog.open('../Tools/UploadTools.aspx?type=single&elementid=<%=TextBox6.ClientID %>,<%=Image1.ClientID %>,<%=Image1.ClientID %>&attr=value,src,data-original',{title:'上传工具',width:800,height:490},false );">&#xe682;</i>
+                                </div>
+                                <div class="box-bd">
+                                    <asp:Image ID="Image1" runat="server" viewer='true'/>
+                                    <span class="hidden"><asp:TextBox placeholder="请选择广告图片" ID="TextBox6" runat="server" CssClass="form-control"></asp:TextBox></span>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+string strIDs = GetRepeaterCheckIDs(Repeater1, "chk", "autoid");
+            if (!string.IsNullOrEmpty(strIDs))
+            {
+                if (BLL.Links.Delete(strIDs))
+                {
+                    BindData();
+                    log.AddEvent(LoginAccount.AccountName, "批量删除链接成功");
+                    ShowAjaxMsg(UpdatePanel1, "操作成功");
+                }
+                else
+                    ShowAjaxMsg(UpdatePanel1, "操作失败");
+            }
+
+
+
+
+
+<asp:TextBox list="url_list" placeholder="请输入账户名称" ID="TextBox1" runat="server" class="form-control" required="required" MaxLength="50"></asp:TextBox>
+                        <datalist id="url_list">
+                            <option label="W3School" value="http://www.w3school.com.cn" />
+                            <option label="Google" value="http://www.google.com" />
+                            <option label="Microsoft" value="http://www.microsoft.com" />
+                        </datalist>

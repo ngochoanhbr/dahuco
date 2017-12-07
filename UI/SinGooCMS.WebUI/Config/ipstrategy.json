@@ -1,0 +1,1 @@
+﻿[{"AutoID":1,"IPAddress":"192.168.168.1-192.168.168.255","Strategy":"DENY"},{"AutoID":2,"IPAddress":"192.168.168.27","Strategy":"ALLOW"},{"AutoID":3,"IPAddress":"127.0.0.1","Strategy":"ALLOW"}]

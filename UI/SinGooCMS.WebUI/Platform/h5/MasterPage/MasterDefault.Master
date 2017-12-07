@@ -1,0 +1,168 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="SinGooCMS.WebUI.Platform.MasterPage.MasterDefault" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Trang quản trị (<%=SinGooCMS.Config.ConfigProvider.Configs.SiteName %>)</title>
+    <script type="text/javascript" src="/Include/Script/jquery.min.js"></script>   
+    <script type="text/javascript" src="/platform/h5/js/default.js"></script>
+    <script type="text/javascript" src="/Include/Script/publicfun.js"></script>
+    <script type="text/javascript" src="/Include/Script/jquery.updatepanel.js"></script>
+    <script type="text/javascript" src="/Include/Plugin/artDialog/jquery.artDialog.js"></script>  
+    <link rel="stylesheet" type="text/css" href="/Include/Plugin/artDialog/skins/html5.css" />    
+    <link rel="stylesheet" type="text/css" href="/Include/Style/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/platform/h5/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/platform/h5/square/blue.css" />
+    <link rel="stylesheet" type="text/css" href="/platform/h5/css/viewer.min.css" />    
+    <link rel="stylesheet" type="text/css" href="/platform/h5/css/bootstrap-switch.min.css" />       
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background: #ecf0f1 url('../images/background.jpg');">
+    <div id="loading" style="margin: 100px auto; width: 100px;">
+        <img src="/Include/Images/loading.gif" border="0" alt="" /><br />
+        Đang tải...
+    </div>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="scriptManager1" runat="server">
+    </asp:ScriptManager>
+    <!--头部导航栏-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/platform/h5/main.aspx">
+                <img src="/platform/h5/images/logo.png" width="180" alt="" />
+            </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav bs-docs-nav">
+                <li class="show" data-target="sidebar"><a class="iconfont" href="javascript:void();">&#xe60f;</a ></li>
+                <%
+                    string strCatalogName = string.Empty;  
+                    System.Data.DataTable dt=new SinGooCMS.Common.ManagerPageBase().GetAccountMenu();
+                    int currCatalogID = SinGooCMS.Utility.WebUtils.GetQueryInt("CatalogID");
+                    StringBuilder builder = new StringBuilder();
+                    int i = 0;
+                    foreach (System.Data.DataRow item in dt.Rows)
+                    {
+                        if (strCatalogName != item["CatalogName"].ToString())
+                        {
+                            strCatalogName = item["CatalogName"].ToString();
+                            string strNavigate = "<li " + (SinGooCMS.Utility.WebUtils.GetQueryString("CatalogID") == item["CatalogID"].ToString() ? "class='on'" : "") + "><a href=\"/platform/h5/" + item["FilePath"] + "?CatalogID=" + item["CatalogID"] + "&Module=" + item["Module"] + "&action=view\" >" + strCatalogName + "</a></li>"; //第一个模块
+                            System.Data.DataRow[] defaultNav = dt.Select(" CatalogName='" + strCatalogName + "' and IsDefault=1 ");
+                            if(defaultNav!=null && defaultNav.Length==1)
+                                strNavigate = "<li " + (SinGooCMS.Utility.WebUtils.GetQueryString("CatalogID") == defaultNav[0]["CatalogID"].ToString() ? "class='on'" : "") + "><a href=\"/platform/h5/" + defaultNav[0]["FilePath"] + "?CatalogID=" + defaultNav[0]["CatalogID"] + "&Module=" + defaultNav[0]["Module"] + "&action=view\" >" + strCatalogName + "</a></li>"; //默认的模块
+
+                            Response.Write(strNavigate);
+                        }
+
+                        if (currCatalogID > 0 && currCatalogID == SinGooCMS.Utility.WebUtils.GetInt(item["CatalogID"])) //左侧菜单
+                            builder.Append("<li class='has-sub'><a " + (item["Module"].ToString() == SinGooCMS.Utility.WebUtils.GetQueryString("Module") ? "class='on'" : "") + " href='/platform/h5/" + item["FilePath"] + (item["FilePath"].ToString().IndexOf("?") == -1 ? "?" : "&") + "CatalogID=" + item["CatalogID"] + "&Module=" + item["Module"] + "&action=view'><i class='iconfont navbar-left'>" + item["ImagePath"] + "</i><span>" + item["ModuleName"] + "</span> </a></li>");
+
+                        i++;
+                    }
+
+                    SinGooCMS.Entity.AccountInfo account = SinGooCMS.BLL.Account.GetLoginAccount();
+                    string childMenu = builder.ToString();
+                    if (!string.IsNullOrEmpty(childMenu))
+                        Response.Write("<script>$(function(){ $('#left-panel').html(\"<ul class='nav'>" + childMenu + "</ul>\") });</script>");
+                %>
+            </ul>
+            <ul class="nav navbar-nav navbar-right" style="margin-right:0px;">
+                <li>
+                    <a href="/platform/h5/main.aspx" data-toggle="tooltip" data-placement="bottom" title="Trang chủ">
+                        <i class="iconfont">&#xe610;</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Front Main">
+                        <i class="iconfont">&#xe611;</i>
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-expanded="false"><i class="iconfont fl">&#xe60e;</i> <b class="user_dropdown fl"><%=account.AccountName%></b></a>
+                    <ul class="dropdown-menu" role="menu" >
+                        <li><a href="/Platform/h5/Tools/MyMessageBox.aspx">Tin nhắn</a></li>
+                        <li><a href="/Platform/h5/Tools/ChangePwd.aspx">Đổi mật khẩu</a></li>                        
+                        <li><a href="/Platform/h5/Tools/ShowCache.aspx">Xem cache</a></li>
+                        <li><a href="javascript:void(0)" onclick="h5.about();">Giới thiệu</a></li>
+                        <li><a href="/Platform/h5/Tools/Doc/Index.html" target="_blank">Hướng dẫn</a></li>
+                        <li class="divider"></li>
+                        <li><a href="javascript:," onclick="if(confirm('Đăng nhập chưa xác định？')) location='/platform/h5/main.aspx?action=logout'">Đăng xuất</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <!--end 头部导航栏-->
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    <div id="updown">
+        <span class="up"></span><span class="down"></span>
+    </div>
+    </form>
+</body>
+</html>  
+<script type="text/javascript" src="/platform/h5/js/icheck.min.js"></script> 
+<script type="text/javascript" src="/Include/Script/bootstrap.min.js"></script>
+<script type="text/javascript" src="/platform/h5/js/jquery.nicescroll.js"></script>
+<script type="text/javascript" src="/Include/Plugin/artDialog/plugins/iframeTools.js"></script>
+<script type="text/javascript" src="/platform/h5/js/viewer.min.js"></script>
+<script type="text/javascript" src="/platform/h5/js/bootstrap-switch.min.js"></script> 
+<script type="text/javascript">
+    $(function () {
+        $("#loading").hide();
+        $(".dropdown").hover( //账户名的下拉菜单
+            function () {
+                $('.dropdown-menu', this).stop(true, true).slideDown("fast");
+                $(this).toggleClass('open');
+            },
+            function () {
+                $('.dropdown-menu', this).stop(true, true).slideUp("fast");
+                $(this).toggleClass('open');
+            }
+        );
+        $("#updown").css("top", window.screen.availHeight / 2 - 100 + "px"); //去顶部
+        $(window).scroll(function () {
+            if ($(window).scrollTop() >= 100) {
+                $('#updown').fadeIn(300);
+            } else {
+                $('#updown').fadeOut(300);
+            }
+        });
+        $('#updown .up').click(function () { $('html,body').animate({ scrollTop: '0px' }, 800); });
+        $('#updown .down').click(function () { $('html,body').animate({ scrollTop: document.body.clientHeight + 'px' }, 800); });
+        //Chủ đề
+        $("[data-toggle='tooltip']").tooltip();
+        //Checkbox样式
+        $('.checkbox_radio').iCheck({
+            checkboxClass: 'icheckbox_square-blue',
+            radioClass: 'iradio_square-blue',
+            increaseArea: '10%',
+        });
+        //是否Lựa chọn 
+        $(".ios-switch").bootstrapSwitch();
+    });
+    $("#left-panel").niceScroll({
+        cursorcolor: "#787D84",
+        cursoropacitymax: 5,
+        touchbehavior: false,
+        cursorwidth: "5px",
+        cursorborder: "0",
+        cursorborderradius: "5px"
+    }); 
+    //全选/全不选
+    $('#checkall').on('ifChecked', function (event) {
+        $("#rowItems").find("input[type='checkbox']").iCheck('check');
+    });
+    $('#checkall').on('ifUnchecked', function (event) {
+        $("#rowItems").find("input[type='checkbox']").iCheck('uncheck');
+    });
+    //Xem图片
+    $("img[viewer='true'],div[viewer='true']").viewer({url:"data-original"});
+</script>

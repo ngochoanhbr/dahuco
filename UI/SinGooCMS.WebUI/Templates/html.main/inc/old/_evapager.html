@@ -1,0 +1,35 @@
+﻿<div id="evalist"></div>
+<div id="evapager" class="cms_page" style="text-align: right">
+    努力加载中...
+</div>
+<script type="text/javascript">
+    var evaPager = { pid: parseInt("$!{currpro.AutoID}"), currpage: 1, pagesize: 10}
+    jQuery(function () { geteva(1); });
+    function geteva(num) {
+        evaPager.currpage = num;
+        //加载评论分页控件
+        jQuery("#evapager").load("/include/ajax/ajaxevalution?t=getevapagerfun&pid=" + evaPager.pid + "&pageindex=" + evaPager.currpage + "&pagesize=" + evaPager.pagesize + "&temp=" + Math.random());
+        //加载评论分页列表
+        jQuery.getJSON("/include/ajax/ajaxevalution?t=getevalist&pid=" + evaPager.pid + "&pageindex=" + evaPager.currpage + "&pagesize=" + evaPager.pagesize + "&temp=" + Math.random(), function (data) {
+            if (data != null && data != "") {
+                jQuery("#evalist").empty();
+                jQuery.each(data, function (i, item) {
+                    jQuery("#evalist").append("<div class=\"appraisal-item fn-clear\">"
+                                                    + "    <div class=\"columu columu1\">"
+                                                    + "        <div class=\"columu-txt\">"
+                                                    + "        <span class=\"columu-img\">" + singoo.getStart(item.Start) +"</span>"+ item.Content
+                                                    + "        </div>"
+                                                    + "        <div class=\"columu-date\">"
+                                                    + "             " + item.DateStr + "</div>"
+                                                    + "    </div>"
+                                                    + "    <div class=\"columu columu2\">"
+                                                    + "        <span>" + item.UserName + "</span>"
+                                                    + "    </div>"
+                                                    + "</div>");
+                });
+            }
+        });
+
+        return false;
+    }
+</script>

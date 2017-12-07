@@ -1,0 +1,20 @@
+﻿<div class="header">
+    <div class="l-row">
+        <div class="header-logo">
+            <a href="/" title="${config.SiteName}">
+                <img src="${mbpath}dist/images/header-logo.png">
+            </a>
+        </div>
+        <div class="header-nav">
+            <div class="fr text-phone">
+                <i class="iconfont">&#xe601;</i>0755-88824568</div>
+            <ul class="nav navbar-nav">
+                #foreach($item in $cms.GetChildNodes(0))
+                #if($item.IsShowOnMenu)
+  			    <li><a href="${item.NodeUrl}">${item.NodeName}</a></li>
+                #end
+                #end
+            </ul>
+        </div>
+    </div>
+</div>
